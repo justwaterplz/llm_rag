@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>수어 글로스 추천기</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="layout">
+  <div class="main">
+    <div class="app-header">
+      <div>
+        <h1>수어 글로스 추천기</h1>
+        <p>의사 질문을 입력하면 환자 답변에 쓸 핵심 표제어를 추천합니다.</p>
+      </div>
+      <nav class="app-nav">
+        <a class="app-link" href="catalog.html">글로스·문진 현황</a>
+        <a class="app-link" href="analysis.html" id="analysisLink">분석 페이지 →</a>
+      </nav>
+    </div>
+
+    <div class="card">
+      <textarea class="ask-input" id="question" placeholder="예: 어디가 제일 아프세요?"></textarea>
+      <div class="ask-row">
+        <button class="btn" id="askBtn" onclick="ask()">키워드 추천</button>
+        <span class="hint">Ctrl+Enter</span>
+        <span class="status-line" id="statusLine"><span class="spinner"></span>추천 중...</span>
+      </div>
+    </div>
+
+    <div class="card" id="resultCard" style="display:none;">
+      <div class="result-head">
+        <span class="result-label" id="resultLabel">핵심 표제어</span>
+        <span class="result-meta" id="resultMeta"></span>
+      </div>
+      <div id="resultBody"></div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+<script>
+  const questionBox = document.getElementById('question');
+  const askBtn = document.getElementById('askBtn');
+  const statusLine = document.getElementById('statusLine');
+  const resultCard = document.getElementById('resultCard');
+
+  function resultJsonHtml(run, items) {
+    const requestJson = {
+      question: run.question,
+      stage: run.stage,
+      subCategory: run.subCategory,
+    };
+    const resultJson = {
+      question: run.question,
+      stage: run.stage,
+      subCategory: run.subCategory,
+      count: items.length,
+      keywords: items.map(item => ({
+        keyword: item.gloss || item.name,
+        glossId: Number(item.glossIndex ?? item.origin),
+        score: Number(item.score),
+        source: item.source,
+        intentRole: item.intentRole,
+        intentLabel: item.intentLabel || '',
+      })),
+      output: items.map(item => [
+        `${item.gloss || item.name}_${Number(item.glossIndex ?? item.origin)}`,
+        Number(item.score),
+      ]),
+      tuples: items.map(item => [
+        Number(item.glossIndex ?? item.origin),
+        item.gloss || item.name,
+        Number(item.score),
+      ]),
+      pairs: items.map(item => [item.gloss || item.name, Number(item.score)]),
+      idPairs: items.map(item => [Number(item.glossIndex ?? item.origin), Number(item.score)]),
+      statistics: keywordStatistics(run.recommend),
+    };
+    return `<div class="result-section-title json-title">사용 및 도출 JSON</div>
+      <div class="json-grid">
+        <details class="json-panel">
+          <summary>사용된 요청 JSON</summary>
+          <pre>${escapeHtml(JSON.stringify(requestJson, null, 2))}</pre>
+        </details>
+        <details class="json-panel" open>
+          <summary>도출된 결과 JSON</summary>
+          <pre>${escapeHtml(JSON.stringify(resultJson, null, 2))}</pre>
+        </details>
+      </div>`;
+  }
+
+  function render(run) {
+    resultCard.style.display = 'block';
+    document.getElementById('analysisLink').href = 'analysis.html';
+
+    if (run.outOfScope) {
+      document.getElementById('resultLabel').textContent = '진료 외 질문';
+      document.getElementById('resultMeta').textContent = '';
+      document.getElementById('resultBody').innerHTML =
+        `<div class="notice warn">문진과 무관한 질문으로 판단해 표제어를 추천하지 않았습니다.
+         진료 질문이 맞다면 분석 페이지에서 분류를 직접 지정해 다시 실행하세요.</div>`;
+      return;
+    }
+
+    const items = run.recommend?.keywordCandidates || [];
+    document.getElementById('resultLabel').textContent = `핵심 표제어 ${items.length}개`;
+    document.getElementById('resultMeta').textContent = `${run.stage} · ${run.subCategory}`;
+
+    document.getElementById('resultBody').innerHTML = items.length
+      ? `<div class="result-section-title">추천 통계</div>
+         ${keywordStatsHtml(run.recommend)}
+         <div class="result-section-title table-title">키워드 목록</div>
+         ${keywordResultTableHtml(items, { showEvidence: true })}
+         ${resultJsonHtml(run, items)}`
+      : '<div class="empty-note">추천할 표제어가 없습니다. 분석 페이지에서 근거를 확인하세요.</div>';
+  }
+
+  function showError(message) {
+    resultCard.style.display = 'block';
+    document.getElementById('resultLabel').textContent = '오류';
+    document.getElementById('resultMeta').textContent = '';
+    document.getElementById('resultBody').innerHTML =
+      `<div class="notice error">${escapeHtml(message)}</div>`;
+  }
+
+  async function ask() {
+    const question = questionBox.value.trim();
+    if (!question) return questionBox.focus();
+
+    askBtn.disabled = true;
+    statusLine.classList.add('visible');
+    resultCard.style.display = 'none';
+    try {
+      const run = await runPipeline(question);
+      saveRun(run);
+      render(run);
+    } catch (e) {
+      showError(e.message);
+    } finally {
+      askBtn.disabled = false;
+      statusLine.classList.remove('visible');
+    }
+  }
+
+  questionBox.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) ask();
+  });
+
+  // 분석 페이지에서 분류를 바꿔 다시 실행하고 돌아온 경우를 위해 마지막 결과를 살린다.
+  const previous = loadRun();
+  if (previous) {
+    questionBox.value = previous.question || '';
+    render(previous);
+  }
+</script>
+</body>
+</html>

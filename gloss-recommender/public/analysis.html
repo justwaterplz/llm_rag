@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>추천 근거 분석 · 수어 글로스 추천기</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="layout">
+  <div class="main wide">
+    <div class="app-header">
+      <div>
+        <h1>추천 근거 분석</h1>
+        <p>추천 화면에서 실행한 마지막 질문이 어떤 경로로 그 표제어를 냈는지 보여줍니다.</p>
+      </div>
+      <nav class="app-nav">
+        <a class="app-link" href="catalog.html">글로스·문진 현황</a>
+        <a class="app-link" href="index.html">← 추천 화면</a>
+      </nav>
+    </div>
+    <div id="page"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+<script>
+  let run = loadRun();
+
+  function section(title, inner, note = '') {
+    return `<div class="card"><div class="card-title">${escapeHtml(title)}</div>${inner}
+      ${note ? `<div class="card-note">${note}</div>` : ''}</div>`;
+  }
+
+  function uniqueBy(values, keyFn) {
+    const seen = new Set();
+    return values.filter(value => {
+      const key = keyFn(value);
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  function stageOptions(labels, selected) {
+    const stages = uniqueBy(labels.map(l => l.stage || '').filter(Boolean), v => v);
+    if (selected && !stages.includes(selected)) stages.unshift(selected);
+    return stages.map(s =>
+      `<option value="${escapeHtml(s)}"${s === selected ? ' selected' : ''}>${escapeHtml(s)}</option>`).join('');
+  }
+
+  function subOptions(labels, stage, selected) {
+    const scoped = labels.filter(l => !stage || l.stage === stage);
+    const options = uniqueBy(scoped, l => `${l.stage}::${l.subCategory}`)
+      .map(l => l.subCategory || '').filter(Boolean);
+    if (selected && !options.includes(selected)) options.unshift(selected);
+    return options.map(s =>
+      `<option value="${escapeHtml(s)}"${s === selected ? ' selected' : ''}>${escapeHtml(s)}</option>`).join('');
+  }
+
+  // ── 구간별 렌더 ───────────────────────────────────────────────
+  function renderClassification() {
+    const labels = Array.isArray(run.classify?.labels) ? run.classify.labels : [];
+    const c = run.classify || {};
+    const latency = c.latencyMs
+      ? `<div><strong>분류 latency:</strong> ${formatLatency(c.latencyMs.total)}${Number(c.latencyMs.llm || 0) ? ` · LLM ${formatLatency(c.latencyMs.llm)}` : ' · 규칙/검색 경로 (LLM 미사용)'}</div>`
+      : '';
+    const repaired = run.repaired
+      ? `<div class="notice warn" style="margin-top:10px;">서버 검증에서 분류가 질문과 맞지 않아
+         <strong>${escapeHtml(run.repaired.from)}</strong> → <strong>${escapeHtml(run.repaired.to)}</strong>로 바꿔 다시 실행했습니다.
+         ${escapeHtml(run.repaired.reason)}</div>`
+      : '';
+    return section('1. 질문 분류', `
+      <div class="kv">
+        <div><strong>의사 질문:</strong> ${escapeHtml(run.question || '')}</div>
+        <div><strong>모델 예측:</strong> ${escapeHtml(c.predictedStage || '-')} / ${escapeHtml(c.predictedSubCategory || '-')}</div>
+        <div><strong>실제 사용:</strong> ${escapeHtml(run.stage || '-')} / ${escapeHtml(run.subCategory || '-')}</div>
+        <div><strong>판단 근거:</strong> ${escapeHtml(c.reason || '-')}</div>
+        ${latency}
+      </div>
+      ${repaired}
+      <div class="field-grid" style="margin-top:14px;">
+        <div class="field">
+          <label>의료문진단계</label>
+          <select id="stageSel" onchange="syncSubOptions()">${stageOptions(labels, run.stage || '')}</select>
+        </div>
+        <div class="field">
+          <label>세부분류</label>
+          <select id="subSel">${subOptions(labels, run.stage || '', run.subCategory || '')}</select>
+        </div>
+      </div>
+      <div class="ask-row">
+        <button class="btn small" id="rerunBtn" onclick="rerun()">이 분류로 다시 실행</button>
+        <span class="status-line" id="rerunStatus"><span class="spinner"></span>다시 실행 중...</span>
+      </div>
+    `, '분류를 바꾸면 답변 pool과 표제어가 함께 바뀝니다. 결과는 추천 화면에도 반영됩니다.');
+  }
+
+  function renderPipeline() {
+    const d = run.recommend || {};
+    const l = d.latencyMs || {};
+    const kc = d.keywordCoverage || {};
+    const setsOf = role => (kc.intentSets || []).filter(s => s.role === role)
+      .map(s => `${s.label}(${s.glossCount})`).join(' · ');
+    const dropped = kc.droppedCount
+      ? `<div><strong>컷오프 제외:</strong> 스코어 ${kc.scoreMin} 미만 ${kc.droppedCount}개 —
+         ${escapeHtml((kc.droppedSamples || []).map(s => s.gloss.split(',')[0]).join(', '))}${kc.droppedCount > (kc.droppedSamples || []).length ? ' 외' : ''}</div>`
+      : '';
+    return section('3. 표제어를 만든 경로', `
+      <div class="kv">
+        <div><strong>답변 pool 출처:</strong> ${escapeHtml(d.answerPoolSource || '-')}</div>
+        <div><strong>질문 검색:</strong> ${escapeHtml(d.retrieval?.confidence || '-')} · 최고 유사도 ${escapeHtml(String(d.retrieval?.bestScore ?? '-'))}</div>
+        <div><strong>답변 슬롯:</strong> 충족 ${escapeHtml((d.coverage?.coveredSlots || []).join(', ') || '없음')} · 누락 ${escapeHtml((d.coverage?.missingSlots || []).join(', ') || '없음')}</div>
+        <div><strong>키워드 확정:</strong> 답변 ${kc.answers || 0}개 중 ${kc.resolved || 0}개 확정 · ${kc.unresolved || 0}개는 사전에 표현할 글로스 없음</div>
+        <div><strong>표제어 구성:</strong> 답변 근거 ${kc.evidenceCount || 0}개 + 질문 대상 부류 확장 ${kc.primaryExpandedCount || 0}개</div>
+        ${setsOf('primary') ? `<div><strong>질문이 묻는 부류:</strong> ${escapeHtml(setsOf('primary'))}</div>` : ''}
+        ${setsOf('secondary') ? `<div><strong>보조 부류:</strong> ${escapeHtml(setsOf('secondary'))}</div>` : ''}
+        ${dropped}
+        <div><strong>표제어 DB:</strong> ${Number(d.glossDocCount || 0).toLocaleString()}개 문서</div>
+        ${d.latencyMs ? `<div><strong>Latency:</strong> 전체 ${formatLatency(l.total)} · 질문검색 ${formatLatency(l.knownQuestionSearch)} · LLM 답변생성 ${formatLatency(l.llmAnswerGeneration)} · 표제어 스코어링 ${formatLatency(l.glossScoring)}</div>` : ''}
+      </div>
+    `);
+  }
+
+  function renderStatistics() {
+    return section('2. 추천 통계', keywordStatsHtml(run.recommend));
+  }
+
+  function renderAnswerPool() {
+    const pool = run.recommend?.answerPool || [];
+    const items = pool.map(item => {
+      if (typeof item === 'string') return `<div class="pool-item">${escapeHtml(item)}</div>`;
+      const core = item.coreGloss
+        ? `<div class="pool-core">핵심 키워드: ${escapeHtml(item.coreKeyword || '')} → ${escapeHtml(item.coreGloss)}_${escapeHtml(String(item.coreGlossIndex))}</div>`
+        : '<div class="pool-core missing">핵심 키워드: 표현 가능한 글로스 없음</div>';
+      const meta = [
+        item.slot ? `슬롯 ${item.slot}` : '',
+        item.source ? `출처 ${item.source}` : '',
+      ].filter(Boolean).join(' · ');
+      return `<div class="pool-item">${escapeHtml(item.answer || '')}${core}
+        ${meta ? `<div class="pool-meta">${escapeHtml(meta)}</div>` : ''}</div>`;
+    }).join('');
+    return section(`4. 환자 예상 답변 Pool (${pool.length}개)`,
+      `<div class="pool-list">${items || '<div class="empty-note">답변 후보 없음</div>'}</div>`,
+      '표제어는 이 답변들의 핵심 키워드에서 나옵니다. 답변 자체는 최종 출력이 아닙니다.');
+  }
+
+  function renderKeywordTable() {
+    const items = run.recommend?.keywordCandidates || [];
+    return section(`5. 핵심 표제어 (${items.length}개)`, keywordResultTableHtml(items, { showEvidence: true }),
+      '질문 대상 및 허용된 보조 의미 부류만 표시합니다. 답변 근거와 의도 확장 여부는 출처 열에서 구분할 수 있습니다.');
+  }
+
+  function renderSettings() {
+    const c = readConfig();
+    const options = (MODEL_PRESETS[c.provider] || MODEL_PRESETS.ollama)
+      .map(o => `<option value="${escapeHtml(o.value)}"${o.value === c.model ? ' selected' : ''}>${escapeHtml(o.label)} (${escapeHtml(o.value)})</option>`).join('');
+    return section('6. 실행 설정', `
+      <div class="field-grid">
+        <div class="field">
+          <label>Provider</label>
+          <select id="provider" onchange="onProviderChange()">
+            ${['ollama', 'omniserve', 'local-openai'].map(p =>
+              `<option value="${p}"${p === c.provider ? ' selected' : ''}>${p}</option>`).join('')}
+          </select>
+        </div>
+        <div class="field">
+          <label>Model</label>
+          <select id="model" onchange="saveSettings()">${options}</select>
+        </div>
+        <div class="field full">
+          <label>Endpoint</label>
+          <input type="text" id="endpoint" value="${escapeHtml(endpointValue(c))}" oninput="saveSettings()" />
+        </div>
+      </div>
+    `, '여기서 바꾼 설정은 추천 화면에도 그대로 적용됩니다.');
+  }
+
+  function endpointKey(config) {
+    if (config.provider === 'omniserve') return 'omniserveUrl';
+    if (config.provider === 'local-openai') return 'openAIBaseUrl';
+    return 'ollamaUrl';
+  }
+
+  function endpointValue(config) {
+    return config[endpointKey(config)];
+  }
+
+  // ── 동작 ─────────────────────────────────────────────────────
+  function syncSubOptions() {
+    const labels = Array.isArray(run.classify?.labels) ? run.classify.labels : [];
+    const stage = document.getElementById('stageSel').value;
+    const sub = document.getElementById('subSel');
+    const previous = sub.value;
+    sub.innerHTML = subOptions(labels, stage, previous);
+    if (![...sub.options].some(o => o.value === previous)) sub.selectedIndex = 0;
+  }
+
+  function onProviderChange() {
+    const provider = document.getElementById('provider').value;
+    // provider가 바뀌면 이전 모델 이름은 더 이상 유효하지 않다. 첫 모델로 맞춰둔다.
+    const model = (MODEL_PRESETS[provider] || MODEL_PRESETS.ollama)[0]?.value || '';
+    writeConfig({ provider, model });
+    render();
+  }
+
+  function saveSettings() {
+    const provider = document.getElementById('provider').value;
+    writeConfig({
+      provider,
+      model: document.getElementById('model').value,
+      [endpointKey({ provider })]: document.getElementById('endpoint').value.trim(),
+    });
+  }
+
+  async function rerun() {
+    const stage = document.getElementById('stageSel').value;
+    const subCategory = document.getElementById('subSel').value;
+    const btn = document.getElementById('rerunBtn');
+    const status = document.getElementById('rerunStatus');
+    btn.disabled = true;
+    status.classList.add('visible');
+    try {
+      const next = await runPipeline(run.question, { classify: run.classify, stage, subCategory });
+      run = next;
+      saveRun(next);
+      render();
+    } catch (e) {
+      alert(e.message);
+    } finally {
+      btn.disabled = false;
+      status.classList.remove('visible');
+    }
+  }
+
+  function render() {
+    const page = document.getElementById('page');
+    if (!run) {
+      page.innerHTML = section('실행 기록 없음',
+        '<div class="empty-note">추천 화면에서 질문을 한 번 실행하면 그 결과의 근거가 여기에 표시됩니다.</div>');
+      return;
+    }
+    if (run.outOfScope) {
+      page.innerHTML = renderClassification()
+        + section('결과', '<div class="notice warn">진료 외 질문으로 판단해 표제어를 만들지 않았습니다. 위에서 분류를 지정하고 다시 실행할 수 있습니다.</div>')
+        + renderSettings();
+      return;
+    }
+    page.innerHTML = renderClassification() + renderStatistics() + renderPipeline() + renderAnswerPool()
+      + renderKeywordTable() + renderSettings();
+  }
+
+  render();
+</script>
+</body>
+</html>

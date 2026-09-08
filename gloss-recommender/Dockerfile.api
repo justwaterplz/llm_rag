@@ -1,0 +1,19 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY gloss-recommender/package.json gloss-recommender/package-lock.json ./
+RUN npm ci --omit=dev
+
+COPY gloss-recommender/server.js ./
+COPY gloss-recommender/public ./public
+# 구버전 embedding-rag 엔진이 쓰던 80MB 인덱스는 저장소에 두지 않는다.
+# 현재 파이프라인은 llm_pipeline 아래 5개 파일만 읽는다.
+COPY dataset-builder/data/llm_pipeline /data/llm_pipeline
+
+ENV NODE_ENV=production
+ENV PORT=3100
+
+EXPOSE 3100
+
+CMD ["node", "server.js"]

@@ -1,0 +1,10867 @@
+{
+ "generatedAt": "2026-08-19T04:01:45.247791+00:00",
+ "glossSet": "test_658",
+ "glossCount": 655,
+ "note": "핵심 표제어 1개 선택용. surfaceToGloss는 655개 전체가 후보다.",
+ "categoryPriority": {
+  "인간 > 신체 부위": 0,
+  "삶 > 병과 증상": 1,
+  "삶 > 치료": 2,
+  "식생활": 3,
+  "동식물": 3,
+  "인간 > 생리 현상": 3,
+  "인간 > 신체 행위": 5,
+  "삶 > 삶의 행위": 5,
+  "사회생활": 6,
+  "개념 > 수": 6,
+  "개념 > 위치 및 방향": 7,
+  "개념 > 정도": 7,
+  "개념 > 시간": 8,
+  "인간 > 감정": 8,
+  "인간 > 인지 행위": 8
+ },
+ "defaultPriority": 7,
+ "genericPriority": 20,
+ "digitToGloss": {
+  "1": [
+   12573
+  ],
+  "2": [
+   10515,
+   10923,
+   23851
+  ],
+  "3": [
+   24029
+  ],
+  "4": [
+   12528,
+   23841
+  ],
+  "5": [
+   11055
+  ],
+  "6": [
+   12841
+  ],
+  "7": [
+   12397
+  ],
+  "8": [
+   11419
+  ],
+  "9": [
+   12707
+  ],
+  "10": [
+   7866,
+   10919,
+   10923
+  ],
+  "12": [
+   10923
+  ],
+  "50": [
+   5051
+  ]
+ },
+ "glossMeta": {
+  "11": {
+   "gloss": "-국,국가,나라",
+   "category": "기타",
+   "priority": 7
+  },
+  "22": {
+   "gloss": "당부,부탁,요청,청하다,요구",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "31": {
+   "gloss": "균일,동일,골고루,일제히",
+   "category": "기타",
+   "priority": 7
+  },
+  "32": {
+   "gloss": "균형,대등,수평,평등,표준,평평하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "48": {
+   "gloss": "내키다,싶다,원하다,바라다,소원,바람,욕구,염원,원",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "82": {
+   "gloss": "풍선",
+   "category": "기타",
+   "priority": 7
+  },
+  "103": {
+   "gloss": "파랑,청색,파랗다,푸르다",
+   "category": "개념 > 색깔",
+   "priority": 7
+  },
+  "127": {
+   "gloss": "턱",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "128": {
+   "gloss": "털",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "245": {
+   "gloss": "지난주,작주,전주",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "301": {
+   "gloss": "고루고루,유사,근사하다,비슷하다,흡사",
+   "category": "개념 > 모양",
+   "priority": 7
+  },
+  "328": {
+   "gloss": "과,-꾼,전공,똑바로",
+   "category": "사회생활 > 직장 생활",
+   "priority": 6
+  },
+  "363": {
+   "gloss": "누락,빠지다",
+   "category": "기타",
+   "priority": 7
+  },
+  "437": {
+   "gloss": "난항,어려워하다,어렵다",
+   "category": "기타",
+   "priority": 7
+  },
+  "537": {
+   "gloss": "팔,팔뚝",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "610": {
+   "gloss": "두절,끊어지다",
+   "category": "기타",
+   "priority": 7
+  },
+  "649": {
+   "gloss": "방관,방임,내버리다",
+   "category": "기타",
+   "priority": 7
+  },
+  "651": {
+   "gloss": "방뇨,소변,오줌",
+   "category": "기타",
+   "priority": 7
+  },
+  "735": {
+   "gloss": "동결,얼다",
+   "category": "기타",
+   "priority": 7
+  },
+  "801": {
+   "gloss": "경과,흐르다",
+   "category": "기타",
+   "priority": 7
+  },
+  "828": {
+   "gloss": "가라앉히다,냉각,가라앉다",
+   "category": "기타",
+   "priority": 7
+  },
+  "835": {
+   "gloss": "가시다,사라지다,상실",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "908": {
+   "gloss": "대다수,대부분,주로",
+   "category": "기타",
+   "priority": 7
+  },
+  "914": {
+   "gloss": "게우다,구토,토하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "930": {
+   "gloss": "행동,거동,동작,짓,품행,행실,행위,움직이다,행하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "944": {
+   "gloss": "허리",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "969": {
+   "gloss": "화요일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "971": {
+   "gloss": "화장실,변소",
+   "category": "주생활 > 주택 구성",
+   "priority": 7
+  },
+  "1041": {
+   "gloss": "호흡,공기,냄새,대기,목숨,생명,수,수명,숨,숨결,숨쉬다",
+   "category": "인간 > 신체 행위",
+   "priority": 20
+  },
+  "1072": {
+   "gloss": "혀,혓바닥",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "1183": {
+   "gloss": "지위,앉다",
+   "category": "사회생활 > 직장 생활",
+   "priority": 6
+  },
+  "1276": {
+   "gloss": "막다,막히다,먹다",
+   "category": "기타",
+   "priority": 7
+  },
+  "1283": {
+   "gloss": "만료",
+   "category": "기타",
+   "priority": 7
+  },
+  "1384": {
+   "gloss": "한꺼번에",
+   "category": "기타",
+   "priority": 7
+  },
+  "1397": {
+   "gloss": "함께,같이,동반,랑,아울러,더불다,-끼리",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "1420": {
+   "gloss": "필요,소용",
+   "category": "기타",
+   "priority": 7
+  },
+  "1443": {
+   "gloss": "합당하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "1475": {
+   "gloss": "더미,무궁무진,무진장,산더미",
+   "category": "기타",
+   "priority": 7
+  },
+  "1502": {
+   "gloss": "감당,사명,책임,담당,소임,역임,맡다,책임지다",
+   "category": "기타",
+   "priority": 7
+  },
+  "1722": {
+   "gloss": "남쪽,남,따뜻하다,포근하다",
+   "category": "개념 > 위치 및 방향",
+   "priority": 7
+  },
+  "1768": {
+   "gloss": "맞다,딱",
+   "category": "기타",
+   "priority": 7
+  },
+  "2000": {
+   "gloss": "양치질,양치",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "2022": {
+   "gloss": "곤두박질,곤두질,떨어지다",
+   "category": "기타",
+   "priority": 7
+  },
+  "2104": {
+   "gloss": "더,게다가,더구나,추가",
+   "category": "개념 > 양",
+   "priority": 7
+  },
+  "2231": {
+   "gloss": "일출,동,아침,(해가)돋다",
+   "category": "자연 > 날씨 및 온도",
+   "priority": 7
+  },
+  "2238": {
+   "gloss": "상하다,다치다,부상,상처,손상",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "2325": {
+   "gloss": "마이너스,감표,덜기,빼기,빼기표,뺄셈표,뺄셈 부호",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "2361": {
+   "gloss": "꺾다,부러지다",
+   "category": "기타",
+   "priority": 7
+  },
+  "2374": {
+   "gloss": "값,대금",
+   "category": "경제생활 > 경제 수단",
+   "priority": 7
+  },
+  "2470": {
+   "gloss": "상류,선배,위,이상",
+   "category": "기타",
+   "priority": 7
+  },
+  "2569": {
+   "gloss": "아마도,아마,ㄹ 것이다",
+   "category": "기타",
+   "priority": 7
+  },
+  "2622": {
+   "gloss": "적 없다",
+   "category": "기타",
+   "priority": 7
+  },
+  "2623": {
+   "gloss": "정신",
+   "category": "인간 > 감각",
+   "priority": 7
+  },
+  "2652": {
+   "gloss": "월,달",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "2715": {
+   "gloss": "중지,끄다",
+   "category": "기타",
+   "priority": 7
+  },
+  "2722": {
+   "gloss": "(존재가)없다",
+   "category": "기타",
+   "priority": 7
+  },
+  "2792": {
+   "gloss": "거치다,방해,지장",
+   "category": "기타",
+   "priority": 7
+  },
+  "2864": {
+   "gloss": "받다,얻다,타다",
+   "category": "사회생활 > 사회 활동",
+   "priority": 20
+  },
+  "3024": {
+   "gloss": "백,하양,하얗다,허옇다,희다,백색,흰색,치아,이,이빨",
+   "category": "개념 > 색깔",
+   "priority": 7
+  },
+  "3246": {
+   "gloss": "입증,증명",
+   "category": "기타",
+   "priority": 7
+  },
+  "3261": {
+   "gloss": "요즘,요사이,요새,요즈음,최근",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "3404": {
+   "gloss": "벗다",
+   "category": "의생활 > 의복 착용",
+   "priority": 7
+  },
+  "3478": {
+   "gloss": "입석,서다",
+   "category": "기타",
+   "priority": 7
+  },
+  "3520": {
+   "gloss": "불필요",
+   "category": "기타",
+   "priority": 7
+  },
+  "3573": {
+   "gloss": "미-,미처,아직",
+   "category": "기타",
+   "priority": 7
+  },
+  "3625": {
+   "gloss": "열흘",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "3663": {
+   "gloss": "궁금하다",
+   "category": "인간 > 인지 행위",
+   "priority": 8
+  },
+  "3678": {
+   "gloss": "관계,관련,상관,연관",
+   "category": "사회생활 > 인간관계",
+   "priority": 6
+  },
+  "3679": {
+   "gloss": "근본,기반,기본,기초,바탕,뿌리",
+   "category": "기타",
+   "priority": 7
+  },
+  "3706": {
+   "gloss": "귀",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "3721": {
+   "gloss": "날씬하다",
+   "category": "인간 > 용모",
+   "priority": 7
+  },
+  "3762": {
+   "gloss": "걷다,걸음,도보,보행",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "3810": {
+   "gloss": "관계없다,막론하다,무관하다,상관없다,상관하지 않다",
+   "category": "기타",
+   "priority": 7
+  },
+  "3900": {
+   "gloss": "달라다",
+   "category": "기타",
+   "priority": 7
+  },
+  "3903": {
+   "gloss": "달리기,달리다,뛰다",
+   "category": "삶 > 여가 생활",
+   "priority": 7
+  },
+  "3956": {
+   "gloss": "셋째,세 번째",
+   "category": "개념 > 순서",
+   "priority": 7
+  },
+  "3988": {
+   "gloss": "뽑다",
+   "category": "기타",
+   "priority": 7
+  },
+  "4143": {
+   "gloss": "좋다",
+   "category": "인간 > 감정",
+   "priority": 20
+  },
+  "4145": {
+   "gloss": "주무시다,자다,잠들다,잠자다",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "4178": {
+   "gloss": "힘들다,벅차다,힘겹다",
+   "category": "인간 > 능력",
+   "priority": 7
+  },
+  "4182": {
+   "gloss": "진단,진료,진찰,검진",
+   "category": "삶 > 치료",
+   "priority": 2
+  },
+  "4197": {
+   "gloss": "탁구,핑퐁",
+   "category": "삶 > 운동 및 경기",
+   "priority": 7
+  },
+  "4237": {
+   "gloss": "하릴없다,어쩔 수 없다",
+   "category": "기타",
+   "priority": 7
+  },
+  "4302": {
+   "gloss": "팔꿈치",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "4307": {
+   "gloss": "혼신,온몸",
+   "category": "기타",
+   "priority": 7
+  },
+  "4322": {
+   "gloss": "귀찮다,불편,성가시다",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "4374": {
+   "gloss": "날,해",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "4408": {
+   "gloss": "개인,사",
+   "category": "기타",
+   "priority": 7
+  },
+  "4426": {
+   "gloss": "타자,타이핑",
+   "category": "기타",
+   "priority": 7
+  },
+  "4463": {
+   "gloss": "탑승,오르다,올라서다,올라타다,타다",
+   "category": "사회생활 > 교통",
+   "priority": 6
+  },
+  "4510": {
+   "gloss": "교사",
+   "category": "사회생활 > 직업",
+   "priority": 6
+  },
+  "4535": {
+   "gloss": "나쁘다,악,못되다,악하다",
+   "category": "기타",
+   "priority": 20
+  },
+  "4542": {
+   "gloss": "나중,밖,이후,후",
+   "category": "개념 > 순서",
+   "priority": 7
+  },
+  "4561": {
+   "gloss": "(눈을)감다",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "4571": {
+   "gloss": "감싸다,둘러싸다,에워싸다",
+   "category": "기타",
+   "priority": 7
+  },
+  "4573": {
+   "gloss": "나타나다,드러나다,출현",
+   "category": "기타",
+   "priority": 7
+  },
+  "4607": {
+   "gloss": "테니스,정구",
+   "category": "삶 > 운동 및 경기",
+   "priority": 7
+  },
+  "4623": {
+   "gloss": "곳,위치,장소",
+   "category": "개념 > 지역",
+   "priority": 7
+  },
+  "4675": {
+   "gloss": "그저께,그제",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "4703": {
+   "gloss": "끈기,끈덕지다,끈질기다",
+   "category": "인간 > 능력",
+   "priority": 7
+  },
+  "4765": {
+   "gloss": "걱정,근심,상심,시름,염려,우수,괴롭다",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "4917": {
+   "gloss": "임신,회임",
+   "category": "기타",
+   "priority": 7
+  },
+  "4998": {
+   "gloss": "집행,활동,활약",
+   "category": "기타",
+   "priority": 7
+  },
+  "5025": {
+   "gloss": "오후,하오",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "5051": {
+   "gloss": "쉰,오십",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "5081": {
+   "gloss": "하찮다,보잘 것 없다",
+   "category": "기타",
+   "priority": 7
+  },
+  "5084": {
+   "gloss": "(기온이)오르다",
+   "category": "기타",
+   "priority": 7
+  },
+  "5275": {
+   "gloss": "복판,가운데,중심,한가운데",
+   "category": "기타",
+   "priority": 7
+  },
+  "5279": {
+   "gloss": "이따가",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "5294": {
+   "gloss": "풀이,세이프,수습,처리,해결,해소,풀다,해내다,조치",
+   "category": "기타",
+   "priority": 7
+  },
+  "5308": {
+   "gloss": "합치다,집합,합,모으다,모이다,합하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "5358": {
+   "gloss": "비싸다",
+   "category": "경제생활 > 경제 상태",
+   "priority": 7
+  },
+  "5372": {
+   "gloss": "대장",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "5394": {
+   "gloss": "누구,누가,뉘",
+   "category": "개념 > 의문",
+   "priority": 7
+  },
+  "5397": {
+   "gloss": "(신체의)눈",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "5447": {
+   "gloss": "돕다,거들다,기여,도움,보조,원조,지원,찬조",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "5456": {
+   "gloss": "(혈액의)순환",
+   "category": "기타",
+   "priority": 7
+  },
+  "5468": {
+   "gloss": "목",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "5479": {
+   "gloss": "무게,중량",
+   "category": "개념 > 성질",
+   "priority": 7
+  },
+  "5504": {
+   "gloss": "변하다,변질,변화,변환,돌아서다",
+   "category": "기타",
+   "priority": 7
+  },
+  "5511": {
+   "gloss": "낳다,나다,태어나다,분만,생식,출산,출생,탄생,해산",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "5514": {
+   "gloss": "내년,명년,이듬해,다음해",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "5522": {
+   "gloss": "노력,안간힘,공들이다,애쓰다,힘쓰다",
+   "category": "기타",
+   "priority": 7
+  },
+  "5560": {
+   "gloss": "대학",
+   "category": "교육 > 교육 기관",
+   "priority": 7
+  },
+  "5577": {
+   "gloss": "새벽",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "5582": {
+   "gloss": "색깔,빛깔,색,색상,색채,컬러",
+   "category": "개념 > 색깔",
+   "priority": 7
+  },
+  "5621": {
+   "gloss": "편찮다,아프다",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "5644": {
+   "gloss": "목적",
+   "category": "기타",
+   "priority": 7
+  },
+  "5655": {
+   "gloss": "몸,동체,몸뚱이,몸체,신체",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "5670": {
+   "gloss": "번호,번,숫자",
+   "category": "개념 > 수",
+   "priority": 20
+  },
+  "5675": {
+   "gloss": "벌써,삽시간,어느덧,어느새,어언간,이미",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "5676": {
+   "gloss": "붙들다,검거,붙잡다,잡다",
+   "category": "기타",
+   "priority": 7
+  },
+  "5697": {
+   "gloss": "유지",
+   "category": "기타",
+   "priority": 7
+  },
+  "5776": {
+   "gloss": "불구,장애",
+   "category": "기타",
+   "priority": 7
+  },
+  "5780": {
+   "gloss": "불면",
+   "category": "기타",
+   "priority": 7
+  },
+  "5946": {
+   "gloss": "고기,가죽,살",
+   "category": "식생활 > 식재료",
+   "priority": 3
+  },
+  "5947": {
+   "gloss": "고기,물고기,생선,헤엄치다",
+   "category": "식생활 > 식재료",
+   "priority": 3
+  },
+  "5956": {
+   "gloss": "크다",
+   "category": "개념 > 정도",
+   "priority": 20
+  },
+  "5957": {
+   "gloss": "매주",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "5958": {
+   "gloss": "맥박,맥",
+   "category": "기타",
+   "priority": 7
+  },
+  "5984": {
+   "gloss": "안심,안전,안정",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "5989": {
+   "gloss": "이전,전",
+   "category": "기타",
+   "priority": 7
+  },
+  "5993": {
+   "gloss": "이해,납득",
+   "category": "경제생활 > 경제 상태",
+   "priority": 7
+  },
+  "6001": {
+   "gloss": "줄이다,감소,절감,축소,줄다",
+   "category": "개념 > 양",
+   "priority": 7
+  },
+  "6015": {
+   "gloss": "지루하다,따분하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "6031": {
+   "gloss": "알다",
+   "category": "인간 > 인지 행위",
+   "priority": 8
+  },
+  "6032": {
+   "gloss": "알맞다,적정,적당하다,적절하다",
+   "category": "개념 > 정도",
+   "priority": 7
+  },
+  "6036": {
+   "gloss": "오른쪽,우측",
+   "category": "개념 > 위치 및 방향",
+   "priority": 7
+  },
+  "6042": {
+   "gloss": "신",
+   "category": "의생활 > 모자, 신발, 장신구",
+   "priority": 7
+  },
+  "6043": {
+   "gloss": "신경질,짜증",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "6053": {
+   "gloss": "침대",
+   "category": "주생활 > 생활 용품",
+   "priority": 7
+  },
+  "6071": {
+   "gloss": "수영",
+   "category": "삶 > 운동 및 경기",
+   "priority": 7
+  },
+  "6085": {
+   "gloss": "독,독하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "6094": {
+   "gloss": "많다,흔하다",
+   "category": "개념 > 양",
+   "priority": 20
+  },
+  "6096": {
+   "gloss": "수고,노고,품",
+   "category": "기타",
+   "priority": 7
+  },
+  "6109": {
+   "gloss": "수요일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "6127": {
+   "gloss": "목요일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "6135": {
+   "gloss": "말,말하다,언어",
+   "category": "사회생활 > 언어",
+   "priority": 20
+  },
+  "6138": {
+   "gloss": "무뚝뚝하다",
+   "category": "인간 > 성격 및 태도",
+   "priority": 7
+  },
+  "6153": {
+   "gloss": "버리다,폐기,폐하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "6196": {
+   "gloss": "붓다,부풀다,부풀리다",
+   "category": "기타",
+   "priority": 7
+  },
+  "6211": {
+   "gloss": "빨강,빨갛다,적자",
+   "category": "개념 > 색깔",
+   "priority": 7
+  },
+  "6212": {
+   "gloss": "대학교",
+   "category": "교육 > 교육 기관",
+   "priority": 7
+  },
+  "6223": {
+   "gloss": "더럽다,때,불결,지저분하다",
+   "category": "주생활 > 주거 상태",
+   "priority": 20
+  },
+  "6241": {
+   "gloss": "생각,견해,사고,신경,의견,의사,의식,여기다",
+   "category": "인간 > 인지 행위",
+   "priority": 20
+  },
+  "6265": {
+   "gloss": "선언,천명",
+   "category": "사회생활 > 언어",
+   "priority": 6
+  },
+  "6275": {
+   "gloss": "마비",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "6277": {
+   "gloss": "마시다",
+   "category": "식생활 > 식사 및 조리",
+   "priority": 3
+  },
+  "6279": {
+   "gloss": "마음,심리,심정",
+   "category": "인간 > 인지 행위",
+   "priority": 8
+  },
+  "6281": {
+   "gloss": "머무르다,존재,체류,계시다,묵다",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "6288": {
+   "gloss": "물건",
+   "category": "기타",
+   "priority": 7
+  },
+  "6294": {
+   "gloss": "모기",
+   "category": "동식물 > 곤충류",
+   "priority": 3
+  },
+  "6320": {
+   "gloss": "늘다,늘이다,늘리다",
+   "category": "개념 > 양",
+   "priority": 7
+  },
+  "6368": {
+   "gloss": "깨다",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "6376": {
+   "gloss": "다행",
+   "category": "기타",
+   "priority": 7
+  },
+  "6391": {
+   "gloss": "뚱뚱하다,비대,살찌다",
+   "category": "인간 > 용모",
+   "priority": 7
+  },
+  "6408": {
+   "gloss": "갈등,마찰,거북하다,껄끄럽다",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "6417": {
+   "gloss": "듣다,소리,소식,청각",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "6422": {
+   "gloss": "멀미,메스껍다",
+   "category": "인간 > 생리 현상",
+   "priority": 3
+  },
+  "6433": {
+   "gloss": "보내다,파견",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "6436": {
+   "gloss": "보다,시각",
+   "category": "개념 > 정도",
+   "priority": 20
+  },
+  "6437": {
+   "gloss": "보다",
+   "category": "인간 > 신체 행위",
+   "priority": 20
+  },
+  "6442": {
+   "gloss": "내일,명일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "6443": {
+   "gloss": "내주,다음주",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "6450": {
+   "gloss": "너,네,자네",
+   "category": "개념 > 인칭",
+   "priority": 7
+  },
+  "6456": {
+   "gloss": "맛있다,맛나다,맛",
+   "category": "식생활 > 식사 및 조리",
+   "priority": 3
+  },
+  "6462": {
+   "gloss": "무의미",
+   "category": "기타",
+   "priority": 7
+  },
+  "6481": {
+   "gloss": "빼다,깎다,덜다,제하다,배제,감면,빼기,제외,공제,생략,경감",
+   "category": "기타",
+   "priority": 7
+  },
+  "6486": {
+   "gloss": "뼈",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "6492": {
+   "gloss": "덥다,더위",
+   "category": "자연 > 날씨 및 온도",
+   "priority": 7
+  },
+  "6509": {
+   "gloss": "높다",
+   "category": "개념 > 모양",
+   "priority": 7
+  },
+  "6524": {
+   "gloss": "선풍기",
+   "category": "주생활 > 생활 용품",
+   "priority": 7
+  },
+  "6546": {
+   "gloss": "돌",
+   "category": "자연 > 지표면 사물",
+   "priority": 7
+  },
+  "6556": {
+   "gloss": "수술",
+   "category": "삶 > 치료",
+   "priority": 2
+  },
+  "6564": {
+   "gloss": "술,알코올",
+   "category": "식생활 > 음료",
+   "priority": 3
+  },
+  "6573": {
+   "gloss": "쉬다,휴가,휴게,휴식,휴양",
+   "category": "삶 > 여가 생활",
+   "priority": 7
+  },
+  "6574": {
+   "gloss": "쉽다,용이하다,쉽사리",
+   "category": "인간 > 능력",
+   "priority": 7
+  },
+  "6597": {
+   "gloss": "망설이다,주저,머무적거리다,머뭇거리다,서슴다",
+   "category": "인간 > 인지 행위",
+   "priority": 8
+  },
+  "6629": {
+   "gloss": "넘어지다,쓰러지다",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "6631": {
+   "gloss": "넣다,담그다",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "6635": {
+   "gloss": "교통사고",
+   "category": "사회생활 > 교통",
+   "priority": 6
+  },
+  "6636": {
+   "gloss": "동시",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "6637": {
+   "gloss": "동안,사이",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "6640": {
+   "gloss": "맡기다,임명",
+   "category": "기타",
+   "priority": 7
+  },
+  "6683": {
+   "gloss": "구급차,응급차,앰뷸런스",
+   "category": "사회생활 > 교통",
+   "priority": 6
+  },
+  "6706": {
+   "gloss": "달다,당분",
+   "category": "기타",
+   "priority": 7
+  },
+  "6715": {
+   "gloss": "기계,장치",
+   "category": "기타",
+   "priority": 7
+  },
+  "6726": {
+   "gloss": "길다,오래다,오래",
+   "category": "인간 > 용모",
+   "priority": 7
+  },
+  "6737": {
+   "gloss": "느끼다,느낌,뉘앙스",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "6749": {
+   "gloss": "담배,흡연",
+   "category": "기타",
+   "priority": 7
+  },
+  "6765": {
+   "gloss": "가렵다,긁다",
+   "category": "인간 > 감각",
+   "priority": 7
+  },
+  "6767": {
+   "gloss": "겪다,당하다,-던,-았(-었),적",
+   "category": "기타",
+   "priority": 7
+  },
+  "6774": {
+   "gloss": "가지다,갖다,지니다,취하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "6798": {
+   "gloss": "되다",
+   "category": "기타",
+   "priority": 20
+  },
+  "6800": {
+   "gloss": "때,경우,시기,시대,시절,무렵,즈음",
+   "category": "개념 > 시간",
+   "priority": 20
+  },
+  "6801": {
+   "gloss": "때문,바람,탓,말미암다,인하다,-니까",
+   "category": "기타",
+   "priority": 7
+  },
+  "6802": {
+   "gloss": "떠나다,송별,이별,작별,헤어지다",
+   "category": "기타",
+   "priority": 7
+  },
+  "6805": {
+   "gloss": "멸치",
+   "category": "식생활 > 식재료",
+   "priority": 3
+  },
+  "6835": {
+   "gloss": "가슴",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "6836": {
+   "gloss": "가시,날카롭다,뾰족하다,예리하다,예민하다",
+   "category": "동식물 > 동물의 부분",
+   "priority": 3
+  },
+  "6864": {
+   "gloss": "(신체의)등",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "6870": {
+   "gloss": "가깝다",
+   "category": "기타",
+   "priority": 7
+  },
+  "6875": {
+   "gloss": "검정,검다,까맣다",
+   "category": "개념 > 색깔",
+   "priority": 7
+  },
+  "6885": {
+   "gloss": "가입,등록",
+   "category": "기타",
+   "priority": 7
+  },
+  "6905": {
+   "gloss": "등산",
+   "category": "기타",
+   "priority": 7
+  },
+  "6927": {
+   "gloss": "경험",
+   "category": "인간 > 인지 행위",
+   "priority": 8
+  },
+  "6929": {
+   "gloss": "계단,층계",
+   "category": "주생활 > 주택 구성",
+   "priority": 7
+  },
+  "6933": {
+   "gloss": "계산,수,셈,세다¹,헤아리다",
+   "category": "경제생활 > 경제 행위",
+   "priority": 20
+  },
+  "6934": {
+   "gloss": "계속,연속,이어,내내,-면서,지속",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "6935": {
+   "gloss": "계약,맺다",
+   "category": "경제생활 > 경제 행위",
+   "priority": 7
+  },
+  "6946": {
+   "gloss": "절정,정상",
+   "category": "기타",
+   "priority": 7
+  },
+  "6980": {
+   "gloss": "주세요,주십시오",
+   "category": "기타",
+   "priority": 7
+  },
+  "6990": {
+   "gloss": "지금,갓,이제,인제,현재",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "7002": {
+   "gloss": "안되다",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "7042": {
+   "gloss": "코",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "7059": {
+   "gloss": "이름,명,성명,성함",
+   "category": "기타",
+   "priority": 7
+  },
+  "7060": {
+   "gloss": "이마",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "7066": {
+   "gloss": "이불,침구,덮다",
+   "category": "주생활 > 생활 용품",
+   "priority": 7
+  },
+  "7082": {
+   "gloss": "전통",
+   "category": "문화 > 전통 문화",
+   "priority": 7
+  },
+  "7094": {
+   "gloss": "쥐",
+   "category": "동식물 > 동물류",
+   "priority": 3
+  },
+  "7160": {
+   "gloss": "옷,의복,의상",
+   "category": "의생활 > 옷 종류",
+   "priority": 7
+  },
+  "7170": {
+   "gloss": "신청,주문",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "7197": {
+   "gloss": "은혜,은총",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "7222": {
+   "gloss": "어긋나다,엇갈리다",
+   "category": "기타",
+   "priority": 7
+  },
+  "7224": {
+   "gloss": "어느,무엇,어떤,무슨",
+   "category": "개념 > 의문",
+   "priority": 7
+  },
+  "7229": {
+   "gloss": "전화,전화기",
+   "category": "사회생활 > 소통",
+   "priority": 6
+  },
+  "7235": {
+   "gloss": "절다,절룩거리다,절름거리다",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "7251": {
+   "gloss": "이야기,강의,설교",
+   "category": "사회생활 > 언어",
+   "priority": 6
+  },
+  "7277": {
+   "gloss": "미래,다음,앞날,장래,장차,향후",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "7312": {
+   "gloss": "맵다",
+   "category": "식생활 > 식사 및 조리",
+   "priority": 3
+  },
+  "7320": {
+   "gloss": "문제",
+   "category": "기타",
+   "priority": 7
+  },
+  "7323": {
+   "gloss": "미리",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "7336": {
+   "gloss": "기다리다,대기",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "7362": {
+   "gloss": "다니다",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "7363": {
+   "gloss": "다르다,상이하다,딴",
+   "category": "개념 > 모양",
+   "priority": 7
+  },
+  "7364": {
+   "gloss": "(신체의)다리",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "7372": {
+   "gloss": "당황",
+   "category": "인간 > 성격 및 태도",
+   "priority": 7
+  },
+  "7373": {
+   "gloss": "닿다,밀착,붙다,붙이다",
+   "category": "기타",
+   "priority": 7
+  },
+  "7377": {
+   "gloss": "(쌀이)떨어지다,(쌀이)바닥나다",
+   "category": "기타",
+   "priority": 7
+  },
+  "7392": {
+   "gloss": "간단하다,간략하다,간편하다,단순,편리,편의",
+   "category": "기타",
+   "priority": 7
+  },
+  "7410": {
+   "gloss": "두껍다",
+   "category": "개념 > 모양",
+   "priority": 7
+  },
+  "7422": {
+   "gloss": "또,그리고,다시",
+   "category": "기타",
+   "priority": 7
+  },
+  "7437": {
+   "gloss": "경계",
+   "category": "인간 > 인지 행위",
+   "priority": 8
+  },
+  "7477": {
+   "gloss": "죽다,돌아가다,사거,사망,서거,숨지다,죽음,임종",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "7478": {
+   "gloss": "죽이다,해치다",
+   "category": "기타",
+   "priority": 7
+  },
+  "7488": {
+   "gloss": "멍,멍들다",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "7491": {
+   "gloss": "뜨겁다,화끈",
+   "category": "자연 > 날씨 및 온도",
+   "priority": 7
+  },
+  "7497": {
+   "gloss": "모두,온통,전부,전체,제반,모든,온,다,모조리,몽땅,죄다",
+   "category": "개념 > 양",
+   "priority": 7
+  },
+  "7499": {
+   "gloss": "모레,내일모레,이틀,이틀후",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "7528": {
+   "gloss": "멍하다,멍하니",
+   "category": "기타",
+   "priority": 7
+  },
+  "7558": {
+   "gloss": "기억,암기,외다,외우다",
+   "category": "인간 > 인지 행위",
+   "priority": 8
+  },
+  "7585": {
+   "gloss": "금요일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "7598": {
+   "gloss": "최고,달성,이루다,이룩하다",
+   "category": "개념 > 정도",
+   "priority": 7
+  },
+  "7666": {
+   "gloss": "위험,험하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "7687": {
+   "gloss": "부터,이래",
+   "category": "기타",
+   "priority": 7
+  },
+  "7689": {
+   "gloss": "부피,양",
+   "category": "개념 > 모양",
+   "priority": 7
+  },
+  "7695": {
+   "gloss": "살찌다",
+   "category": "인간 > 용모",
+   "priority": 7
+  },
+  "7700": {
+   "gloss": "우울,울상,시무룩하다",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "7703": {
+   "gloss": "오늘,금일,이번",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "7704": {
+   "gloss": "오다,도래",
+   "category": "인간 > 신체 행위",
+   "priority": 20
+  },
+  "7713": {
+   "gloss": "왜,어째서",
+   "category": "개념 > 의문",
+   "priority": 7
+  },
+  "7729": {
+   "gloss": "그대로",
+   "category": "기타",
+   "priority": 7
+  },
+  "7730": {
+   "gloss": "맞지 않다,적합하지 않다",
+   "category": "기타",
+   "priority": 7
+  },
+  "7732": {
+   "gloss": "전기,전자",
+   "category": "기타",
+   "priority": 7
+  },
+  "7744": {
+   "gloss": "젊다,청춘",
+   "category": "인간 > 용모",
+   "priority": 7
+  },
+  "7752": {
+   "gloss": "의지,기대다",
+   "category": "기타",
+   "priority": 7
+  },
+  "7771": {
+   "gloss": "자전거,사이클",
+   "category": "사회생활 > 교통",
+   "priority": 6
+  },
+  "7776": {
+   "gloss": "아까",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "7796": {
+   "gloss": "소화",
+   "category": "인간 > 생리 현상",
+   "priority": 3
+  },
+  "7806": {
+   "gloss": "얼마,몇",
+   "category": "개념 > 정도",
+   "priority": 7
+  },
+  "7816": {
+   "gloss": "(가진 것이)없다",
+   "category": "기타",
+   "priority": 7
+  },
+  "7817": {
+   "gloss": "(불가능)없다",
+   "category": "기타",
+   "priority": 7
+  },
+  "7833": {
+   "gloss": "반복,거듭,수시로,자꾸,자주,잦다",
+   "category": "기타",
+   "priority": 7
+  },
+  "7857": {
+   "gloss": "운전,핸들",
+   "category": "사회생활 > 교통",
+   "priority": 6
+  },
+  "7866": {
+   "gloss": "열두시,정오",
+   "category": "기타",
+   "priority": 7
+  },
+  "7876": {
+   "gloss": "유방,젖",
+   "category": "기타",
+   "priority": 7
+  },
+  "7951": {
+   "gloss": "심장",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "7953": {
+   "gloss": "심호흡,호흡,공기,냄새,대기,목숨,생명,수,수명,숨,숨결,숨쉬다",
+   "category": "기타",
+   "priority": 20
+  },
+  "7956": {
+   "gloss": "작년,지난해",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "7957": {
+   "gloss": "작다,다소,약간,조금,약소하다,자그마하다,적다,조그마하다",
+   "category": "개념 > 모양",
+   "priority": 20
+  },
+  "7958": {
+   "gloss": "아래,이하,후배,하류,하",
+   "category": "개념 > 위치 및 방향",
+   "priority": 7
+  },
+  "7972": {
+   "gloss": "반찬",
+   "category": "식생활 > 음식",
+   "priority": 3
+  },
+  "8002": {
+   "gloss": "오전,상오",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "8014": {
+   "gloss": "약하다",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "8026": {
+   "gloss": "칠월",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "8030": {
+   "gloss": "전문",
+   "category": "기타",
+   "priority": 7
+  },
+  "8116": {
+   "gloss": "중앙,도중,중,중도",
+   "category": "개념 > 위치 및 방향",
+   "priority": 7
+  },
+  "8119": {
+   "gloss": "찾다",
+   "category": "기타",
+   "priority": 7
+  },
+  "8144": {
+   "gloss": "앞",
+   "category": "개념 > 위치 및 방향",
+   "priority": 7
+  },
+  "8150": {
+   "gloss": "온도",
+   "category": "자연 > 날씨 및 온도",
+   "priority": 7
+  },
+  "8185": {
+   "gloss": "양말",
+   "category": "의생활 > 모자, 신발, 장신구",
+   "priority": 7
+  },
+  "8213": {
+   "gloss": "어마어마하다",
+   "category": "개념 > 정도",
+   "priority": 7
+  },
+  "8218": {
+   "gloss": "어제,어저께,작일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "8219": {
+   "gloss": "어지럽다",
+   "category": "인간 > 감각",
+   "priority": 7
+  },
+  "8226": {
+   "gloss": "월경,생리",
+   "category": "기타",
+   "priority": 7
+  },
+  "8230": {
+   "gloss": "월요일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "8233": {
+   "gloss": "복구",
+   "category": "기타",
+   "priority": 7
+  },
+  "8239": {
+   "gloss": "사람,인간,분,이,자,-민",
+   "category": "기타",
+   "priority": 7
+  },
+  "8271": {
+   "gloss": "위",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "8291": {
+   "gloss": "살다,삶,생활",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "8300": {
+   "gloss": "일요일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "8303": {
+   "gloss": "일주일,이레",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "8307": {
+   "gloss": "주다,내밀다,내주다,건네주다,제공,교부",
+   "category": "사회생활 > 사회 활동",
+   "priority": 20
+  },
+  "8308": {
+   "gloss": "입,이론",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "8316": {
+   "gloss": "(맛이)쓰다",
+   "category": "사회생활 > 언어",
+   "priority": 6
+  },
+  "8328": {
+   "gloss": "바람,바람이 불다",
+   "category": "기타",
+   "priority": 7
+  },
+  "8355": {
+   "gloss": "실수",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "8380": {
+   "gloss": "복사",
+   "category": "기타",
+   "priority": 7
+  },
+  "8384": {
+   "gloss": "복잡하다,산만하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "8385": {
+   "gloss": "방법,요령,방식",
+   "category": "기타",
+   "priority": 7
+  },
+  "8391": {
+   "gloss": "방어,방지,수비,막다,저지,거절,차단",
+   "category": "기타",
+   "priority": 7
+  },
+  "8407": {
+   "gloss": "얼굴,낯,안면",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "8408": {
+   "gloss": "연락,연결",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "8410": {
+   "gloss": "집,주택,가옥,세대,호,댁",
+   "category": "주생활 > 건물 종류",
+   "priority": 7
+  },
+  "8431": {
+   "gloss": "첫째",
+   "category": "개념 > 순서",
+   "priority": 7
+  },
+  "8472": {
+   "gloss": "여기",
+   "category": "개념 > 지시",
+   "priority": 7
+  },
+  "8517": {
+   "gloss": "건강,기력,강건하다,튼튼하다",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "8597": {
+   "gloss": "귀신,마귀,사탄,악마,유령",
+   "category": "기타",
+   "priority": 7
+  },
+  "8602": {
+   "gloss": "날짜,언제",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "8608": {
+   "gloss": "강하다,견고하다,굳다,단단하다,딱딱하다",
+   "category": "개념 > 성질",
+   "priority": 7
+  },
+  "8620": {
+   "gloss": "귀중하다,중요,막중하다,소중하다",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "8670": {
+   "gloss": "절대,절대로,한사코",
+   "category": "기타",
+   "priority": 7
+  },
+  "8671": {
+   "gloss": "절대,공,공공,결코,절대로",
+   "category": "기타",
+   "priority": 7
+  },
+  "8673": {
+   "gloss": "장애,병신,제대로 안되다",
+   "category": "기타",
+   "priority": 7
+  },
+  "8729": {
+   "gloss": "그만,끝,까지,종결,종료,끝나다,마치다",
+   "category": "기타",
+   "priority": 7
+  },
+  "8752": {
+   "gloss": "앞당기다,당기다,잡아당기다",
+   "category": "기타",
+   "priority": 7
+  },
+  "8889": {
+   "gloss": "(시간)시,시간",
+   "category": "기타",
+   "priority": 7
+  },
+  "8904": {
+   "gloss": "싶다,갈급",
+   "category": "기타",
+   "priority": 7
+  },
+  "8925": {
+   "gloss": "운동,스포츠,체육",
+   "category": "삶 > 여가 생활",
+   "priority": 7
+  },
+  "8935": {
+   "gloss": "자연,천연,저절로",
+   "category": "기타",
+   "priority": 7
+  },
+  "8944": {
+   "gloss": "성적,염소,점수",
+   "category": "교육 > 교수 학습 행위",
+   "priority": 7
+  },
+  "8966": {
+   "gloss": "있다",
+   "category": "기타",
+   "priority": 20
+  },
+  "8987": {
+   "gloss": "(공간이)좁다",
+   "category": "기타",
+   "priority": 7
+  },
+  "8993": {
+   "gloss": "종류,가지,종목,종,다각,다각도",
+   "category": "기타",
+   "priority": 7
+  },
+  "9011": {
+   "gloss": "차",
+   "category": "식생활 > 음료",
+   "priority": 3
+  },
+  "9077": {
+   "gloss": "종합",
+   "category": "기타",
+   "priority": 7
+  },
+  "9078": {
+   "gloss": "좋다,선",
+   "category": "인간 > 감정",
+   "priority": 20
+  },
+  "9102": {
+   "gloss": "보람",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "9103": {
+   "gloss": "보류",
+   "category": "기타",
+   "priority": 7
+  },
+  "9104": {
+   "gloss": "보름",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "9115": {
+   "gloss": "발견",
+   "category": "기타",
+   "priority": 7
+  },
+  "9128": {
+   "gloss": "부러지다",
+   "category": "기타",
+   "priority": 7
+  },
+  "9142": {
+   "gloss": "분석,해석",
+   "category": "인간 > 인지 행위",
+   "priority": 8
+  },
+  "9147": {
+   "gloss": "원래",
+   "category": "기타",
+   "priority": 7
+  },
+  "9175": {
+   "gloss": "사진,찍다",
+   "category": "문화 > 예술",
+   "priority": 7
+  },
+  "9185": {
+   "gloss": "불가능,불능",
+   "category": "인간 > 능력",
+   "priority": 7
+  },
+  "9217": {
+   "gloss": "센터",
+   "category": "정치와 행정 > 공공 기관",
+   "priority": 7
+  },
+  "9242": {
+   "gloss": "싱겁다",
+   "category": "식생활 > 식사 및 조리",
+   "priority": 3
+  },
+  "9297": {
+   "gloss": "하루,온종일,종일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "9350": {
+   "gloss": "가루,분말",
+   "category": "개념 > 모양",
+   "priority": 7
+  },
+  "9351": {
+   "gloss": "가만히,조용하다",
+   "category": "인간 > 성격 및 태도",
+   "priority": 7
+  },
+  "9356": {
+   "gloss": "갇히다,구류,하지 못하게 하다,지배",
+   "category": "기타",
+   "priority": 7
+  },
+  "9359": {
+   "gloss": "감염,전염,옮다,걸리다",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "9360": {
+   "gloss": "감정,기분,정서",
+   "category": "기타",
+   "priority": 7
+  },
+  "9365": {
+   "gloss": "개별,각,각각,각기,개개,낱낱이,제각기",
+   "category": "기타",
+   "priority": 7
+  },
+  "9376": {
+   "gloss": "결과,결말,마지막,최종,최후,결국,드디어,마침내",
+   "category": "기타",
+   "priority": 7
+  },
+  "9377": {
+   "gloss": "결정,정하다",
+   "category": "인간 > 인지 행위",
+   "priority": 8
+  },
+  "9389": {
+   "gloss": "곤충,벌레",
+   "category": "동식물 > 곤충류",
+   "priority": 3
+  },
+  "9390": {
+   "gloss": "곧다,단정하다,똑바르다,바르다,반듯하다,올바르다,점잖다,똑바르다,올곧다,정하다",
+   "category": "개념 > 모양",
+   "priority": 7
+  },
+  "9423": {
+   "gloss": "점차",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "9426": {
+   "gloss": "제거",
+   "category": "기타",
+   "priority": 7
+  },
+  "9466": {
+   "gloss": "괜찮다,무방하다",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "9522": {
+   "gloss": "짜다",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "9525": {
+   "gloss": "주사,접종",
+   "category": "삶 > 치료",
+   "priority": 2
+  },
+  "9542": {
+   "gloss": "잘못",
+   "category": "기타",
+   "priority": 7
+  },
+  "9543": {
+   "gloss": "잘하다,잘",
+   "category": "인간 > 능력",
+   "priority": 7
+  },
+  "9590": {
+   "gloss": "재작년,거거년,전전년,전전해,지지난해,재작년도",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "9614": {
+   "gloss": "조절,조정",
+   "category": "기타",
+   "priority": 7
+  },
+  "9650": {
+   "gloss": "찌르다",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "9670": {
+   "gloss": "추위,냉각,북,한랭,차다,춥다",
+   "category": "자연 > 날씨 및 온도",
+   "priority": 7
+  },
+  "9714": {
+   "gloss": "겹치다",
+   "category": "기타",
+   "priority": 7
+  },
+  "9733": {
+   "gloss": "담그다,잠기다",
+   "category": "식생활 > 식사 및 조리",
+   "priority": 3
+  },
+  "9746": {
+   "gloss": "나이,나잇살,살,연령,연세",
+   "category": "기타",
+   "priority": 7
+  },
+  "9772": {
+   "gloss": "돌아서다,갈다,교체하다,대체하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "9832": {
+   "gloss": "어린이,새끼,아이,어린아이,소아",
+   "category": "인간 > 사람의 종류",
+   "priority": 7
+  },
+  "9846": {
+   "gloss": "없다,비다",
+   "category": "기타",
+   "priority": 20
+  },
+  "9862": {
+   "gloss": "질병,병,병환,질환,앓다",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "9875": {
+   "gloss": "(공간이)차다",
+   "category": "기타",
+   "priority": 7
+  },
+  "9877": {
+   "gloss": "차이",
+   "category": "개념 > 정도",
+   "priority": 7
+  },
+  "9917": {
+   "gloss": "죄송하다,사과,미안하다",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "9928": {
+   "gloss": "지각,지체,늦다,굼뜨다,느리다,더디다,천천하다,서서히",
+   "category": "교육 > 교수 학습 행위",
+   "priority": 7
+  },
+  "9937": {
+   "gloss": "체념,기권,포기",
+   "category": "기타",
+   "priority": 7
+  },
+  "9956": {
+   "gloss": "치아,이",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "9967": {
+   "gloss": "칼,나이프",
+   "category": "식생활 > 식사 및 조리",
+   "priority": 3
+  },
+  "10026": {
+   "gloss": "관철,관통,꿰뚫다,알아맞히다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10038": {
+   "gloss": "나흘",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "10055": {
+   "gloss": "판이하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10085": {
+   "gloss": "뒤따르다,수행,따라가다,따르다,좇다,쫓다,쫓아가다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10100": {
+   "gloss": "그다음,다음",
+   "category": "개념 > 순서",
+   "priority": 7
+  },
+  "10155": {
+   "gloss": "일등",
+   "category": "개념 > 순서",
+   "priority": 7
+  },
+  "10156": {
+   "gloss": "비지땀",
+   "category": "기타",
+   "priority": 7
+  },
+  "10231": {
+   "gloss": "화장",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "10239": {
+   "gloss": "혈압",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "10265": {
+   "gloss": "차기",
+   "category": "기타",
+   "priority": 7
+  },
+  "10270": {
+   "gloss": "발걸음,발자국,밟다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10284": {
+   "gloss": "할머니,조모",
+   "category": "삶 > 가족 관계 및 행사",
+   "priority": 7
+  },
+  "10385": {
+   "gloss": "마다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10391": {
+   "gloss": "마지못하다,무릅쓰다,불구하다",
+   "category": "인간 > 성격 및 태도",
+   "priority": 7
+  },
+  "10393": {
+   "gloss": "마침,딱 맞다,알맞다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10402": {
+   "gloss": "만족,여유,자신,충족,넉넉하다,늠름하다,당당하다,떳떳하다,충분하다,푸짐하다,풍부하다,듬뿍,실컷",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "10403": {
+   "gloss": "만큼,어치,정도,-쯤",
+   "category": "기타",
+   "priority": 20
+  },
+  "10419": {
+   "gloss": "먹다,식사",
+   "category": "식생활 > 식사 및 조리",
+   "priority": 3
+  },
+  "10420": {
+   "gloss": "처음",
+   "category": "개념 > 순서",
+   "priority": 7
+  },
+  "10423": {
+   "gloss": "-면,임시,그러면",
+   "category": "기타",
+   "priority": 7
+  },
+  "10433": {
+   "gloss": "모습,꼴,모양,상태,상황,장면,형상,형용,형태",
+   "category": "개념 > 모양",
+   "priority": 7
+  },
+  "10435": {
+   "gloss": "모자라다,결손,결핍,부족",
+   "category": "개념 > 양",
+   "priority": 7
+  },
+  "10440": {
+   "gloss": "못하다,할 수 없다",
+   "category": "인간 > 능력",
+   "priority": 7
+  },
+  "10448": {
+   "gloss": "무쇠,쇠,철",
+   "category": "기타",
+   "priority": 7
+  },
+  "10454": {
+   "gloss": "묵직하다,무겁다",
+   "category": "개념 > 성질",
+   "priority": 7
+  },
+  "10472": {
+   "gloss": "밖에",
+   "category": "기타",
+   "priority": 7
+  },
+  "10474": {
+   "gloss": "발생,생성,나다,나오다,돋다,생기다,솟다,트다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10477": {
+   "gloss": "발표,광고,표시,표현,나타내다,드러내다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10488": {
+   "gloss": "골몰,전념,집중,골똘하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10493": {
+   "gloss": "참다,견디다,인내,자제,억제",
+   "category": "기타",
+   "priority": 7
+  },
+  "10515": {
+   "gloss": "피차,둘이",
+   "category": "기타",
+   "priority": 7
+  },
+  "10531": {
+   "gloss": "토요일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "10533": {
+   "gloss": "통역,매개,변호,소개",
+   "category": "사회생활 > 언어",
+   "priority": 6
+  },
+  "10544": {
+   "gloss": "특히,각별,별,특별,특수",
+   "category": "기타",
+   "priority": 7
+  },
+  "10555": {
+   "gloss": "팔월",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "10596": {
+   "gloss": "재활",
+   "category": "삶 > 치료",
+   "priority": 2
+  },
+  "10631": {
+   "gloss": "복장,입다",
+   "category": "의생활 > 의복 착용",
+   "priority": 7
+  },
+  "10635": {
+   "gloss": "부드럽다,스펀지,말랑하다,무르다,물렁하다,보드랍다,유연하다,물렁물렁",
+   "category": "개념 > 성질",
+   "priority": 7
+  },
+  "10696": {
+   "gloss": "삼,인삼",
+   "category": "식생활 > 식재료",
+   "priority": 3
+  },
+  "10698": {
+   "gloss": "삼월",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "10720": {
+   "gloss": "설명",
+   "category": "사회생활 > 언어",
+   "priority": 6
+  },
+  "10737": {
+   "gloss": "속",
+   "category": "개념 > 위치 및 방향",
+   "priority": 7
+  },
+  "10741": {
+   "gloss": "솔직하다,정직",
+   "category": "인간 > 성격 및 태도",
+   "priority": 7
+  },
+  "10768": {
+   "gloss": "스타일",
+   "category": "기타",
+   "priority": 7
+  },
+  "10771": {
+   "gloss": "습관,버릇",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "10789": {
+   "gloss": "신기하다,교묘하다,묘하다,오묘하다,이상",
+   "category": "기타",
+   "priority": 7
+  },
+  "10793": {
+   "gloss": "신중,경계,조심,주의,준수,지키다",
+   "category": "인간 > 성격 및 태도",
+   "priority": 7
+  },
+  "10824": {
+   "gloss": "예,끄덕이다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10877": {
+   "gloss": "유익,이익,이득,이롭다",
+   "category": "기타",
+   "priority": 7
+  },
+  "10897": {
+   "gloss": "이외,기타",
+   "category": "기타",
+   "priority": 7
+  },
+  "10919": {
+   "gloss": "십,열",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "10923": {
+   "gloss": "십이,열둘",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "10925": {
+   "gloss": "십일월",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "10949": {
+   "gloss": "안녕,안부",
+   "category": "삶 > 삶의 상태",
+   "priority": 7
+  },
+  "10952": {
+   "gloss": "알,계란,달걀",
+   "category": "기타",
+   "priority": 7
+  },
+  "10981": {
+   "gloss": "물",
+   "category": "식생활 > 음료",
+   "priority": 3
+  },
+  "10990": {
+   "gloss": "구월",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "10994": {
+   "gloss": "단계,절차",
+   "category": "기타",
+   "priority": 7
+  },
+  "10998": {
+   "gloss": "가볍다",
+   "category": "개념 > 성질",
+   "priority": 7
+  },
+  "11004": {
+   "gloss": "갈비,늑골,갈비뼈",
+   "category": "식생활 > 식재료",
+   "priority": 3
+  },
+  "11006": {
+   "gloss": "들어가다,방문하다,입장",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "11047": {
+   "gloss": "따로",
+   "category": "기타",
+   "priority": 7
+  },
+  "11052": {
+   "gloss": "똑같다,같다,동일하다",
+   "category": "기타",
+   "priority": 20
+  },
+  "11053": {
+   "gloss": "똥,대변",
+   "category": "기타",
+   "priority": 7
+  },
+  "11055": {
+   "gloss": "다섯,오",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "11058": {
+   "gloss": "떨다,떨리다,떨림",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "11063": {
+   "gloss": "마약,아편,중독,탐닉",
+   "category": "기타",
+   "priority": 7
+  },
+  "11065": {
+   "gloss": "마찬가지,같다,동일,맞다,동,똑같다",
+   "category": "기타",
+   "priority": 20
+  },
+  "11068": {
+   "gloss": "만,뿐,다만,단지,오로지,오직,한낱",
+   "category": "기타",
+   "priority": 7
+  },
+  "11077": {
+   "gloss": "사실,정말,진짜,참,맞다,정말로",
+   "category": "기타",
+   "priority": 7
+  },
+  "11085": {
+   "gloss": "무겁다,부담",
+   "category": "개념 > 성질",
+   "priority": 7
+  },
+  "11113": {
+   "gloss": "형형색색,가지각색,각양각색",
+   "category": "기타",
+   "priority": 7
+  },
+  "11126": {
+   "gloss": "확장,넓힘",
+   "category": "기타",
+   "priority": 7
+  },
+  "11147": {
+   "gloss": "내용,경과,내역,사항",
+   "category": "기타",
+   "priority": 7
+  },
+  "11150": {
+   "gloss": "놀다,실업",
+   "category": "기타",
+   "priority": 7
+  },
+  "11172": {
+   "gloss": "매진,고갈,소모,동나다,매진되다,바닥나다,없애다,다 팔리다",
+   "category": "기타",
+   "priority": 7
+  },
+  "11197": {
+   "gloss": "가져오다",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "11203": {
+   "gloss": "갈다,바꾸다,교대,교체,변경,변동",
+   "category": "기타",
+   "priority": 7
+  },
+  "11217": {
+   "gloss": "거행,하다",
+   "category": "기타",
+   "priority": 20
+  },
+  "11219": {
+   "gloss": "건너다,횡단,건너다,넘다,넘어가다,침범",
+   "category": "사회생활 > 교통",
+   "priority": 6
+  },
+  "11238": {
+   "gloss": "기운,힘",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "11241": {
+   "gloss": "밤,어둡다",
+   "category": "기타",
+   "priority": 7
+  },
+  "11287": {
+   "gloss": "복귀,환원,되돌리다,그대로",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "11301": {
+   "gloss": "(시간)시,시간",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "11307": {
+   "gloss": "사흘",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "11316": {
+   "gloss": "악취,나쁜 냄새",
+   "category": "기타",
+   "priority": 7
+  },
+  "11349": {
+   "gloss": "과",
+   "category": "교육 > 전공과 교과목",
+   "priority": 7
+  },
+  "11356": {
+   "gloss": "단위,제한,한계,한도,한정",
+   "category": "기타",
+   "priority": 7
+  },
+  "11365": {
+   "gloss": "의심,의회",
+   "category": "기타",
+   "priority": 7
+  },
+  "11371": {
+   "gloss": "별로,그다지",
+   "category": "개념 > 정도",
+   "priority": 7
+  },
+  "11378": {
+   "gloss": "바르다",
+   "category": "삶 > 치료",
+   "priority": 2
+  },
+  "11413": {
+   "gloss": "세면,세수,씻다",
+   "category": "기타",
+   "priority": 7
+  },
+  "11419": {
+   "gloss": "여덟,팔",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "11427": {
+   "gloss": "오너라,오라",
+   "category": "기타",
+   "priority": 7
+  },
+  "11433": {
+   "gloss": "아니다,아니",
+   "category": "기타",
+   "priority": 20
+  },
+  "11436": {
+   "gloss": "안 보이다",
+   "category": "기타",
+   "priority": 7
+  },
+  "11440": {
+   "gloss": "애매하다,가물거리다,가물대다,불분명하다,막연하다,묘연하다,아물거리다,흐리다,희미하다,모호,불확실,어렴풋이",
+   "category": "기타",
+   "priority": 7
+  },
+  "11463": {
+   "gloss": "유예,연기,물리다,미루다",
+   "category": "기타",
+   "priority": 7
+  },
+  "11467": {
+   "gloss": "굉장하다,심하다,심각하다",
+   "category": "개념 > 정도",
+   "priority": 7
+  },
+  "11478": {
+   "gloss": "구입,쇼핑,매수,사다",
+   "category": "경제생활 > 경제 행위",
+   "priority": 7
+  },
+  "11495": {
+   "gloss": "그릇되다,틀리다",
+   "category": "개념 > 성질",
+   "priority": 7
+  },
+  "11500": {
+   "gloss": "근로,근무,노동,일,작업",
+   "category": "기타",
+   "priority": 7
+  },
+  "11501": {
+   "gloss": "근면,열성,열심",
+   "category": "기타",
+   "priority": 7
+  },
+  "11510": {
+   "gloss": "금전,돈,화폐",
+   "category": "경제생활 > 경제 수단",
+   "priority": 7
+  },
+  "11513": {
+   "gloss": "기름,숙달,원활,능숙하다,매끄럽다,미끄럽다,순조롭다,자주,빈번히,낯익다",
+   "category": "식생활 > 식재료",
+   "priority": 3
+  },
+  "11514": {
+   "gloss": "기상,일어나다,일어서다,서다,독립",
+   "category": "기타",
+   "priority": 7
+  },
+  "11518": {
+   "gloss": "기침",
+   "category": "인간 > 생리 현상",
+   "priority": 3
+  },
+  "11524": {
+   "gloss": "까닭,뜻,명목,의미,이유,이치,뜻하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "11526": {
+   "gloss": "깨,세부,정밀,상세하다,세밀하다,자세하다,찬찬하다,치밀하다,샅샅이,꼼꼼 ",
+   "category": "식생활 > 식재료",
+   "priority": 3
+  },
+  "11536": {
+   "gloss": "나,내,제",
+   "category": "개념 > 인칭",
+   "priority": 7
+  },
+  "11547": {
+   "gloss": "낮,대낮,백주,밝다,새다,트다,환하다,훤하다",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "11554": {
+   "gloss": "내쉬다",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "11559": {
+   "gloss": "년,해",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "11564": {
+   "gloss": "논의,상담,상의,의논",
+   "category": "사회생활 > 언어",
+   "priority": 6
+  },
+  "11568": {
+   "gloss": "누르다",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "11571": {
+   "gloss": "다급하다,성급하다,조급하다",
+   "category": "개념 > 속도",
+   "priority": 7
+  },
+  "11602": {
+   "gloss": "머리,뇌,두뇌",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "11606": {
+   "gloss": "며칠",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "11611": {
+   "gloss": "명령,분부",
+   "category": "사회생활 > 언어",
+   "priority": 6
+  },
+  "11612": {
+   "gloss": "명확하다,정확,똑똑하다,뚜렷하다,명료하다,명백하다,분명하다,선명하다,확실하다,단연",
+   "category": "개념 > 성질",
+   "priority": 7
+  },
+  "11634": {
+   "gloss": "문의,물음,질문,묻다,물어보다,여쭈다,여쭙다,-ㅂ니까",
+   "category": "사회생활 > 언어",
+   "priority": 6
+  },
+  "11656": {
+   "gloss": "버스",
+   "category": "사회생활 > 교통",
+   "priority": 6
+  },
+  "11676": {
+   "gloss": "퍼지다,만연,분산,유포,해산,해체,번지다,옮다,흩어지다",
+   "category": "기타",
+   "priority": 7
+  },
+  "11707": {
+   "gloss": "저축,예금,적금",
+   "category": "경제생활 > 경제 행위",
+   "priority": 7
+  },
+  "11735": {
+   "gloss": "없어지다",
+   "category": "기타",
+   "priority": 7
+  },
+  "11779": {
+   "gloss": "일반,대개,보통,평범하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "11780": {
+   "gloss": "일월,정월",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "11785": {
+   "gloss": "자기,스스로,자체,혼자,홀로,자발",
+   "category": "개념 > 인칭",
+   "priority": 7
+  },
+  "11796": {
+   "gloss": "가다",
+   "category": "인간 > 신체 행위",
+   "priority": 20
+  },
+  "11797": {
+   "gloss": "기회,찬스",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "11813": {
+   "gloss": "고난,고생,고초,고통",
+   "category": "삶 > 삶의 상태",
+   "priority": 7
+  },
+  "11814": {
+   "gloss": "되풀이",
+   "category": "기타",
+   "priority": 7
+  },
+  "11829": {
+   "gloss": "칭찬",
+   "category": "사회생활 > 언어",
+   "priority": 6
+  },
+  "11833": {
+   "gloss": "답답하다,갑갑하다",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "11845": {
+   "gloss": "당신",
+   "category": "개념 > 인칭",
+   "priority": 7
+  },
+  "11849": {
+   "gloss": "저녁",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "11852": {
+   "gloss": "제일,가장,맨,수석",
+   "category": "개념 > 순서",
+   "priority": 7
+  },
+  "11875": {
+   "gloss": "설사",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "11896": {
+   "gloss": "갑자기,갑작스럽다,별안간,갑작스레",
+   "category": "기타",
+   "priority": 7
+  },
+  "11901": {
+   "gloss": "그만,금지,그만두다,금하다,말다,하지 마",
+   "category": "기타",
+   "priority": 7
+  },
+  "11914": {
+   "gloss": "남",
+   "category": "개념 > 위치 및 방향",
+   "priority": 7
+  },
+  "11915": {
+   "gloss": "가르치다,교육,교수하다",
+   "category": "교육 > 교수 학습 행위",
+   "priority": 7
+  },
+  "11916": {
+   "gloss": "가만있다,멈추다,멎다",
+   "category": "기타",
+   "priority": 7
+  },
+  "11931": {
+   "gloss": "모르다",
+   "category": "인간 > 인지 행위",
+   "priority": 8
+  },
+  "11959": {
+   "gloss": "일개월,달",
+   "category": "기타",
+   "priority": 7
+  },
+  "11965": {
+   "gloss": "영향,끼치다,파급",
+   "category": "기타",
+   "priority": 7
+  },
+  "11990": {
+   "gloss": "약",
+   "category": "삶 > 치료",
+   "priority": 2
+  },
+  "11992": {
+   "gloss": "치매",
+   "category": "삶 > 병과 증상",
+   "priority": 1
+  },
+  "11998": {
+   "gloss": "싫다,싫어하다",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "12028": {
+   "gloss": "엉덩이,궁둥이,볼기,히프",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "12034": {
+   "gloss": "외출",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "12035": {
+   "gloss": "왼쪽,좌측,좌",
+   "category": "개념 > 위치 및 방향",
+   "priority": 7
+  },
+  "12051": {
+   "gloss": "옮기다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12053": {
+   "gloss": "양분,영양,영양분,자양분",
+   "category": "기타",
+   "priority": 7
+  },
+  "12071": {
+   "gloss": "일치",
+   "category": "기타",
+   "priority": 7
+  },
+  "12102": {
+   "gloss": "자신",
+   "category": "개념 > 인칭",
+   "priority": 7
+  },
+  "12103": {
+   "gloss": "자유,임의,마구,마음껏,마음대로,멋대로,제멋대로,함부로",
+   "category": "삶 > 삶의 상태",
+   "priority": 7
+  },
+  "12104": {
+   "gloss": "사용,소비,쓰다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12110": {
+   "gloss": "입장",
+   "category": "기타",
+   "priority": 7
+  },
+  "12165": {
+   "gloss": "만나다",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "12168": {
+   "gloss": "불량,결함",
+   "category": "개념 > 성질",
+   "priority": 7
+  },
+  "12172": {
+   "gloss": "낫다",
+   "category": "개념 > 정도",
+   "priority": 7
+  },
+  "12173": {
+   "gloss": "낮다,비하",
+   "category": "개념 > 모양",
+   "priority": 7
+  },
+  "12177": {
+   "gloss": "노랑,노랗다,누렇다",
+   "category": "개념 > 색깔",
+   "priority": 7
+  },
+  "12190": {
+   "gloss": "절반,반",
+   "category": "개념 > 정도",
+   "priority": 7
+  },
+  "12211": {
+   "gloss": "봉사,공양,기증,제출,드리다,바치다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12240": {
+   "gloss": "선택,뽑다,선발,선출,택하다",
+   "category": "경제생활 > 경제 행위",
+   "priority": 7
+  },
+  "12255": {
+   "gloss": "손,맨손",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "12264": {
+   "gloss": "수면,숙박,잠,기숙사,자다",
+   "category": "삶 > 삶의 행위",
+   "priority": 5
+  },
+  "12326": {
+   "gloss": "짓다,공작,작성,제작,제조,만들다,가공",
+   "category": "기타",
+   "priority": 7
+  },
+  "12329": {
+   "gloss": "짧다",
+   "category": "개념 > 모양",
+   "priority": 7
+  },
+  "12382": {
+   "gloss": "초과,지나치다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12397": {
+   "gloss": "칠,일곱",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "12408": {
+   "gloss": "가능,할 수 있다",
+   "category": "인간 > 능력",
+   "priority": 7
+  },
+  "12411": {
+   "gloss": "가르다,나누다,구별,구분,분류,분별,분할,유별",
+   "category": "기타",
+   "priority": 7
+  },
+  "12415": {
+   "gloss": "간혹,가끔,때때로,이따금,종종",
+   "category": "개념 > 빈도",
+   "priority": 7
+  },
+  "12429": {
+   "gloss": "겉",
+   "category": "개념 > 위치 및 방향",
+   "priority": 7
+  },
+  "12432": {
+   "gloss": "결백,깔끔하다,깨끗하다,말끔하다,산뜻하다,소박하다,순결,순수,정결,청결",
+   "category": "기타",
+   "priority": 7
+  },
+  "12438": {
+   "gloss": "피곤,피로",
+   "category": "삶 > 삶의 상태",
+   "priority": 7
+  },
+  "12442": {
+   "gloss": "곧,금명간,신속,이르다,냉큼,빨리,속히,썩,어서,얼른,이내,일찍,일찍이,-자",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "12468": {
+   "gloss": "점검,감사,감시,감찰,검토,검사,수사,사찰,조사,살펴보다,살피다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12518": {
+   "gloss": "황홀,휘황하다,휘황찬란하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12528": {
+   "gloss": "넷,사",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "12573": {
+   "gloss": "하나,일,한번",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "12592": {
+   "gloss": "완전하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12618": {
+   "gloss": "시도,해보다,보이다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12619": {
+   "gloss": "알 수 없다,이해가 안 되다,아리송하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12628": {
+   "gloss": "푹,안식,편안,평안,편하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12642": {
+   "gloss": "벽",
+   "category": "주생활 > 주택 구성",
+   "priority": 7
+  },
+  "12645": {
+   "gloss": "부진,퇴보,퇴화,하강,하락,후퇴",
+   "category": "인간 > 능력",
+   "priority": 7
+  },
+  "12684": {
+   "gloss": "억지,강제,형벌,징계,꼬집다,벌,징벌",
+   "category": "인간 > 성격 및 태도",
+   "priority": 7
+  },
+  "12687": {
+   "gloss": "여성,부녀,부녀자,여인,여자,계집",
+   "category": "인간 > 사람의 종류",
+   "priority": 7
+  },
+  "12704": {
+   "gloss": "교사,교원,사범,선생,스승,교직자",
+   "category": "기타",
+   "priority": 7
+  },
+  "12707": {
+   "gloss": "구,아홉",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "12710": {
+   "gloss": "꼭,약속,-야,필수,필시",
+   "category": "기타",
+   "priority": 7
+  },
+  "12723": {
+   "gloss": "날마다,나날,매번,매일,수시,일상,늘,매양,번번이,언제나,항상",
+   "category": "기타",
+   "priority": 7
+  },
+  "12730": {
+   "gloss": "(온도가)내리다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12756": {
+   "gloss": "대략,대강,대충,약",
+   "category": "개념 > 정도",
+   "priority": 7
+  },
+  "12757": {
+   "gloss": "대리,대신,대치,대체,전환,바꾸다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12765": {
+   "gloss": "더하기,플러스",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "12776": {
+   "gloss": "두근거리다,불안,설레다,울렁거리다,조마조마하다,두근두근",
+   "category": "인간 > 감각",
+   "priority": 7
+  },
+  "12778": {
+   "gloss": "뒤엎다,뒤집어엎다,그러나,그런데,그렇지만,하지만",
+   "category": "기타",
+   "priority": 7
+  },
+  "12779": {
+   "gloss": "드러눕다,누이다,눕다,눕히다",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "12792": {
+   "gloss": "십이월",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "12818": {
+   "gloss": "것,몫,소유",
+   "category": "기타",
+   "priority": 20
+  },
+  "12841": {
+   "gloss": "육,여섯",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "12852": {
+   "gloss": "백점",
+   "category": "기타",
+   "priority": 7
+  },
+  "12857": {
+   "gloss": "내부,안,이내,내용",
+   "category": "개념 > 지역",
+   "priority": 7
+  },
+  "12891": {
+   "gloss": "사월",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "12919": {
+   "gloss": "신선하다,새롭다",
+   "category": "기타",
+   "priority": 7
+  },
+  "12922": {
+   "gloss": "유월",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "12947": {
+   "gloss": "빠지다",
+   "category": "기타",
+   "priority": 7
+  },
+  "14132": {
+   "gloss": "검진",
+   "category": "삶 > 치료",
+   "priority": 2
+  },
+  "14442": {
+   "gloss": "복부",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "14866": {
+   "gloss": "(신체기관)장",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "15149": {
+   "gloss": "폐",
+   "category": "인간 > 신체 부위 및 내부 구성",
+   "priority": 0
+  },
+  "15635": {
+   "gloss": "오디오,듣다,소식,청각",
+   "category": "주생활 > 생활 용품",
+   "priority": 7
+  },
+  "17210": {
+   "gloss": "두려움",
+   "category": "인간 > 감정",
+   "priority": 8
+  },
+  "18165": {
+   "gloss": "고난",
+   "category": "삶 > 삶의 상태",
+   "priority": 7
+  },
+  "19582": {
+   "gloss": "과거",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "22277": {
+   "gloss": "회사",
+   "category": "사회생활 > 직장 생활",
+   "priority": 6
+  },
+  "23826": {
+   "gloss": "가져가다",
+   "category": "사회생활 > 사회 활동",
+   "priority": 6
+  },
+  "23841": {
+   "gloss": "넷,사",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "23846": {
+   "gloss": "대립",
+   "category": "기타",
+   "priority": 7
+  },
+  "23851": {
+   "gloss": "둘,이",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "23852": {
+   "gloss": "들다",
+   "category": "인간 > 신체 행위",
+   "priority": 5
+  },
+  "23862": {
+   "gloss": "마찬가지,피장파장",
+   "category": "기타",
+   "priority": 7
+  },
+  "23865": {
+   "gloss": "매일",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "23873": {
+   "gloss": "바닥",
+   "category": "기타",
+   "priority": 7
+  },
+  "23874": {
+   "gloss": "바닥나다,비다,비우다",
+   "category": "기타",
+   "priority": 7
+  },
+  "23875": {
+   "gloss": "받다",
+   "category": "사회생활 > 사회 활동",
+   "priority": 20
+  },
+  "23903": {
+   "gloss": "오락가락",
+   "category": "기타",
+   "priority": 7
+  },
+  "23922": {
+   "gloss": "그냥,그저",
+   "category": "기타",
+   "priority": 7
+  },
+  "23933": {
+   "gloss": "답",
+   "category": "사회생활 > 언어",
+   "priority": 6
+  },
+  "23946": {
+   "gloss": "무조건,무작정",
+   "category": "기타",
+   "priority": 7
+  },
+  "23951": {
+   "gloss": "복사",
+   "category": "기타",
+   "priority": 7
+  },
+  "23958": {
+   "gloss": "서두르다,긴급,독촉,재촉,응급,급하다,시급하다",
+   "category": "기타",
+   "priority": 7
+  },
+  "23960": {
+   "gloss": "싫다,거부,거절,난색",
+   "category": "기타",
+   "priority": 7
+  },
+  "23975": {
+   "gloss": "종류,계통",
+   "category": "기타",
+   "priority": 7
+  },
+  "23990": {
+   "gloss": "항복",
+   "category": "기타",
+   "priority": 7
+  },
+  "23996": {
+   "gloss": "비교,견주다,대조",
+   "category": "기타",
+   "priority": 7
+  },
+  "24010": {
+   "gloss": "병원",
+   "category": "기타",
+   "priority": 7
+  },
+  "24022": {
+   "gloss": "시작,개시,개최,거행,시발,착수,출발,열다",
+   "category": "개념 > 순서",
+   "priority": 7
+  },
+  "24024": {
+   "gloss": "들",
+   "category": "경제생활 > 경제 행위 장소",
+   "priority": 7
+  },
+  "24028": {
+   "gloss": "시간,한 시간",
+   "category": "개념 > 시간",
+   "priority": 8
+  },
+  "24029": {
+   "gloss": "삼,셋",
+   "category": "개념 > 수",
+   "priority": 6
+  },
+  "24032": {
+   "gloss": "배부르다",
+   "category": "기타",
+   "priority": 7
+  },
+  "24033": {
+   "gloss": "설거지",
+   "category": "주생활 > 가사 행위",
+   "priority": 7
+  },
+  "24036": {
+   "gloss": "아니다,않다",
+   "category": "기타",
+   "priority": 20
+  },
+  "24701": {
+   "gloss": "(맛이)짜다",
+   "category": "사회생활 > 인간관계",
+   "priority": 6
+  },
+  "24704": {
+   "gloss": "이론,쓰다",
+   "category": "기타",
+   "priority": 7
+  }
+ },
+ "surfaceToGloss": {
+  "(가진것이)없다": [
+   7816
+  ],
+  "(공간이)좁다": [
+   8987
+  ],
+  "(공간이)차다": [
+   9875
+  ],
+  "(기온이)오르다": [
+   5084
+  ],
+  "(눈을)감다": [
+   4561
+  ],
+  "(맛이)쓰다": [
+   8316
+  ],
+  "(맛이)짜다": [
+   24701
+  ],
+  "(불가능)없다": [
+   7817
+  ],
+  "(시간)시": [
+   8889,
+   11301
+  ],
+  "(신체기관)장": [
+   14866
+  ],
+  "(신체의)눈": [
+   5397
+  ],
+  "(신체의)다리": [
+   7364
+  ],
+  "(신체의)등": [
+   6864
+  ],
+  "(쌀이)떨어지다": [
+   7377
+  ],
+  "(쌀이)바닥나다": [
+   7377
+  ],
+  "(온도가)내리다": [
+   12730
+  ],
+  "(존재가)없다": [
+   2722
+  ],
+  "(해가)돋다": [
+   2231
+  ],
+  "(혈액의)순환": [
+   5456
+  ],
+  "-ㅂ니까": [
+   11634
+  ],
+  "-국": [
+   11
+  ],
+  "-꾼": [
+   328
+  ],
+  "-끼리": [
+   1397
+  ],
+  "-니까": [
+   6801
+  ],
+  "-던": [
+   6767
+  ],
+  "-면": [
+   10423
+  ],
+  "-면서": [
+   6934
+  ],
+  "-민": [
+   8239
+  ],
+  "-았": [
+   6767
+  ],
+  "-았(-었)": [
+   6767
+  ],
+  "-야": [
+   12710
+  ],
+  "-자": [
+   12442
+  ],
+  "-쯤": [
+   10403
+  ],
+  "1": [
+   12573
+  ],
+  "10": [
+   7866,
+   10919,
+   10923
+  ],
+  "12": [
+   10923
+  ],
+  "2": [
+   10515,
+   10923,
+   23851
+  ],
+  "3": [
+   24029
+  ],
+  "4": [
+   12528,
+   23841
+  ],
+  "5": [
+   11055
+  ],
+  "50": [
+   5051
+  ],
+  "6": [
+   12841
+  ],
+  "7": [
+   12397
+  ],
+  "8": [
+   11419
+  ],
+  "9": [
+   12707
+  ],
+  "ㄹ것이다": [
+   2569
+  ],
+  "가공": [
+   12326
+  ],
+  "가깝다": [
+   6870
+  ],
+  "가끔": [
+   12415
+  ],
+  "가능": [
+   7817,
+   9185,
+   12408
+  ],
+  "가다": [
+   4561,
+   8993,
+   11796
+  ],
+  "가라앉다": [
+   828
+  ],
+  "가라앉히다": [
+   828
+  ],
+  "가렵다": [
+   6765
+  ],
+  "가루": [
+   9350
+  ],
+  "가르다": [
+   12411
+  ],
+  "가르치다": [
+   11915
+  ],
+  "가만있다": [
+   11916
+  ],
+  "가만히": [
+   9351
+  ],
+  "가물": [
+   11440
+  ],
+  "가물거리다": [
+   11440
+  ],
+  "가물대다": [
+   11440
+  ],
+  "가볍다": [
+   10998
+  ],
+  "가슴": [
+   6835
+  ],
+  "가시": [
+   835,
+   6836
+  ],
+  "가시다": [
+   835
+  ],
+  "가옥": [
+   8410
+  ],
+  "가운데": [
+   5275
+  ],
+  "가입": [
+   6885
+  ],
+  "가장": [
+   11852
+  ],
+  "가져가다": [
+   23826
+  ],
+  "가져오다": [
+   11197
+  ],
+  "가죽": [
+   5946
+  ],
+  "가지": [
+   8993
+  ],
+  "가지각색": [
+   11113
+  ],
+  "가지다": [
+   6774,
+   7816
+  ],
+  "각": [
+   9365
+  ],
+  "각각": [
+   9365
+  ],
+  "각기": [
+   9365
+  ],
+  "각별": [
+   10544
+  ],
+  "각양각색": [
+   11113
+  ],
+  "간": [
+   5675
+  ],
+  "간단": [
+   7392
+  ],
+  "간단하다": [
+   7392
+  ],
+  "간략": [
+   7392
+  ],
+  "간략하다": [
+   7392
+  ],
+  "간편하다": [
+   7392
+  ],
+  "간혹": [
+   12415
+  ],
+  "갇히다": [
+   9356
+  ],
+  "갈급": [
+   8904
+  ],
+  "갈다": [
+   9772,
+   11203
+  ],
+  "갈등": [
+   6408
+  ],
+  "갈비": [
+   11004
+  ],
+  "갈비뼈": [
+   11004
+  ],
+  "감": [
+   2325
+  ],
+  "감다": [
+   4561
+  ],
+  "감당": [
+   1502
+  ],
+  "감면": [
+   6481
+  ],
+  "감사": [
+   12468
+  ],
+  "감소": [
+   6001
+  ],
+  "감시": [
+   12468
+  ],
+  "감싸다": [
+   4571
+  ],
+  "감염": [
+   9359
+  ],
+  "감정": [
+   9360
+  ],
+  "감찰": [
+   12468
+  ],
+  "감표": [
+   2325
+  ],
+  "갑갑": [
+   11833
+  ],
+  "갑갑하다": [
+   11833
+  ],
+  "갑자기": [
+   11896
+  ],
+  "갑작스럽다": [
+   11896
+  ],
+  "갑작스레": [
+   11896
+  ],
+  "값": [
+   2374
+  ],
+  "갓": [
+   6990
+  ],
+  "강건": [
+   8517
+  ],
+  "강건하다": [
+   8517
+  ],
+  "강의": [
+   7251
+  ],
+  "강제": [
+   12684
+  ],
+  "강하다": [
+   8608
+  ],
+  "갖다": [
+   6774
+  ],
+  "같다": [
+   11052,
+   11065
+  ],
+  "같이": [
+   1397
+  ],
+  "개개": [
+   9365
+  ],
+  "개별": [
+   9365
+  ],
+  "개시": [
+   24022
+  ],
+  "개월": [
+   11959
+  ],
+  "개인": [
+   4408
+  ],
+  "개최": [
+   24022
+  ],
+  "거거년": [
+   9590
+  ],
+  "거동": [
+   930
+  ],
+  "거들다": [
+   5447
+  ],
+  "거듭": [
+   7833
+  ],
+  "거리": [
+   6597
+  ],
+  "거부": [
+   23960
+  ],
+  "거북": [
+   6408
+  ],
+  "거북하다": [
+   6408
+  ],
+  "거절": [
+   8391,
+   23960
+  ],
+  "거치다": [
+   2792
+  ],
+  "거행": [
+   11217,
+   24022
+  ],
+  "걱정": [
+   4765
+  ],
+  "건강": [
+   8517
+  ],
+  "건너다": [
+   11219
+  ],
+  "건네다": [
+   8307
+  ],
+  "건네주다": [
+   8307
+  ],
+  "걷다": [
+   3762
+  ],
+  "걸리다": [
+   9359
+  ],
+  "걸음": [
+   3762
+  ],
+  "검거": [
+   5676
+  ],
+  "검다": [
+   6875
+  ],
+  "검사": [
+   12468
+  ],
+  "검정": [
+   6875
+  ],
+  "검진": [
+   4182,
+   14132
+  ],
+  "검토": [
+   12468
+  ],
+  "것": [
+   2569,
+   5081,
+   7816,
+   12818
+  ],
+  "겉": [
+   12429
+  ],
+  "게다가": [
+   2104
+  ],
+  "게우다": [
+   914
+  ],
+  "겪다": [
+   6767
+  ],
+  "견고": [
+   8608
+  ],
+  "견고하다": [
+   8608
+  ],
+  "견디다": [
+   10493
+  ],
+  "견주다": [
+   23996
+  ],
+  "견해": [
+   6241
+  ],
+  "결과": [
+   9376
+  ],
+  "결국": [
+   9376
+  ],
+  "결말": [
+   9376
+  ],
+  "결백": [
+   12432
+  ],
+  "결손": [
+   10435
+  ],
+  "결정": [
+   9377
+  ],
+  "결코": [
+   8671
+  ],
+  "결핍": [
+   10435
+  ],
+  "결함": [
+   12168
+  ],
+  "겹치다": [
+   9714
+  ],
+  "경감": [
+   6481
+  ],
+  "경계": [
+   7437,
+   10793
+  ],
+  "경과": [
+   801,
+   11147
+  ],
+  "경우": [
+   6800
+  ],
+  "경험": [
+   6927
+  ],
+  "계단": [
+   6929
+  ],
+  "계란": [
+   10952
+  ],
+  "계산": [
+   6933
+  ],
+  "계속": [
+   6934
+  ],
+  "계시다": [
+   6281
+  ],
+  "계약": [
+   6935
+  ],
+  "계집": [
+   12687
+  ],
+  "계통": [
+   23975
+  ],
+  "고갈": [
+   11172
+  ],
+  "고기": [
+   5946,
+   5947
+  ],
+  "고난": [
+   11813,
+   18165
+  ],
+  "고루고루": [
+   301
+  ],
+  "고생": [
+   11813
+  ],
+  "고초": [
+   11813
+  ],
+  "고통": [
+   11813
+  ],
+  "곤두박질": [
+   2022
+  ],
+  "곤두질": [
+   2022
+  ],
+  "곤충": [
+   9389
+  ],
+  "곧": [
+   9390,
+   12442
+  ],
+  "곧다": [
+   9390
+  ],
+  "골고루": [
+   31
+  ],
+  "골똘": [
+   10488
+  ],
+  "골똘하다": [
+   10488
+  ],
+  "골몰": [
+   10488
+  ],
+  "곳": [
+   4623
+  ],
+  "공": [
+   8671
+  ],
+  "공간": [
+   8987,
+   9875
+  ],
+  "공공": [
+   8671
+  ],
+  "공기": [
+   1041,
+   7953
+  ],
+  "공들이다": [
+   5522
+  ],
+  "공양": [
+   12211
+  ],
+  "공작": [
+   12326
+  ],
+  "공제": [
+   6481
+  ],
+  "과": [
+   328,
+   11349
+  ],
+  "과거": [
+   19582
+  ],
+  "관계": [
+   3678
+  ],
+  "관계없다": [
+   3810
+  ],
+  "관련": [
+   3678
+  ],
+  "관철": [
+   10026
+  ],
+  "관통": [
+   10026
+  ],
+  "광고": [
+   10477
+  ],
+  "괜찮다": [
+   9466
+  ],
+  "괴롭다": [
+   4765
+  ],
+  "굉장": [
+   11467
+  ],
+  "굉장하다": [
+   11467
+  ],
+  "교대": [
+   11203
+  ],
+  "교묘하다": [
+   10789
+  ],
+  "교부": [
+   8307
+  ],
+  "교사": [
+   4510,
+   12704
+  ],
+  "교수": [
+   11915
+  ],
+  "교수하다": [
+   11915
+  ],
+  "교원": [
+   12704
+  ],
+  "교육": [
+   11915
+  ],
+  "교직자": [
+   12704
+  ],
+  "교체": [
+   9772,
+   11203
+  ],
+  "교체하다": [
+   9772
+  ],
+  "교통사고": [
+   6635
+  ],
+  "구": [
+   12707
+  ],
+  "구급차": [
+   6683
+  ],
+  "구류": [
+   9356
+  ],
+  "구별": [
+   12411
+  ],
+  "구분": [
+   12411
+  ],
+  "구월": [
+   10990
+  ],
+  "구입": [
+   11478
+  ],
+  "구토": [
+   914
+  ],
+  "국": [
+   11
+  ],
+  "국가": [
+   11
+  ],
+  "굳다": [
+   8608
+  ],
+  "굼뜨다": [
+   9928
+  ],
+  "궁금": [
+   3663
+  ],
+  "궁금하다": [
+   3663
+  ],
+  "궁둥이": [
+   12028
+  ],
+  "귀": [
+   3706
+  ],
+  "귀신": [
+   8597
+  ],
+  "귀중하다": [
+   8620
+  ],
+  "귀찮다": [
+   4322
+  ],
+  "균일": [
+   31
+  ],
+  "균형": [
+   32
+  ],
+  "그냥": [
+   23922
+  ],
+  "그다": [
+   11707
+  ],
+  "그다음": [
+   10100
+  ],
+  "그다지": [
+   11371
+  ],
+  "그대로": [
+   7729,
+   11287
+  ],
+  "그러나": [
+   12778
+  ],
+  "그러면": [
+   10423
+  ],
+  "그런데": [
+   12778
+  ],
+  "그렇지만": [
+   12778
+  ],
+  "그릇되다": [
+   11495
+  ],
+  "그리고": [
+   7422
+  ],
+  "그만": [
+   8729,
+   11901
+  ],
+  "그만두다": [
+   11901
+  ],
+  "그저": [
+   23922
+  ],
+  "그저께": [
+   4675
+  ],
+  "그제": [
+   4675
+  ],
+  "근로": [
+   11500
+  ],
+  "근면": [
+   11501
+  ],
+  "근무": [
+   11500
+  ],
+  "근본": [
+   3679
+  ],
+  "근사": [
+   301
+  ],
+  "근사하다": [
+   301
+  ],
+  "근심": [
+   4765
+  ],
+  "긁다": [
+   6765
+  ],
+  "금": [
+   11901
+  ],
+  "금명간": [
+   12442
+  ],
+  "금요일": [
+   7585
+  ],
+  "금일": [
+   7703
+  ],
+  "금전": [
+   11510
+  ],
+  "금지": [
+   11901
+  ],
+  "금하다": [
+   11901
+  ],
+  "급하다": [
+   23958
+  ],
+  "기계": [
+   6715
+  ],
+  "기관": [
+   14866
+  ],
+  "기권": [
+   9937
+  ],
+  "기다리다": [
+   7336
+  ],
+  "기대": [
+   7752
+  ],
+  "기대다": [
+   7752
+  ],
+  "기력": [
+   8517
+  ],
+  "기름": [
+   11513
+  ],
+  "기반": [
+   3679
+  ],
+  "기본": [
+   3679
+  ],
+  "기분": [
+   9360
+  ],
+  "기상": [
+   11514
+  ],
+  "기숙사": [
+   12264
+  ],
+  "기억": [
+   7558
+  ],
+  "기여": [
+   5447
+  ],
+  "기온": [
+   5084
+  ],
+  "기운": [
+   11238
+  ],
+  "기증": [
+   12211
+  ],
+  "기초": [
+   3679
+  ],
+  "기침": [
+   11518
+  ],
+  "기타": [
+   10897
+  ],
+  "기회": [
+   11797
+  ],
+  "긴급": [
+   23958
+  ],
+  "길다": [
+   6726
+  ],
+  "까닭": [
+   11524
+  ],
+  "까맣다": [
+   6875
+  ],
+  "까지": [
+   8729
+  ],
+  "깎다": [
+   6481
+  ],
+  "깔끔": [
+   12432
+  ],
+  "깔끔하다": [
+   12432
+  ],
+  "깨": [
+   11526
+  ],
+  "깨끗": [
+   12432
+  ],
+  "깨끗하다": [
+   12432
+  ],
+  "깨다": [
+   6368
+  ],
+  "꺾다": [
+   2361
+  ],
+  "껄끄럽다": [
+   6408
+  ],
+  "꼬집다": [
+   12684
+  ],
+  "꼭": [
+   12710
+  ],
+  "꼴": [
+   10433
+  ],
+  "꼼꼼": [
+   11526
+  ],
+  "꾼": [
+   328
+  ],
+  "꿰뚫다": [
+   10026
+  ],
+  "끄다": [
+   2715
+  ],
+  "끄덕이다": [
+   10824
+  ],
+  "끈기": [
+   4703
+  ],
+  "끈덕지다": [
+   4703
+  ],
+  "끈질기다": [
+   4703
+  ],
+  "끊어지다": [
+   610
+  ],
+  "끝": [
+   8729
+  ],
+  "끝나다": [
+   8729
+  ],
+  "끼치다": [
+   11965
+  ],
+  "나": [
+   11536
+  ],
+  "나날": [
+   12723
+  ],
+  "나누다": [
+   12411
+  ],
+  "나다": [
+   5511,
+   10474
+  ],
+  "나라": [
+   11
+  ],
+  "나쁘다": [
+   4535,
+   11316
+  ],
+  "나쁜냄새": [
+   11316
+  ],
+  "나오다": [
+   10474
+  ],
+  "나이": [
+   9746
+  ],
+  "나이프": [
+   9967
+  ],
+  "나잇살": [
+   9746
+  ],
+  "나중": [
+   4542
+  ],
+  "나타나다": [
+   4573
+  ],
+  "나타내다": [
+   10477
+  ],
+  "나흘": [
+   10038
+  ],
+  "난색": [
+   23960
+  ],
+  "난항": [
+   437
+  ],
+  "날": [
+   4374,
+   12723
+  ],
+  "날마다": [
+   12723
+  ],
+  "날씬": [
+   3721
+  ],
+  "날씬하다": [
+   3721
+  ],
+  "날짜": [
+   8602
+  ],
+  "날카롭다": [
+   6836
+  ],
+  "남": [
+   1722,
+   11914
+  ],
+  "남쪽": [
+   1722
+  ],
+  "납득": [
+   5993
+  ],
+  "낫다": [
+   12172
+  ],
+  "낮": [
+   11547
+  ],
+  "낮다": [
+   12173
+  ],
+  "낯": [
+   8407
+  ],
+  "낯익다": [
+   11513
+  ],
+  "낱낱이": [
+   9365
+  ],
+  "낳다": [
+   5511
+  ],
+  "내": [
+   11536
+  ],
+  "내내": [
+   6934
+  ],
+  "내년": [
+   5514
+  ],
+  "내리다": [
+   12730
+  ],
+  "내밀": [
+   8307
+  ],
+  "내밀다": [
+   8307
+  ],
+  "내버리다": [
+   649
+  ],
+  "내부": [
+   12857
+  ],
+  "내쉬다": [
+   11554
+  ],
+  "내역": [
+   11147
+  ],
+  "내용": [
+   11147,
+   12857
+  ],
+  "내일": [
+   6442,
+   7499
+  ],
+  "내일모레": [
+   7499
+  ],
+  "내주": [
+   6443
+  ],
+  "내주다": [
+   8307
+  ],
+  "내키다": [
+   48
+  ],
+  "냄새": [
+   1041,
+   7953,
+   11316
+  ],
+  "냉각": [
+   828,
+   9670
+  ],
+  "냉큼": [
+   12442
+  ],
+  "너": [
+   6450
+  ],
+  "넉넉": [
+   10402
+  ],
+  "넉넉하다": [
+   10402
+  ],
+  "넓히다": [
+   11126
+  ],
+  "넓힘": [
+   11126
+  ],
+  "넘다": [
+   11219
+  ],
+  "넘어가다": [
+   11219
+  ],
+  "넘어지다": [
+   6629
+  ],
+  "넣다": [
+   6631
+  ],
+  "네": [
+   6450
+  ],
+  "넷": [
+   12528,
+   23841
+  ],
+  "년": [
+   9590,
+   11559
+  ],
+  "노고": [
+   6096
+  ],
+  "노동": [
+   11500
+  ],
+  "노랑": [
+   12177
+  ],
+  "노랗다": [
+   12177
+  ],
+  "노력": [
+   5522
+  ],
+  "논의": [
+   11564
+  ],
+  "놀다": [
+   11150
+  ],
+  "높다": [
+   6509
+  ],
+  "뇌": [
+   11602
+  ],
+  "누가": [
+   5394
+  ],
+  "누구": [
+   5394
+  ],
+  "누락": [
+   363
+  ],
+  "누렇다": [
+   12177
+  ],
+  "누르다": [
+   11568
+  ],
+  "누이": [
+   12779
+  ],
+  "누이다": [
+   12779
+  ],
+  "눈": [
+   4561,
+   5397
+  ],
+  "눕다": [
+   12779
+  ],
+  "눕히다": [
+   12779
+  ],
+  "뉘": [
+   5394
+  ],
+  "뉘앙스": [
+   6737
+  ],
+  "느끼다": [
+   6737
+  ],
+  "느낌": [
+   6737
+  ],
+  "느리다": [
+   9928
+  ],
+  "늑골": [
+   11004
+  ],
+  "늘": [
+   6320,
+   12723
+  ],
+  "늘다": [
+   6320
+  ],
+  "늘리다": [
+   6320
+  ],
+  "늘이다": [
+   6320
+  ],
+  "늠름": [
+   10402
+  ],
+  "늠름하다": [
+   10402
+  ],
+  "능숙": [
+   11513
+  ],
+  "능숙하다": [
+   11513
+  ],
+  "늦다": [
+   9928
+  ],
+  "다": [
+   1276,
+   4145,
+   7235,
+   7497,
+   7598,
+   8391,
+   8729,
+   9390,
+   10385,
+   10493,
+   11172,
+   12264
+  ],
+  "다각": [
+   8993
+  ],
+  "다각도": [
+   8993
+  ],
+  "다급": [
+   11571
+  ],
+  "다급하다": [
+   11571
+  ],
+  "다니다": [
+   7362
+  ],
+  "다르다": [
+   7363
+  ],
+  "다리": [
+   7364
+  ],
+  "다만": [
+   11068
+  ],
+  "다섯": [
+   11055
+  ],
+  "다소": [
+   7957
+  ],
+  "다시": [
+   7422
+  ],
+  "다음": [
+   5514,
+   6443,
+   7277,
+   10100
+  ],
+  "다음주": [
+   6443
+  ],
+  "다음해": [
+   5514
+  ],
+  "다치다": [
+   2238
+  ],
+  "다팔리다": [
+   11172
+  ],
+  "다행": [
+   6376
+  ],
+  "단계": [
+   10994
+  ],
+  "단단": [
+   8608
+  ],
+  "단단하다": [
+   8608
+  ],
+  "단순": [
+   7392
+  ],
+  "단연": [
+   11612
+  ],
+  "단위": [
+   11356
+  ],
+  "단정하다": [
+   9390
+  ],
+  "단지": [
+   11068
+  ],
+  "달": [
+   2652,
+   11959
+  ],
+  "달걀": [
+   10952
+  ],
+  "달다": [
+   6706
+  ],
+  "달라다": [
+   3900
+  ],
+  "달리기": [
+   3903
+  ],
+  "달리다": [
+   3903
+  ],
+  "달성": [
+   7598
+  ],
+  "담그다": [
+   6631,
+   9733
+  ],
+  "담당": [
+   1502
+  ],
+  "담배": [
+   6749
+  ],
+  "답": [
+   23933
+  ],
+  "답답하다": [
+   11833
+  ],
+  "당기다": [
+   8752
+  ],
+  "당당": [
+   10402
+  ],
+  "당당하다": [
+   10402
+  ],
+  "당부": [
+   22
+  ],
+  "당분": [
+   6706
+  ],
+  "당신": [
+   11845
+  ],
+  "당하다": [
+   6767
+  ],
+  "당황": [
+   7372
+  ],
+  "닿다": [
+   7373
+  ],
+  "대": [
+   32,
+   8410
+  ],
+  "대강": [
+   12756
+  ],
+  "대개": [
+   11779
+  ],
+  "대금": [
+   2374
+  ],
+  "대기": [
+   1041,
+   7336,
+   7953
+  ],
+  "대낮": [
+   11547
+  ],
+  "대다": [
+   11440
+  ],
+  "대다수": [
+   908
+  ],
+  "대등": [
+   32
+  ],
+  "대략": [
+   12756
+  ],
+  "대리": [
+   12757
+  ],
+  "대립": [
+   23846
+  ],
+  "대변": [
+   11053
+  ],
+  "대부분": [
+   908
+  ],
+  "대신": [
+   12757
+  ],
+  "대장": [
+   5372
+  ],
+  "대조": [
+   23996
+  ],
+  "대체": [
+   9772,
+   12757
+  ],
+  "대체하다": [
+   9772
+  ],
+  "대충": [
+   12756
+  ],
+  "대치": [
+   12757
+  ],
+  "대학": [
+   5560
+  ],
+  "대학교": [
+   6212
+  ],
+  "댁": [
+   8410
+  ],
+  "더": [
+   2104
+  ],
+  "더구나": [
+   2104
+  ],
+  "더디다": [
+   9928
+  ],
+  "더럽다": [
+   6223
+  ],
+  "더미": [
+   1475
+  ],
+  "더불다": [
+   1397
+  ],
+  "더위": [
+   6492
+  ],
+  "더하기": [
+   12765
+  ],
+  "던": [
+   6767
+  ],
+  "덜": [
+   6481
+  ],
+  "덜기": [
+   2325
+  ],
+  "덜다": [
+   2325,
+   6481
+  ],
+  "덥다": [
+   6492
+  ],
+  "덮다": [
+   7066
+  ],
+  "도래": [
+   7704
+  ],
+  "도보": [
+   3762
+  ],
+  "도움": [
+   5447
+  ],
+  "도중": [
+   8116
+  ],
+  "독": [
+   6085
+  ],
+  "독립": [
+   11514
+  ],
+  "독촉": [
+   23958
+  ],
+  "독하다": [
+   6085
+  ],
+  "돈": [
+   11510
+  ],
+  "돋다": [
+   2231,
+   10474
+  ],
+  "돌": [
+   6546
+  ],
+  "돌아가다": [
+   7477
+  ],
+  "돌아서다": [
+   5504,
+   9772
+  ],
+  "돕다": [
+   5447
+  ],
+  "동": [
+   2231,
+   11065
+  ],
+  "동결": [
+   735
+  ],
+  "동나다": [
+   11172
+  ],
+  "동반": [
+   1397
+  ],
+  "동시": [
+   6636
+  ],
+  "동안": [
+   6637
+  ],
+  "동일": [
+   31,
+   11052,
+   11065
+  ],
+  "동일하다": [
+   11052
+  ],
+  "동작": [
+   930
+  ],
+  "동체": [
+   5655
+  ],
+  "되다": [
+   6798,
+   7002,
+   8673,
+   12619
+  ],
+  "되돌리다": [
+   11287
+  ],
+  "되풀이": [
+   11814
+  ],
+  "두근거리다": [
+   12776
+  ],
+  "두근두근": [
+   12776
+  ],
+  "두껍다": [
+   7410
+  ],
+  "두뇌": [
+   11602
+  ],
+  "두다": [
+   11901
+  ],
+  "두려움": [
+   17210
+  ],
+  "두절": [
+   610
+  ],
+  "둘": [
+   10515,
+   10923,
+   23851
+  ],
+  "둘러싸다": [
+   4571
+  ],
+  "둘이": [
+   10515
+  ],
+  "뒤따르다": [
+   10085
+  ],
+  "뒤엎다": [
+   12778
+  ],
+  "뒤집어엎다": [
+   12778
+  ],
+  "드디어": [
+   9376
+  ],
+  "드러나다": [
+   4573
+  ],
+  "드러내다": [
+   10477
+  ],
+  "드러눕다": [
+   12779
+  ],
+  "드리다": [
+   12211
+  ],
+  "듣다": [
+   6417,
+   15635
+  ],
+  "들": [
+   24024
+  ],
+  "들다": [
+   23852
+  ],
+  "들어가다": [
+   11006
+  ],
+  "듬뿍": [
+   10402
+  ],
+  "등": [
+   32,
+   6864,
+   10155
+  ],
+  "등록": [
+   6885
+  ],
+  "등산": [
+   6905
+  ],
+  "따뜻": [
+   1722
+  ],
+  "따뜻하다": [
+   1722
+  ],
+  "따라가다": [
+   10085
+  ],
+  "따로": [
+   11047
+  ],
+  "따르다": [
+   10085
+  ],
+  "따분하다": [
+   6015
+  ],
+  "딱": [
+   1768,
+   10393
+  ],
+  "딱딱": [
+   8608
+  ],
+  "딱딱하다": [
+   8608
+  ],
+  "딱맞다": [
+   10393
+  ],
+  "딴": [
+   7363
+  ],
+  "때": [
+   6223,
+   6800
+  ],
+  "때때로": [
+   12415
+  ],
+  "때문": [
+   6801
+  ],
+  "떠나다": [
+   6802
+  ],
+  "떨다": [
+   11058
+  ],
+  "떨리다": [
+   11058
+  ],
+  "떨림": [
+   11058
+  ],
+  "떨어지다": [
+   2022,
+   7377
+  ],
+  "떳떳": [
+   10402
+  ],
+  "떳떳하다": [
+   10402
+  ],
+  "또": [
+   7422
+  ],
+  "똑같다": [
+   11052,
+   11065
+  ],
+  "똑똑": [
+   11612
+  ],
+  "똑똑하다": [
+   11612
+  ],
+  "똑바로": [
+   328
+  ],
+  "똑바르다": [
+   9390
+  ],
+  "똥": [
+   11053
+  ],
+  "뚜렷": [
+   11612
+  ],
+  "뚜렷하다": [
+   11612
+  ],
+  "뚱뚱": [
+   6391
+  ],
+  "뚱뚱하다": [
+   6391
+  ],
+  "뛰다": [
+   3903
+  ],
+  "뜨겁다": [
+   7491
+  ],
+  "뜻": [
+   11524
+  ],
+  "뜻하다": [
+   11524
+  ],
+  "랑": [
+   1397
+  ],
+  "마구": [
+   12103
+  ],
+  "마귀": [
+   8597
+  ],
+  "마다": [
+   10385
+  ],
+  "마비": [
+   6275
+  ],
+  "마시다": [
+   6277
+  ],
+  "마약": [
+   11063
+  ],
+  "마음": [
+   6279
+  ],
+  "마음껏": [
+   12103
+  ],
+  "마음대로": [
+   12103
+  ],
+  "마이너스": [
+   2325
+  ],
+  "마지막": [
+   9376
+  ],
+  "마지못하다": [
+   10391
+  ],
+  "마찬가지": [
+   11065,
+   23862
+  ],
+  "마찰": [
+   6408
+  ],
+  "마치": [
+   8729
+  ],
+  "마치다": [
+   8729
+  ],
+  "마침": [
+   10393
+  ],
+  "마침내": [
+   9376
+  ],
+  "막": [
+   1276,
+   8391
+  ],
+  "막다": [
+   1276,
+   8391
+  ],
+  "막론": [
+   3810
+  ],
+  "막론하다": [
+   3810
+  ],
+  "막연": [
+   11440
+  ],
+  "막연하다": [
+   11440
+  ],
+  "막중하다": [
+   8620
+  ],
+  "막히다": [
+   1276
+  ],
+  "만": [
+   11068
+  ],
+  "만나다": [
+   12165
+  ],
+  "만들다": [
+   12326
+  ],
+  "만료": [
+   1283
+  ],
+  "만연": [
+   11676
+  ],
+  "만족": [
+   10402
+  ],
+  "만큼": [
+   10403
+  ],
+  "많다": [
+   6094
+  ],
+  "말": [
+   6135
+  ],
+  "말끔하다": [
+   12432
+  ],
+  "말다": [
+   11901
+  ],
+  "말랑": [
+   10635
+  ],
+  "말랑하다": [
+   10635
+  ],
+  "말미암다": [
+   6801
+  ],
+  "말하다": [
+   6135
+  ],
+  "맛": [
+   6456,
+   24701
+  ],
+  "맛나다": [
+   6456
+  ],
+  "맛이": [
+   8316
+  ],
+  "맛있다": [
+   6456
+  ],
+  "망설이다": [
+   6597
+  ],
+  "맞다": [
+   1768,
+   7730,
+   10393,
+   11065,
+   11077
+  ],
+  "맞지않다": [
+   7730
+  ],
+  "맡기다": [
+   6640
+  ],
+  "맡다": [
+   1502
+  ],
+  "매개": [
+   10533
+  ],
+  "매끄럽다": [
+   11513
+  ],
+  "매번": [
+   12723
+  ],
+  "매수": [
+   11478
+  ],
+  "매양": [
+   12723
+  ],
+  "매일": [
+   12723,
+   23865
+  ],
+  "매주": [
+   5957
+  ],
+  "매진": [
+   11172
+  ],
+  "매진되다": [
+   11172
+  ],
+  "맥": [
+   5958
+  ],
+  "맥박": [
+   5958
+  ],
+  "맨": [
+   11852
+  ],
+  "맨손": [
+   12255
+  ],
+  "맵다": [
+   7312
+  ],
+  "맺다": [
+   6935
+  ],
+  "머리": [
+   11602
+  ],
+  "머무르다": [
+   6281
+  ],
+  "머무적거리다": [
+   6597
+  ],
+  "머뭇거리다": [
+   6597
+  ],
+  "먹다": [
+   1276,
+   10419
+  ],
+  "멀미": [
+   6422
+  ],
+  "멈추다": [
+   11916
+  ],
+  "멋대로": [
+   12103
+  ],
+  "멍": [
+   7488
+  ],
+  "멍들다": [
+   7488
+  ],
+  "멍하니": [
+   7528
+  ],
+  "멍하다": [
+   7528
+  ],
+  "멎다": [
+   11916
+  ],
+  "메스껍다": [
+   6422
+  ],
+  "며칠": [
+   11606
+  ],
+  "멸치": [
+   6805
+  ],
+  "명": [
+   7059
+  ],
+  "명년": [
+   5514
+  ],
+  "명령": [
+   11611
+  ],
+  "명료하다": [
+   11612
+  ],
+  "명목": [
+   11524
+  ],
+  "명백하다": [
+   11612
+  ],
+  "명일": [
+   6442
+  ],
+  "명확하다": [
+   11612
+  ],
+  "몇": [
+   7806
+  ],
+  "모기": [
+   6294
+  ],
+  "모두": [
+   7497
+  ],
+  "모든": [
+   7497
+  ],
+  "모레": [
+   7499
+  ],
+  "모르다": [
+   11931
+  ],
+  "모습": [
+   10433
+  ],
+  "모양": [
+   10433
+  ],
+  "모으다": [
+   5308
+  ],
+  "모이다": [
+   5308
+  ],
+  "모자라다": [
+   10435
+  ],
+  "모조리": [
+   7497
+  ],
+  "모호": [
+   11440
+  ],
+  "목": [
+   5468
+  ],
+  "목숨": [
+   1041,
+   7953
+  ],
+  "목요일": [
+   6127
+  ],
+  "목적": [
+   5644
+  ],
+  "몫": [
+   12818
+  ],
+  "몸": [
+   5655
+  ],
+  "몸뚱이": [
+   5655
+  ],
+  "몸체": [
+   5655
+  ],
+  "못되다": [
+   4535
+  ],
+  "못하다": [
+   10440
+  ],
+  "몽땅": [
+   7497
+  ],
+  "묘": [
+   10789
+  ],
+  "묘연": [
+   11440
+  ],
+  "묘연하다": [
+   11440
+  ],
+  "묘하다": [
+   10789
+  ],
+  "무": [
+   6597
+  ],
+  "무겁다": [
+   10454,
+   11085
+  ],
+  "무게": [
+   5479
+  ],
+  "무관": [
+   3810
+  ],
+  "무관하다": [
+   3810
+  ],
+  "무궁무진": [
+   1475
+  ],
+  "무뚝뚝": [
+   6138
+  ],
+  "무뚝뚝하다": [
+   6138
+  ],
+  "무렵": [
+   6800
+  ],
+  "무르다": [
+   10635
+  ],
+  "무릅쓰다": [
+   10391
+  ],
+  "무방하다": [
+   9466
+  ],
+  "무쇠": [
+   10448
+  ],
+  "무슨": [
+   7224
+  ],
+  "무엇": [
+   7224
+  ],
+  "무의미": [
+   6462
+  ],
+  "무작정": [
+   23946
+  ],
+  "무조건": [
+   23946
+  ],
+  "무진장": [
+   1475
+  ],
+  "묵다": [
+   6281
+  ],
+  "묵직하다": [
+   10454
+  ],
+  "문의": [
+   11634
+  ],
+  "문제": [
+   7320
+  ],
+  "묻다": [
+   11634
+  ],
+  "물": [
+   10981
+  ],
+  "물건": [
+   6288
+  ],
+  "물고기": [
+   5947
+  ],
+  "물렁": [
+   10635
+  ],
+  "물렁물렁": [
+   10635
+  ],
+  "물렁하다": [
+   10635
+  ],
+  "물리다": [
+   11463
+  ],
+  "물어보다": [
+   11634
+  ],
+  "물음": [
+   11634
+  ],
+  "미": [
+   3573
+  ],
+  "미-": [
+   3573
+  ],
+  "미끄럽다": [
+   11513
+  ],
+  "미래": [
+   7277
+  ],
+  "미루다": [
+   11463
+  ],
+  "미리": [
+   7323
+  ],
+  "미안": [
+   9917
+  ],
+  "미안하다": [
+   9917
+  ],
+  "미처": [
+   3573
+  ],
+  "민": [
+   8239
+  ],
+  "밀착": [
+   7373
+  ],
+  "바꾸다": [
+   11203,
+   12757
+  ],
+  "바닥": [
+   23873
+  ],
+  "바닥나다": [
+   7377,
+   11172,
+   23874
+  ],
+  "바라다": [
+   48
+  ],
+  "바람": [
+   48,
+   6801,
+   8328
+  ],
+  "바람이불다": [
+   8328
+  ],
+  "바르다": [
+   9390,
+   11378
+  ],
+  "바치다": [
+   12211
+  ],
+  "바탕": [
+   3679
+  ],
+  "밖": [
+   4542,
+   10472
+  ],
+  "밖에": [
+   10472
+  ],
+  "반": [
+   12190
+  ],
+  "반듯": [
+   9390
+  ],
+  "반듯하다": [
+   9390
+  ],
+  "반복": [
+   7833
+  ],
+  "반찬": [
+   7972
+  ],
+  "받다": [
+   2864,
+   23875
+  ],
+  "발걸음": [
+   10270
+  ],
+  "발견": [
+   9115
+  ],
+  "발생": [
+   10474
+  ],
+  "발자국": [
+   10270
+  ],
+  "발표": [
+   10477
+  ],
+  "밝다": [
+   11547
+  ],
+  "밟다": [
+   10270
+  ],
+  "밤": [
+   11241
+  ],
+  "방": [
+   649
+  ],
+  "방관": [
+   649
+  ],
+  "방뇨": [
+   651
+  ],
+  "방문": [
+   11006
+  ],
+  "방문하다": [
+   11006
+  ],
+  "방법": [
+   8385
+  ],
+  "방식": [
+   8385
+  ],
+  "방어": [
+   8391
+  ],
+  "방임": [
+   649
+  ],
+  "방지": [
+   8391
+  ],
+  "방해": [
+   2792
+  ],
+  "배부르다": [
+   24032
+  ],
+  "배제": [
+   6481
+  ],
+  "백": [
+   3024,
+   11547,
+   12852
+  ],
+  "백색": [
+   3024
+  ],
+  "백점": [
+   12852
+  ],
+  "백주": [
+   11547
+  ],
+  "버릇": [
+   10771
+  ],
+  "버리다": [
+   6153
+  ],
+  "버스": [
+   11656
+  ],
+  "벅차다": [
+   4178
+  ],
+  "번": [
+   3956,
+   5670,
+   12573
+  ],
+  "번번이": [
+   12723
+  ],
+  "번지": [
+   11676
+  ],
+  "번지다": [
+   11676
+  ],
+  "번호": [
+   5670
+  ],
+  "벌": [
+   12684
+  ],
+  "벌레": [
+   9389
+  ],
+  "벌써": [
+   5675
+  ],
+  "벗다": [
+   3404
+  ],
+  "벽": [
+   12642
+  ],
+  "변경": [
+   11203
+  ],
+  "변동": [
+   11203
+  ],
+  "변소": [
+   971
+  ],
+  "변질": [
+   5504
+  ],
+  "변하다": [
+   5504
+  ],
+  "변호": [
+   10533
+  ],
+  "변화": [
+   5504
+  ],
+  "변환": [
+   5504
+  ],
+  "별": [
+   10544
+  ],
+  "별로": [
+   11371
+  ],
+  "별안간": [
+   11896
+  ],
+  "병": [
+   9862
+  ],
+  "병신": [
+   8673
+  ],
+  "병원": [
+   24010
+  ],
+  "병환": [
+   9862
+  ],
+  "보내다": [
+   6433
+  ],
+  "보다": [
+   5081,
+   6436,
+   6437
+  ],
+  "보드랍다": [
+   10635
+  ],
+  "보람": [
+   9102
+  ],
+  "보류": [
+   9103
+  ],
+  "보름": [
+   9104
+  ],
+  "보이다": [
+   11436,
+   12618
+  ],
+  "보잘것없다": [
+   5081
+  ],
+  "보조": [
+   5447
+  ],
+  "보통": [
+   11779
+  ],
+  "보행": [
+   3762
+  ],
+  "복구": [
+   8233
+  ],
+  "복귀": [
+   11287
+  ],
+  "복부": [
+   14442
+  ],
+  "복사": [
+   8380,
+   23951
+  ],
+  "복잡": [
+   8384
+  ],
+  "복잡하다": [
+   8384
+  ],
+  "복장": [
+   10631
+  ],
+  "복판": [
+   5275
+  ],
+  "볼기": [
+   12028
+  ],
+  "봉사": [
+   12211
+  ],
+  "부녀": [
+   12687
+  ],
+  "부녀자": [
+   12687
+  ],
+  "부담": [
+   11085
+  ],
+  "부드럽다": [
+   10635
+  ],
+  "부러지다": [
+   2361,
+   9128
+  ],
+  "부분": [
+   908
+  ],
+  "부상": [
+   2238
+  ],
+  "부족": [
+   10435
+  ],
+  "부진": [
+   12645
+  ],
+  "부탁": [
+   22
+  ],
+  "부터": [
+   7687
+  ],
+  "부풀다": [
+   6196
+  ],
+  "부풀리다": [
+   6196
+  ],
+  "부피": [
+   7689
+  ],
+  "부호": [
+   2325
+  ],
+  "북": [
+   9670
+  ],
+  "분": [
+   8239,
+   12053
+  ],
+  "분류": [
+   12411
+  ],
+  "분만": [
+   5511
+  ],
+  "분말": [
+   9350
+  ],
+  "분명": [
+   11612
+  ],
+  "분명하다": [
+   11612
+  ],
+  "분별": [
+   12411
+  ],
+  "분부": [
+   11611
+  ],
+  "분산": [
+   11676
+  ],
+  "분석": [
+   9142
+  ],
+  "분할": [
+   12411
+  ],
+  "불가능": [
+   9185
+  ],
+  "불결": [
+   6223
+  ],
+  "불구": [
+   5776,
+   10391
+  ],
+  "불구하다": [
+   10391
+  ],
+  "불능": [
+   9185
+  ],
+  "불다": [
+   5780,
+   8328
+  ],
+  "불량": [
+   12168
+  ],
+  "불면": [
+   5780
+  ],
+  "불분명하다": [
+   11440
+  ],
+  "불안": [
+   12776
+  ],
+  "불편": [
+   4322
+  ],
+  "불필요": [
+   3520
+  ],
+  "불확실": [
+   11440
+  ],
+  "붓다": [
+   6196
+  ],
+  "붙다": [
+   7373
+  ],
+  "붙들다": [
+   5676
+  ],
+  "붙이다": [
+   7373
+  ],
+  "붙잡다": [
+   5676
+  ],
+  "비": [
+   9846,
+   23874
+  ],
+  "비교": [
+   23996
+  ],
+  "비다": [
+   9846,
+   23874
+  ],
+  "비대": [
+   6391
+  ],
+  "비슷하다": [
+   301
+  ],
+  "비싸다": [
+   5358
+  ],
+  "비우다": [
+   23874
+  ],
+  "비지땀": [
+   10156
+  ],
+  "비하": [
+   12173
+  ],
+  "빈번히": [
+   11513
+  ],
+  "빛깔": [
+   5582
+  ],
+  "빠지다": [
+   363,
+   12947
+  ],
+  "빨강": [
+   6211
+  ],
+  "빨갛다": [
+   6211
+  ],
+  "빨리": [
+   12442
+  ],
+  "빼기": [
+   2325,
+   6481
+  ],
+  "빼기표": [
+   2325
+  ],
+  "빼다": [
+   6481
+  ],
+  "뺄셈": [
+   2325
+  ],
+  "뺄셈부호": [
+   2325
+  ],
+  "뺄셈표": [
+   2325
+  ],
+  "뼈": [
+   6486
+  ],
+  "뽑다": [
+   3988,
+   12240
+  ],
+  "뾰족": [
+   6836
+  ],
+  "뾰족하다": [
+   6836
+  ],
+  "뿌리": [
+   3679
+  ],
+  "뿐": [
+   11068
+  ],
+  "사": [
+   4408,
+   12528,
+   23841
+  ],
+  "사거": [
+   7477
+  ],
+  "사고": [
+   6241
+  ],
+  "사과": [
+   9917
+  ],
+  "사다": [
+   11478
+  ],
+  "사라지다": [
+   835
+  ],
+  "사람": [
+   8239
+  ],
+  "사망": [
+   7477
+  ],
+  "사명": [
+   1502
+  ],
+  "사범": [
+   12704
+  ],
+  "사실": [
+   11077
+  ],
+  "사용": [
+   12104
+  ],
+  "사월": [
+   12891
+  ],
+  "사이": [
+   6637
+  ],
+  "사이클": [
+   7771
+  ],
+  "사진": [
+   9175
+  ],
+  "사찰": [
+   12468
+  ],
+  "사탄": [
+   8597
+  ],
+  "사항": [
+   11147
+  ],
+  "사흘": [
+   11307
+  ],
+  "산더미": [
+   1475
+  ],
+  "산뜻": [
+   12432
+  ],
+  "산뜻하다": [
+   12432
+  ],
+  "산만하다": [
+   8384
+  ],
+  "살": [
+   5946,
+   9746
+  ],
+  "살다": [
+   8291
+  ],
+  "살찌다": [
+   6391,
+   7695
+  ],
+  "살펴보다": [
+   12468
+  ],
+  "살피다": [
+   12468
+  ],
+  "삶": [
+   8291
+  ],
+  "삼": [
+   10696,
+   24029
+  ],
+  "삼월": [
+   10698
+  ],
+  "삽시간": [
+   5675
+  ],
+  "상관": [
+   3678,
+   3810
+  ],
+  "상관없다": [
+   3810
+  ],
+  "상관하지않다": [
+   3810
+  ],
+  "상담": [
+   11564
+  ],
+  "상류": [
+   2470
+  ],
+  "상세하다": [
+   11526
+  ],
+  "상실": [
+   835
+  ],
+  "상심": [
+   4765
+  ],
+  "상오": [
+   8002
+  ],
+  "상의": [
+   11564
+  ],
+  "상이": [
+   7363
+  ],
+  "상이하다": [
+   7363
+  ],
+  "상처": [
+   2238
+  ],
+  "상태": [
+   10433
+  ],
+  "상하다": [
+   2238
+  ],
+  "상황": [
+   10433
+  ],
+  "샅샅이": [
+   11526
+  ],
+  "새": [
+   11547
+  ],
+  "새끼": [
+   9832
+  ],
+  "새다": [
+   11547
+  ],
+  "새롭다": [
+   12919
+  ],
+  "새벽": [
+   5577
+  ],
+  "색": [
+   5582
+  ],
+  "색깔": [
+   5582
+  ],
+  "색상": [
+   5582
+  ],
+  "색채": [
+   5582
+  ],
+  "생각": [
+   6241
+  ],
+  "생기다": [
+   10474
+  ],
+  "생략": [
+   6481
+  ],
+  "생리": [
+   8226
+  ],
+  "생명": [
+   1041,
+   7953
+  ],
+  "생선": [
+   5947
+  ],
+  "생성": [
+   10474
+  ],
+  "생식": [
+   5511
+  ],
+  "생활": [
+   8291
+  ],
+  "서거": [
+   7477
+  ],
+  "서다": [
+   3478,
+   11514
+  ],
+  "서두르다": [
+   23958
+  ],
+  "서서히": [
+   9928
+  ],
+  "서슴다": [
+   6597
+  ],
+  "선": [
+   9078
+  ],
+  "선명": [
+   11612
+  ],
+  "선명하다": [
+   11612
+  ],
+  "선발": [
+   12240
+  ],
+  "선배": [
+   2470
+  ],
+  "선생": [
+   12704
+  ],
+  "선언": [
+   6265
+  ],
+  "선출": [
+   12240
+  ],
+  "선택": [
+   12240
+  ],
+  "선풍기": [
+   6524
+  ],
+  "설거지": [
+   24033
+  ],
+  "설교": [
+   7251
+  ],
+  "설레다": [
+   12776
+  ],
+  "설명": [
+   10720
+  ],
+  "설사": [
+   11875
+  ],
+  "성가시다": [
+   4322
+  ],
+  "성급하다": [
+   11571
+  ],
+  "성명": [
+   7059
+  ],
+  "성적": [
+   8944
+  ],
+  "성함": [
+   7059
+  ],
+  "세다": [
+   6933
+  ],
+  "세다¹": [
+   6933
+  ],
+  "세대": [
+   8410
+  ],
+  "세면": [
+   11413
+  ],
+  "세밀하다": [
+   11526
+  ],
+  "세번째": [
+   3956
+  ],
+  "세부": [
+   11526
+  ],
+  "세수": [
+   11413
+  ],
+  "세이프": [
+   5294
+  ],
+  "센터": [
+   9217
+  ],
+  "셈": [
+   6933
+  ],
+  "셋": [
+   24029
+  ],
+  "셋째": [
+   3956
+  ],
+  "소": [
+   1502
+  ],
+  "소개": [
+   10533
+  ],
+  "소리": [
+   6417
+  ],
+  "소모": [
+   11172
+  ],
+  "소박": [
+   12432
+  ],
+  "소박하다": [
+   12432
+  ],
+  "소변": [
+   651
+  ],
+  "소비": [
+   12104
+  ],
+  "소식": [
+   6417,
+   15635
+  ],
+  "소아": [
+   9832
+  ],
+  "소용": [
+   1420
+  ],
+  "소원": [
+   48
+  ],
+  "소유": [
+   12818
+  ],
+  "소임": [
+   1502
+  ],
+  "소중하다": [
+   8620
+  ],
+  "소화": [
+   7796
+  ],
+  "속": [
+   10737
+  ],
+  "속히": [
+   12442
+  ],
+  "손": [
+   12255
+  ],
+  "손상": [
+   2238
+  ],
+  "솔직": [
+   10741
+  ],
+  "솔직하다": [
+   10741
+  ],
+  "솟다": [
+   10474
+  ],
+  "송별": [
+   6802
+  ],
+  "쇠": [
+   10448
+  ],
+  "쇼핑": [
+   11478
+  ],
+  "수": [
+   1041,
+   4237,
+   6933,
+   7953,
+   10440,
+   12408,
+   12619
+  ],
+  "수고": [
+   6096
+  ],
+  "수면": [
+   12264
+  ],
+  "수명": [
+   1041,
+   7953
+  ],
+  "수비": [
+   8391
+  ],
+  "수사": [
+   12468
+  ],
+  "수석": [
+   11852
+  ],
+  "수술": [
+   6556
+  ],
+  "수습": [
+   5294
+  ],
+  "수시": [
+   7833,
+   12723
+  ],
+  "수시로": [
+   7833
+  ],
+  "수영": [
+   6071
+  ],
+  "수요일": [
+   6109
+  ],
+  "수평": [
+   32
+  ],
+  "수행": [
+   10085
+  ],
+  "숙달": [
+   11513
+  ],
+  "숙박": [
+   12264
+  ],
+  "순결": [
+   12432
+  ],
+  "순수": [
+   12432
+  ],
+  "순조": [
+   11513
+  ],
+  "순조롭다": [
+   11513
+  ],
+  "순환": [
+   5456
+  ],
+  "술": [
+   6564
+  ],
+  "숨": [
+   1041,
+   7953
+  ],
+  "숨결": [
+   1041,
+   7953
+  ],
+  "숨쉬다": [
+   1041,
+   7953
+  ],
+  "숨지다": [
+   7477
+  ],
+  "숫자": [
+   5670
+  ],
+  "쉬다": [
+   1041,
+   6573,
+   7953
+  ],
+  "쉰": [
+   5051
+  ],
+  "쉽다": [
+   6574
+  ],
+  "쉽사리": [
+   6574
+  ],
+  "스스로": [
+   11785
+  ],
+  "스승": [
+   12704
+  ],
+  "스타일": [
+   10768
+  ],
+  "스펀지": [
+   10635
+  ],
+  "스포츠": [
+   8925
+  ],
+  "습관": [
+   10771
+  ],
+  "시": [
+   7866,
+   8889,
+   11301
+  ],
+  "시각": [
+   6436
+  ],
+  "시간": [
+   8889,
+   11301,
+   24028
+  ],
+  "시급하다": [
+   23958
+  ],
+  "시기": [
+   6800
+  ],
+  "시대": [
+   6800
+  ],
+  "시도": [
+   12618
+  ],
+  "시름": [
+   4765
+  ],
+  "시무룩": [
+   7700
+  ],
+  "시무룩하다": [
+   7700
+  ],
+  "시발": [
+   24022
+  ],
+  "시작": [
+   24022
+  ],
+  "시절": [
+   6800
+  ],
+  "식사": [
+   10419
+  ],
+  "신": [
+   6042
+  ],
+  "신경": [
+   6241
+  ],
+  "신경질": [
+   6043
+  ],
+  "신기": [
+   10789
+  ],
+  "신기하다": [
+   10789
+  ],
+  "신선하다": [
+   12919
+  ],
+  "신속": [
+   12442
+  ],
+  "신중": [
+   10793
+  ],
+  "신청": [
+   7170
+  ],
+  "신체": [
+   5397,
+   5655,
+   14866
+  ],
+  "신체의": [
+   6864,
+   7364
+  ],
+  "실수": [
+   8355
+  ],
+  "실업": [
+   11150
+  ],
+  "실컷": [
+   10402
+  ],
+  "싫다": [
+   11998,
+   23960
+  ],
+  "싫어하다": [
+   11998
+  ],
+  "심각하다": [
+   11467
+  ],
+  "심리": [
+   6279
+  ],
+  "심장": [
+   7951
+  ],
+  "심정": [
+   6279
+  ],
+  "심하다": [
+   11467
+  ],
+  "심호흡": [
+   7953
+  ],
+  "십": [
+   5051,
+   10919,
+   10923
+  ],
+  "십이": [
+   10923
+  ],
+  "십이월": [
+   12792
+  ],
+  "십일월": [
+   10925
+  ],
+  "싱겁다": [
+   9242
+  ],
+  "싶다": [
+   48,
+   8904
+  ],
+  "쌀이": [
+   7377
+  ],
+  "썩": [
+   12442
+  ],
+  "쓰다": [
+   8316,
+   12104,
+   24704
+  ],
+  "쓰러지다": [
+   6629
+  ],
+  "씻다": [
+   11413
+  ],
+  "아까": [
+   7776
+  ],
+  "아니": [
+   11433
+  ],
+  "아니다": [
+   11433,
+   24036
+  ],
+  "아래": [
+   7958
+  ],
+  "아리송": [
+   12619
+  ],
+  "아리송하다": [
+   12619
+  ],
+  "아마": [
+   2569
+  ],
+  "아마도": [
+   2569
+  ],
+  "아물거리다": [
+   11440
+  ],
+  "아울러": [
+   1397
+  ],
+  "아이": [
+   9832
+  ],
+  "아직": [
+   3573
+  ],
+  "아침": [
+   2231
+  ],
+  "아편": [
+   11063
+  ],
+  "아프다": [
+   5621
+  ],
+  "아홉": [
+   12707
+  ],
+  "악": [
+   4535
+  ],
+  "악마": [
+   8597
+  ],
+  "악취": [
+   11316
+  ],
+  "악하다": [
+   4535
+  ],
+  "안": [
+   7002,
+   8673,
+   11436,
+   12619,
+   12857
+  ],
+  "안간힘": [
+   5522
+  ],
+  "안녕": [
+   10949
+  ],
+  "안되다": [
+   7002
+  ],
+  "안면": [
+   8407
+  ],
+  "안보이다": [
+   11436
+  ],
+  "안부": [
+   10949
+  ],
+  "안식": [
+   12628
+  ],
+  "안심": [
+   5984
+  ],
+  "안전": [
+   5984
+  ],
+  "안정": [
+   5984
+  ],
+  "앉다": [
+   1183
+  ],
+  "않다": [
+   24036
+  ],
+  "알": [
+   10952
+  ],
+  "알다": [
+   6031,
+   12619
+  ],
+  "알맞다": [
+   6032,
+   10393
+  ],
+  "알수없다": [
+   12619
+  ],
+  "알아맞히다": [
+   10026
+  ],
+  "알코올": [
+   6564
+  ],
+  "앓다": [
+   9862
+  ],
+  "암기": [
+   7558
+  ],
+  "앞": [
+   8144
+  ],
+  "앞날": [
+   7277
+  ],
+  "앞당기다": [
+   8752
+  ],
+  "애매": [
+   11440
+  ],
+  "애매하다": [
+   11440
+  ],
+  "애쓰다": [
+   5522
+  ],
+  "앰뷸런스": [
+   6683
+  ],
+  "약": [
+   11990,
+   12756
+  ],
+  "약간": [
+   7957
+  ],
+  "약소": [
+   7957
+  ],
+  "약소하다": [
+   7957
+  ],
+  "약속": [
+   12710
+  ],
+  "약하다": [
+   8014
+  ],
+  "양": [
+   3024,
+   7689
+  ],
+  "양말": [
+   8185
+  ],
+  "양분": [
+   12053
+  ],
+  "양치": [
+   2000
+  ],
+  "양치질": [
+   2000
+  ],
+  "어긋나다": [
+   7222
+  ],
+  "어느": [
+   7224
+  ],
+  "어느덧": [
+   5675
+  ],
+  "어느새": [
+   5675
+  ],
+  "어둡다": [
+   11241
+  ],
+  "어떤": [
+   7224
+  ],
+  "어려워하다": [
+   437
+  ],
+  "어렴풋이": [
+   11440
+  ],
+  "어렵다": [
+   437
+  ],
+  "어린아이": [
+   9832
+  ],
+  "어린이": [
+   9832
+  ],
+  "어마어마하다": [
+   8213
+  ],
+  "어서": [
+   12442
+  ],
+  "어언": [
+   5675
+  ],
+  "어언간": [
+   5675
+  ],
+  "어저께": [
+   8218
+  ],
+  "어제": [
+   8218
+  ],
+  "어지럽다": [
+   8219
+  ],
+  "어째서": [
+   7713
+  ],
+  "어쩌다": [
+   4237
+  ],
+  "어쩔수없다": [
+   4237
+  ],
+  "어치": [
+   10403
+  ],
+  "억제": [
+   10493
+  ],
+  "억지": [
+   12684
+  ],
+  "언어": [
+   6135
+  ],
+  "언제": [
+   8602
+  ],
+  "언제나": [
+   12723
+  ],
+  "얻다": [
+   2864
+  ],
+  "얼굴": [
+   8407
+  ],
+  "얼다": [
+   735
+  ],
+  "얼른": [
+   12442
+  ],
+  "얼마": [
+   7806
+  ],
+  "없다": [
+   2622,
+   2722,
+   4237,
+   5081,
+   7816,
+   7817,
+   9846,
+   10440,
+   11735,
+   12619
+  ],
+  "없애다": [
+   11172
+  ],
+  "없어지다": [
+   11735
+  ],
+  "엇갈리다": [
+   7222
+  ],
+  "엉덩이": [
+   12028
+  ],
+  "에워싸다": [
+   4571
+  ],
+  "여기": [
+   8472
+  ],
+  "여기다": [
+   6241
+  ],
+  "여덟": [
+   11419
+  ],
+  "여섯": [
+   12841
+  ],
+  "여성": [
+   12687
+  ],
+  "여유": [
+   10402
+  ],
+  "여인": [
+   12687
+  ],
+  "여자": [
+   12687
+  ],
+  "여쭈다": [
+   11634
+  ],
+  "여쭙다": [
+   11634
+  ],
+  "역임": [
+   1502
+  ],
+  "연결": [
+   8408
+  ],
+  "연관": [
+   3678
+  ],
+  "연기": [
+   11463
+  ],
+  "연락": [
+   8408
+  ],
+  "연령": [
+   9746
+  ],
+  "연세": [
+   9746
+  ],
+  "연속": [
+   6934
+  ],
+  "열": [
+   7866,
+   10919,
+   10923
+  ],
+  "열다": [
+   24022
+  ],
+  "열두시": [
+   7866
+  ],
+  "열둘": [
+   10923
+  ],
+  "열성": [
+   11501
+  ],
+  "열심": [
+   11501
+  ],
+  "열흘": [
+   3625
+  ],
+  "염려": [
+   4765
+  ],
+  "염소": [
+   8944
+  ],
+  "염원": [
+   48
+  ],
+  "영양": [
+   12053
+  ],
+  "영양분": [
+   12053
+  ],
+  "영향": [
+   11965
+  ],
+  "예": [
+   10824
+  ],
+  "예금": [
+   11707
+  ],
+  "예리하다": [
+   6836
+  ],
+  "예민하다": [
+   6836
+  ],
+  "오": [
+   5051,
+   11055
+  ],
+  "오너라": [
+   11427
+  ],
+  "오늘": [
+   7703
+  ],
+  "오다": [
+   7497,
+   7704,
+   11427
+  ],
+  "오디오": [
+   15635
+  ],
+  "오라": [
+   11427
+  ],
+  "오락가락": [
+   23903
+  ],
+  "오래": [
+   6726
+  ],
+  "오래다": [
+   6726
+  ],
+  "오로지": [
+   11068
+  ],
+  "오르다": [
+   4463,
+   5084
+  ],
+  "오른쪽": [
+   6036
+  ],
+  "오묘": [
+   10789
+  ],
+  "오묘하다": [
+   10789
+  ],
+  "오십": [
+   5051
+  ],
+  "오전": [
+   8002
+  ],
+  "오줌": [
+   651
+  ],
+  "오직": [
+   11068
+  ],
+  "오후": [
+   5025
+  ],
+  "온": [
+   7497
+  ],
+  "온도": [
+   8150,
+   12730
+  ],
+  "온몸": [
+   4307
+  ],
+  "온종일": [
+   9297
+  ],
+  "온통": [
+   7497
+  ],
+  "올곧다": [
+   9390
+  ],
+  "올라서다": [
+   4463
+  ],
+  "올라타다": [
+   4463
+  ],
+  "올바르다": [
+   9390
+  ],
+  "옮기다": [
+   12051
+  ],
+  "옮다": [
+   9359,
+   11676
+  ],
+  "옷": [
+   7160
+  ],
+  "완전": [
+   12592
+  ],
+  "완전하다": [
+   12592
+  ],
+  "왜": [
+   7713
+  ],
+  "외다": [
+   7558
+  ],
+  "외우다": [
+   7558
+  ],
+  "외출": [
+   12034
+  ],
+  "왼쪽": [
+   12035
+  ],
+  "요구": [
+   22
+  ],
+  "요령": [
+   8385
+  ],
+  "요사이": [
+   3261
+  ],
+  "요새": [
+   3261
+  ],
+  "요즈음": [
+   3261
+  ],
+  "요즘": [
+   3261
+  ],
+  "요청": [
+   22
+  ],
+  "욕구": [
+   48
+  ],
+  "용이": [
+   6574
+  ],
+  "용이하다": [
+   6574
+  ],
+  "우수": [
+   4765
+  ],
+  "우울": [
+   7700
+  ],
+  "우측": [
+   6036
+  ],
+  "운동": [
+   8925
+  ],
+  "운전": [
+   7857
+  ],
+  "울렁거리다": [
+   12776
+  ],
+  "울상": [
+   7700
+  ],
+  "움직이다": [
+   930
+  ],
+  "원": [
+   48
+  ],
+  "원래": [
+   9147
+  ],
+  "원조": [
+   5447
+  ],
+  "원하다": [
+   48
+  ],
+  "원활": [
+   11513
+  ],
+  "월": [
+   2652
+  ],
+  "월경": [
+   8226
+  ],
+  "월요일": [
+   8230
+  ],
+  "위": [
+   2470,
+   8271
+  ],
+  "위치": [
+   4623
+  ],
+  "위험": [
+   7666
+  ],
+  "유령": [
+   8597
+  ],
+  "유방": [
+   7876
+  ],
+  "유별": [
+   12411
+  ],
+  "유사": [
+   301
+  ],
+  "유연하다": [
+   10635
+  ],
+  "유예": [
+   11463
+  ],
+  "유월": [
+   12922
+  ],
+  "유익": [
+   10877
+  ],
+  "유지": [
+   5697
+  ],
+  "유포": [
+   11676
+  ],
+  "육": [
+   12841
+  ],
+  "은총": [
+   7197
+  ],
+  "은혜": [
+   7197
+  ],
+  "응급": [
+   6683,
+   23958
+  ],
+  "응급차": [
+   6683
+  ],
+  "의견": [
+   6241
+  ],
+  "의논": [
+   11564
+  ],
+  "의미": [
+   6462,
+   11524
+  ],
+  "의복": [
+   7160
+  ],
+  "의사": [
+   6241
+  ],
+  "의상": [
+   7160
+  ],
+  "의식": [
+   6241
+  ],
+  "의심": [
+   11365
+  ],
+  "의지": [
+   7752
+  ],
+  "의회": [
+   11365
+  ],
+  "이": [
+   3024,
+   8239,
+   9956,
+   10923,
+   23851
+  ],
+  "이내": [
+   12442,
+   12857
+  ],
+  "이득": [
+   10877
+  ],
+  "이듬해": [
+   5514
+  ],
+  "이따가": [
+   5279
+  ],
+  "이따금": [
+   12415
+  ],
+  "이래": [
+   7687
+  ],
+  "이레": [
+   8303
+  ],
+  "이론": [
+   8308,
+   24704
+  ],
+  "이롭다": [
+   10877
+  ],
+  "이루": [
+   7598
+  ],
+  "이루다": [
+   7598
+  ],
+  "이룩하다": [
+   7598
+  ],
+  "이르다": [
+   12442
+  ],
+  "이름": [
+   7059
+  ],
+  "이마": [
+   7060
+  ],
+  "이미": [
+   5675
+  ],
+  "이번": [
+   7703
+  ],
+  "이별": [
+   6802
+  ],
+  "이불": [
+   7066
+  ],
+  "이빨": [
+   3024
+  ],
+  "이상": [
+   2470,
+   10789
+  ],
+  "이야기": [
+   7251
+  ],
+  "이어": [
+   6934
+  ],
+  "이외": [
+   10897
+  ],
+  "이유": [
+   11524
+  ],
+  "이익": [
+   10877
+  ],
+  "이전": [
+   5989
+  ],
+  "이제": [
+   6990
+  ],
+  "이치": [
+   11524
+  ],
+  "이틀": [
+   7499
+  ],
+  "이틀후": [
+   7499
+  ],
+  "이하": [
+   7958
+  ],
+  "이해": [
+   5993,
+   12619
+  ],
+  "이해가안되다": [
+   12619
+  ],
+  "이후": [
+   4542
+  ],
+  "인간": [
+   8239
+  ],
+  "인내": [
+   10493
+  ],
+  "인삼": [
+   10696
+  ],
+  "인제": [
+   6990
+  ],
+  "인하": [
+   6801
+  ],
+  "인하다": [
+   6801
+  ],
+  "일": [
+   8218,
+   10155,
+   11500,
+   11959,
+   12573
+  ],
+  "일개월": [
+   11959
+  ],
+  "일곱": [
+   12397
+  ],
+  "일등": [
+   10155
+  ],
+  "일반": [
+   11779
+  ],
+  "일상": [
+   12723
+  ],
+  "일어나다": [
+   11514
+  ],
+  "일어서다": [
+   11514
+  ],
+  "일요일": [
+   8300
+  ],
+  "일월": [
+   11780
+  ],
+  "일제히": [
+   31
+  ],
+  "일주일": [
+   8303
+  ],
+  "일찍": [
+   12442
+  ],
+  "일찍이": [
+   12442
+  ],
+  "일출": [
+   2231
+  ],
+  "일치": [
+   12071
+  ],
+  "임명": [
+   6640
+  ],
+  "임시": [
+   10423
+  ],
+  "임신": [
+   4917
+  ],
+  "임의": [
+   12103
+  ],
+  "임종": [
+   7477
+  ],
+  "입": [
+   8308
+  ],
+  "입다": [
+   10631
+  ],
+  "입석": [
+   3478
+  ],
+  "입장": [
+   11006,
+   12110
+  ],
+  "입증": [
+   3246
+  ],
+  "있다": [
+   8966,
+   12408
+  ],
+  "자": [
+   8239,
+   12442
+  ],
+  "자그마하다": [
+   7957
+  ],
+  "자기": [
+   11785
+  ],
+  "자꾸": [
+   7833
+  ],
+  "자네": [
+   6450
+  ],
+  "자다": [
+   4145,
+   12264
+  ],
+  "자발": [
+   11785
+  ],
+  "자세하다": [
+   11526
+  ],
+  "자신": [
+   10402,
+   12102
+  ],
+  "자양분": [
+   12053
+  ],
+  "자연": [
+   8935
+  ],
+  "자유": [
+   12103
+  ],
+  "자전거": [
+   7771
+  ],
+  "자제": [
+   10493
+  ],
+  "자주": [
+   7833,
+   11513
+  ],
+  "자체": [
+   11785
+  ],
+  "작": [
+   8218
+  ],
+  "작년": [
+   7956
+  ],
+  "작다": [
+   7957
+  ],
+  "작별": [
+   6802
+  ],
+  "작성": [
+   12326
+  ],
+  "작업": [
+   11500
+  ],
+  "작일": [
+   8218
+  ],
+  "작주": [
+   245
+  ],
+  "잘": [
+   9543
+  ],
+  "잘못": [
+   9542
+  ],
+  "잘하다": [
+   9543
+  ],
+  "잠": [
+   12264
+  ],
+  "잠기다": [
+   9733
+  ],
+  "잠들다": [
+   4145
+  ],
+  "잠자다": [
+   4145
+  ],
+  "잡다": [
+   5676
+  ],
+  "잡아당기다": [
+   8752
+  ],
+  "장": [
+   14866
+  ],
+  "장래": [
+   7277
+  ],
+  "장면": [
+   10433
+  ],
+  "장소": [
+   4623
+  ],
+  "장애": [
+   5776,
+   8673
+  ],
+  "장차": [
+   7277
+  ],
+  "장치": [
+   6715
+  ],
+  "잦다": [
+   7833
+  ],
+  "재작년": [
+   9590
+  ],
+  "재작년도": [
+   9590
+  ],
+  "재촉": [
+   23958
+  ],
+  "재활": [
+   10596
+  ],
+  "저녁": [
+   11849
+  ],
+  "저절로": [
+   8935
+  ],
+  "저지": [
+   8391
+  ],
+  "저축": [
+   11707
+  ],
+  "적": [
+   2622,
+   6767
+  ],
+  "적금": [
+   11707
+  ],
+  "적다": [
+   7957
+  ],
+  "적당": [
+   6032
+  ],
+  "적당하다": [
+   6032
+  ],
+  "적없다": [
+   2622
+  ],
+  "적자": [
+   6211
+  ],
+  "적절하다": [
+   6032
+  ],
+  "적정": [
+   6032
+  ],
+  "적합": [
+   7730
+  ],
+  "적합하지않다": [
+   7730
+  ],
+  "전": [
+   5989
+  ],
+  "전공": [
+   328
+  ],
+  "전기": [
+   7732
+  ],
+  "전념": [
+   10488
+  ],
+  "전문": [
+   8030
+  ],
+  "전부": [
+   7497
+  ],
+  "전염": [
+   9359
+  ],
+  "전자": [
+   7732
+  ],
+  "전전": [
+   9590
+  ],
+  "전전년": [
+   9590
+  ],
+  "전전해": [
+   9590
+  ],
+  "전주": [
+   245
+  ],
+  "전체": [
+   7497
+  ],
+  "전통": [
+   7082
+  ],
+  "전화": [
+   7229
+  ],
+  "전화기": [
+   7229
+  ],
+  "전환": [
+   12757
+  ],
+  "절": [
+   610
+  ],
+  "절감": [
+   6001
+  ],
+  "절다": [
+   7235
+  ],
+  "절대": [
+   8670,
+   8671
+  ],
+  "절대로": [
+   8670,
+   8671
+  ],
+  "절룩거리다": [
+   7235
+  ],
+  "절름거리다": [
+   7235
+  ],
+  "절반": [
+   12190
+  ],
+  "절정": [
+   6946
+  ],
+  "절차": [
+   10994
+  ],
+  "젊다": [
+   7744
+  ],
+  "점": [
+   12852
+  ],
+  "점검": [
+   12468
+  ],
+  "점수": [
+   8944
+  ],
+  "점잖다": [
+   9390
+  ],
+  "점차": [
+   9423
+  ],
+  "접종": [
+   9525
+  ],
+  "정결": [
+   12432
+  ],
+  "정구": [
+   4607
+  ],
+  "정도": [
+   10403
+  ],
+  "정말": [
+   11077
+  ],
+  "정말로": [
+   11077
+  ],
+  "정밀": [
+   11526
+  ],
+  "정상": [
+   6946
+  ],
+  "정서": [
+   9360
+  ],
+  "정신": [
+   2623
+  ],
+  "정오": [
+   7866
+  ],
+  "정월": [
+   11780
+  ],
+  "정직": [
+   10741
+  ],
+  "정하다": [
+   9377,
+   9390
+  ],
+  "정확": [
+   11612
+  ],
+  "젖": [
+   7876
+  ],
+  "제": [
+   11536
+  ],
+  "제각기": [
+   9365
+  ],
+  "제거": [
+   9426
+  ],
+  "제공": [
+   8307
+  ],
+  "제대로": [
+   8673
+  ],
+  "제대로안되다": [
+   8673
+  ],
+  "제멋대로": [
+   12103
+  ],
+  "제반": [
+   7497
+  ],
+  "제외": [
+   6481
+  ],
+  "제일": [
+   11852
+  ],
+  "제작": [
+   12326
+  ],
+  "제조": [
+   12326
+  ],
+  "제출": [
+   12211
+  ],
+  "제하다": [
+   6481
+  ],
+  "제한": [
+   11356
+  ],
+  "조건": [
+   23946
+  ],
+  "조그마": [
+   7957
+  ],
+  "조그마하다": [
+   7957
+  ],
+  "조금": [
+   7957
+  ],
+  "조급": [
+   11571
+  ],
+  "조급하다": [
+   11571
+  ],
+  "조마조마": [
+   12776
+  ],
+  "조마조마하다": [
+   12776
+  ],
+  "조모": [
+   10284
+  ],
+  "조사": [
+   12468
+  ],
+  "조심": [
+   10793
+  ],
+  "조용하다": [
+   9351
+  ],
+  "조절": [
+   9614
+  ],
+  "조정": [
+   9614
+  ],
+  "조치": [
+   5294
+  ],
+  "존재": [
+   2722,
+   6281
+  ],
+  "좁다": [
+   8987
+  ],
+  "종": [
+   8993
+  ],
+  "종결": [
+   8729
+  ],
+  "종료": [
+   8729
+  ],
+  "종류": [
+   8993,
+   23975
+  ],
+  "종목": [
+   8993
+  ],
+  "종일": [
+   9297
+  ],
+  "종종": [
+   12415
+  ],
+  "종합": [
+   9077
+  ],
+  "좇다": [
+   10085
+  ],
+  "좋다": [
+   4143,
+   9078
+  ],
+  "좌": [
+   12035
+  ],
+  "좌측": [
+   12035
+  ],
+  "죄": [
+   7497
+  ],
+  "죄다": [
+   7497
+  ],
+  "죄송하다": [
+   9917
+  ],
+  "주": [
+   6443,
+   11547
+  ],
+  "주다": [
+   6980,
+   8307
+  ],
+  "주로": [
+   908
+  ],
+  "주무시다": [
+   4145
+  ],
+  "주문": [
+   7170
+  ],
+  "주사": [
+   9525
+  ],
+  "주세요": [
+   6980
+  ],
+  "주십시오": [
+   6980
+  ],
+  "주의": [
+   10793
+  ],
+  "주저": [
+   6597
+  ],
+  "주택": [
+   8410
+  ],
+  "죽다": [
+   7477
+  ],
+  "죽음": [
+   7477
+  ],
+  "죽이다": [
+   7478
+  ],
+  "준수": [
+   10793
+  ],
+  "줄": [
+   6001
+  ],
+  "줄다": [
+   6001
+  ],
+  "줄이다": [
+   6001
+  ],
+  "중": [
+   8116
+  ],
+  "중도": [
+   8116
+  ],
+  "중독": [
+   11063
+  ],
+  "중량": [
+   5479
+  ],
+  "중심": [
+   5275
+  ],
+  "중앙": [
+   8116
+  ],
+  "중요": [
+   8620
+  ],
+  "중지": [
+   2715
+  ],
+  "쥐": [
+   7094
+  ],
+  "즈음": [
+   6800
+  ],
+  "증명": [
+   3246
+  ],
+  "지각": [
+   9928
+  ],
+  "지금": [
+   6990
+  ],
+  "지나치다": [
+   12382
+  ],
+  "지난주": [
+   245
+  ],
+  "지난해": [
+   7956
+  ],
+  "지니다": [
+   6774
+  ],
+  "지루하다": [
+   6015
+  ],
+  "지배": [
+   9356
+  ],
+  "지속": [
+   6934
+  ],
+  "지원": [
+   5447
+  ],
+  "지위": [
+   1183
+  ],
+  "지장": [
+   2792
+  ],
+  "지저분": [
+   6223
+  ],
+  "지저분하다": [
+   6223
+  ],
+  "지지난해": [
+   9590
+  ],
+  "지체": [
+   9928
+  ],
+  "지키다": [
+   10793
+  ],
+  "진단": [
+   4182
+  ],
+  "진료": [
+   4182
+  ],
+  "진짜": [
+   11077
+  ],
+  "진찰": [
+   4182
+  ],
+  "질문": [
+   11634
+  ],
+  "질병": [
+   9862
+  ],
+  "질환": [
+   9862
+  ],
+  "집": [
+   8410
+  ],
+  "집중": [
+   10488
+  ],
+  "집합": [
+   5308
+  ],
+  "집행": [
+   4998
+  ],
+  "짓": [
+   930
+  ],
+  "짓다": [
+   12326
+  ],
+  "징계": [
+   12684
+  ],
+  "징벌": [
+   12684
+  ],
+  "짜다": [
+   9522,
+   24701
+  ],
+  "짜증": [
+   6043
+  ],
+  "짧다": [
+   12329
+  ],
+  "쫓다": [
+   10085
+  ],
+  "쫓아가다": [
+   10085
+  ],
+  "쯤": [
+   10403
+  ],
+  "찌르다": [
+   9650
+  ],
+  "찍다": [
+   9175
+  ],
+  "차": [
+   6683,
+   9011,
+   9875
+  ],
+  "차기": [
+   10265
+  ],
+  "차다": [
+   9670,
+   9875
+  ],
+  "차단": [
+   8391
+  ],
+  "차이": [
+   9877
+  ],
+  "착수": [
+   24022
+  ],
+  "찬스": [
+   11797
+  ],
+  "찬조": [
+   5447
+  ],
+  "찬찬": [
+   11526
+  ],
+  "찬찬하다": [
+   11526
+  ],
+  "참": [
+   10493,
+   11077
+  ],
+  "참다": [
+   10493
+  ],
+  "찾다": [
+   8119
+  ],
+  "책임": [
+   1502
+  ],
+  "책임지다": [
+   1502
+  ],
+  "처리": [
+   5294
+  ],
+  "처음": [
+   10420
+  ],
+  "천": [
+   9928
+  ],
+  "천명": [
+   6265
+  ],
+  "천연": [
+   8935
+  ],
+  "천천하다": [
+   9928
+  ],
+  "철": [
+   10448
+  ],
+  "첫째": [
+   8431
+  ],
+  "청": [
+   22
+  ],
+  "청각": [
+   6417,
+   15635
+  ],
+  "청결": [
+   12432
+  ],
+  "청색": [
+   103
+  ],
+  "청춘": [
+   7744
+  ],
+  "청하다": [
+   22
+  ],
+  "체념": [
+   9937
+  ],
+  "체류": [
+   6281
+  ],
+  "체육": [
+   8925
+  ],
+  "초과": [
+   12382
+  ],
+  "최고": [
+   7598
+  ],
+  "최근": [
+   3261
+  ],
+  "최종": [
+   9376
+  ],
+  "최후": [
+   9376
+  ],
+  "추가": [
+   2104
+  ],
+  "추위": [
+   9670
+  ],
+  "축소": [
+   6001
+  ],
+  "출발": [
+   24022
+  ],
+  "출산": [
+   5511
+  ],
+  "출생": [
+   5511
+  ],
+  "출현": [
+   4573
+  ],
+  "춥다": [
+   9670
+  ],
+  "충분하다": [
+   10402
+  ],
+  "충족": [
+   10402
+  ],
+  "취하다": [
+   6774
+  ],
+  "층계": [
+   6929
+  ],
+  "치매": [
+   11992
+  ],
+  "치밀": [
+   11526
+  ],
+  "치밀하다": [
+   11526
+  ],
+  "치아": [
+   3024,
+   9956
+  ],
+  "칠": [
+   12397
+  ],
+  "칠월": [
+   8026
+  ],
+  "침구": [
+   7066
+  ],
+  "침대": [
+   6053
+  ],
+  "침범": [
+   11219
+  ],
+  "칭찬": [
+   11829
+  ],
+  "칼": [
+   9967
+  ],
+  "컬러": [
+   5582
+  ],
+  "코": [
+   7042
+  ],
+  "크다": [
+   5956
+  ],
+  "타다": [
+   2864,
+   4463
+  ],
+  "타이핑": [
+   4426
+  ],
+  "타자": [
+   4426
+  ],
+  "탁구": [
+   4197
+  ],
+  "탄생": [
+   5511
+  ],
+  "탐닉": [
+   11063
+  ],
+  "탑승": [
+   4463
+  ],
+  "탓": [
+   6801
+  ],
+  "태어나다": [
+   5511
+  ],
+  "택하다": [
+   12240
+  ],
+  "턱": [
+   127
+  ],
+  "털": [
+   128
+  ],
+  "테니스": [
+   4607
+  ],
+  "토요일": [
+   10531
+  ],
+  "토하다": [
+   914
+  ],
+  "통역": [
+   10533
+  ],
+  "퇴보": [
+   12645
+  ],
+  "퇴화": [
+   12645
+  ],
+  "트다": [
+   10474,
+   11547
+  ],
+  "특별": [
+   10544
+  ],
+  "특수": [
+   10544
+  ],
+  "특히": [
+   10544
+  ],
+  "튼튼": [
+   8517
+  ],
+  "튼튼하다": [
+   8517
+  ],
+  "틀리다": [
+   11495
+  ],
+  "파견": [
+   6433
+  ],
+  "파급": [
+   11965
+  ],
+  "파랑": [
+   103
+  ],
+  "파랗다": [
+   103
+  ],
+  "판이": [
+   10055
+  ],
+  "판이하다": [
+   10055
+  ],
+  "팔": [
+   537,
+   11419
+  ],
+  "팔꿈치": [
+   4302
+  ],
+  "팔뚝": [
+   537
+  ],
+  "팔리다": [
+   11172
+  ],
+  "팔월": [
+   10555
+  ],
+  "퍼지다": [
+   11676
+  ],
+  "편리": [
+   7392
+  ],
+  "편안": [
+   12628
+  ],
+  "편의": [
+   7392
+  ],
+  "편찮다": [
+   5621
+  ],
+  "편하다": [
+   12628
+  ],
+  "평등": [
+   32
+  ],
+  "평범하다": [
+   11779
+  ],
+  "평안": [
+   12628
+  ],
+  "평평": [
+   32
+  ],
+  "평평하다": [
+   32
+  ],
+  "폐": [
+   6153,
+   15149
+  ],
+  "폐기": [
+   6153
+  ],
+  "폐하다": [
+   6153
+  ],
+  "포근": [
+   1722
+  ],
+  "포근하다": [
+   1722
+  ],
+  "포기": [
+   9937
+  ],
+  "표": [
+   2325
+  ],
+  "표시": [
+   10477
+  ],
+  "표준": [
+   32
+  ],
+  "표현": [
+   10477
+  ],
+  "푸르다": [
+   103
+  ],
+  "푸짐": [
+   10402
+  ],
+  "푸짐하다": [
+   10402
+  ],
+  "푹": [
+   12628
+  ],
+  "풀다": [
+   5294
+  ],
+  "풀이": [
+   5294
+  ],
+  "품": [
+   6096
+  ],
+  "품행": [
+   930
+  ],
+  "풍부하다": [
+   10402
+  ],
+  "풍선": [
+   82
+  ],
+  "플러스": [
+   12765
+  ],
+  "피곤": [
+   12438
+  ],
+  "피로": [
+   12438
+  ],
+  "피장파장": [
+   23862
+  ],
+  "피차": [
+   10515
+  ],
+  "필수": [
+   12710
+  ],
+  "필시": [
+   12710
+  ],
+  "필요": [
+   1420,
+   3520
+  ],
+  "핑퐁": [
+   4197
+  ],
+  "하": [
+   3024,
+   7958
+  ],
+  "하강": [
+   12645
+  ],
+  "하나": [
+   12573
+  ],
+  "하다": [
+   4374,
+   9356,
+   9543,
+   10440,
+   11217,
+   11559,
+   11901,
+   12408,
+   12618
+  ],
+  "하락": [
+   12645
+  ],
+  "하루": [
+   9297
+  ],
+  "하류": [
+   7958
+  ],
+  "하릴없다": [
+   4237
+  ],
+  "하양": [
+   3024
+  ],
+  "하얗다": [
+   3024
+  ],
+  "하오": [
+   5025
+  ],
+  "하지마": [
+   11901
+  ],
+  "하지만": [
+   12778
+  ],
+  "하지못하게하다": [
+   9356
+  ],
+  "하찮다": [
+   5081
+  ],
+  "한가운데": [
+   5275
+  ],
+  "한계": [
+   11356
+  ],
+  "한꺼번에": [
+   1384
+  ],
+  "한낱": [
+   11068
+  ],
+  "한도": [
+   11356
+  ],
+  "한랭": [
+   9670
+  ],
+  "한번": [
+   12573
+  ],
+  "한사코": [
+   8670
+  ],
+  "한시간": [
+   24028
+  ],
+  "한정": [
+   11356
+  ],
+  "할머니": [
+   10284
+  ],
+  "할수없다": [
+   10440
+  ],
+  "할수있다": [
+   12408
+  ],
+  "함께": [
+   1397
+  ],
+  "함부로": [
+   12103
+  ],
+  "합": [
+   5308
+  ],
+  "합당하다": [
+   1443
+  ],
+  "합치다": [
+   5308
+  ],
+  "합하다": [
+   5308
+  ],
+  "항복": [
+   23990
+  ],
+  "항상": [
+   12723
+  ],
+  "해": [
+   4374,
+   5514,
+   7478,
+   11559
+  ],
+  "해가": [
+   2231
+  ],
+  "해결": [
+   5294
+  ],
+  "해내다": [
+   5294
+  ],
+  "해보다": [
+   12618
+  ],
+  "해산": [
+   5511,
+   11676
+  ],
+  "해석": [
+   9142
+  ],
+  "해소": [
+   5294
+  ],
+  "해체": [
+   11676
+  ],
+  "해치다": [
+   7478
+  ],
+  "핸들": [
+   7857
+  ],
+  "행동": [
+   930
+  ],
+  "행실": [
+   930
+  ],
+  "행위": [
+   930
+  ],
+  "행하다": [
+   930
+  ],
+  "향후": [
+   7277
+  ],
+  "허리": [
+   944
+  ],
+  "허옇다": [
+   3024
+  ],
+  "험하다": [
+   7666
+  ],
+  "헤아리다": [
+   6933
+  ],
+  "헤어지다": [
+   6802
+  ],
+  "헤엄치다": [
+   5947
+  ],
+  "혀": [
+   1072
+  ],
+  "현재": [
+   6990
+  ],
+  "혈압": [
+   10239
+  ],
+  "혈액": [
+   5456
+  ],
+  "혓바닥": [
+   1072
+  ],
+  "형벌": [
+   12684
+  ],
+  "형상": [
+   10433
+  ],
+  "형용": [
+   10433
+  ],
+  "형태": [
+   10433
+  ],
+  "형형색색": [
+   11113
+  ],
+  "호": [
+   8410
+  ],
+  "호흡": [
+   1041,
+   7953
+  ],
+  "혼신": [
+   4307
+  ],
+  "혼자": [
+   11785
+  ],
+  "홀로": [
+   11785
+  ],
+  "화끈": [
+   7491
+  ],
+  "화요일": [
+   969
+  ],
+  "화장": [
+   10231
+  ],
+  "화장실": [
+   971
+  ],
+  "화폐": [
+   11510
+  ],
+  "확실하다": [
+   11612
+  ],
+  "확장": [
+   11126
+  ],
+  "환원": [
+   11287
+  ],
+  "환하다": [
+   11547
+  ],
+  "활동": [
+   4998
+  ],
+  "활약": [
+   4998
+  ],
+  "황홀": [
+   12518
+  ],
+  "회": [
+   4917
+  ],
+  "회사": [
+   22277
+  ],
+  "회임": [
+   4917
+  ],
+  "횡단": [
+   11219
+  ],
+  "후": [
+   4542,
+   7499
+  ],
+  "후배": [
+   7958
+  ],
+  "후퇴": [
+   12645
+  ],
+  "훤": [
+   11547
+  ],
+  "훤하다": [
+   11547
+  ],
+  "휘황": [
+   12518
+  ],
+  "휘황찬란": [
+   12518
+  ],
+  "휘황찬란하다": [
+   12518
+  ],
+  "휘황하다": [
+   12518
+  ],
+  "휴가": [
+   6573
+  ],
+  "휴게": [
+   6573
+  ],
+  "휴식": [
+   6573
+  ],
+  "휴양": [
+   6573
+  ],
+  "흐르다": [
+   801
+  ],
+  "흐리다": [
+   11440
+  ],
+  "흔하다": [
+   6094
+  ],
+  "흡사": [
+   301
+  ],
+  "흡연": [
+   6749
+  ],
+  "흩어지다": [
+   11676
+  ],
+  "희다": [
+   3024
+  ],
+  "희미": [
+   11440
+  ],
+  "희미하다": [
+   11440
+  ],
+  "흰색": [
+   3024
+  ],
+  "히프": [
+   12028
+  ],
+  "힘": [
+   11238
+  ],
+  "힘겹다": [
+   4178
+  ],
+  "힘들다": [
+   4178
+  ],
+  "힘쓰다": [
+   5522
+  ]
+ },
+ "keywordToGloss": {
+  "10년도": {
+   "glossIndex": 10919,
+   "matchedLemma": "10"
+  },
+  "10년전에": {
+   "glossIndex": 10919,
+   "matchedLemma": "10"
+  },
+  "10분정도": {
+   "glossIndex": 10919,
+   "matchedLemma": "10"
+  },
+  "10점": {
+   "glossIndex": 10919,
+   "matchedLemma": "10"
+  },
+  "1년넘게": {
+   "glossIndex": 12573,
+   "matchedLemma": "1"
+  },
+  "1점": {
+   "glossIndex": 12573,
+   "matchedLemma": "1"
+  },
+  "1주일전부터": {
+   "glossIndex": 12573,
+   "matchedLemma": "1"
+  },
+  "2개월": {
+   "glossIndex": 10923,
+   "matchedLemma": "2"
+  },
+  "2점": {
+   "glossIndex": 10923,
+   "matchedLemma": "2"
+  },
+  "30분정도": {
+   "glossIndex": 8239,
+   "matchedLemma": "분"
+  },
+  "3일전부터": {
+   "glossIndex": 24029,
+   "matchedLemma": "3"
+  },
+  "3점": {
+   "glossIndex": 24029,
+   "matchedLemma": "3"
+  },
+  "4점": {
+   "glossIndex": 12528,
+   "matchedLemma": "4"
+  },
+  "5점": {
+   "glossIndex": 11055,
+   "matchedLemma": "5"
+  },
+  "6개월전": {
+   "glossIndex": 12841,
+   "matchedLemma": "6"
+  },
+  "6점": {
+   "glossIndex": 12841,
+   "matchedLemma": "6"
+  },
+  "7점": {
+   "glossIndex": 12397,
+   "matchedLemma": "7"
+  },
+  "8점": {
+   "glossIndex": 11419,
+   "matchedLemma": "8"
+  },
+  "9점": {
+   "glossIndex": 12707,
+   "matchedLemma": "9"
+  },
+  "ct검사를": {
+   "glossIndex": 12468,
+   "matchedLemma": "검사"
+  },
+  "mri를": null,
+  "가끔": {
+   "glossIndex": 12415,
+   "matchedLemma": "가끔"
+  },
+  "가끔만": {
+   "glossIndex": 12415,
+   "matchedLemma": "가끔"
+  },
+  "가끔씩": {
+   "glossIndex": 12415,
+   "matchedLemma": "가끔"
+  },
+  "가능합니다": {
+   "glossIndex": 7817,
+   "matchedLemma": "가능"
+  },
+  "가려움이": null,
+  "가만히있어도": {
+   "glossIndex": 9351,
+   "matchedLemma": "가만히"
+  },
+  "가만히있으면": {
+   "glossIndex": 9351,
+   "matchedLemma": "가만히"
+  },
+  "가만히있을때": {
+   "glossIndex": 9351,
+   "matchedLemma": "가만히"
+  },
+  "가만히있을때는": {
+   "glossIndex": 9351,
+   "matchedLemma": "가만히"
+  },
+  "가운데가": {
+   "glossIndex": 5275,
+   "matchedLemma": "가운데"
+  },
+  "간염": null,
+  "갈비뼈아래쪽이": {
+   "glossIndex": 11004,
+   "matchedLemma": "갈비뼈"
+  },
+  "갑자기": {
+   "glossIndex": 11896,
+   "matchedLemma": "갑자기"
+  },
+  "개인병원에서": {
+   "glossIndex": 4408,
+   "matchedLemma": "개인"
+  },
+  "거의안마셔요": {
+   "glossIndex": 6277,
+   "matchedLemma": "마시다"
+  },
+  "걷기힘듭니다": {
+   "glossIndex": 4178,
+   "matchedLemma": "힘들다"
+  },
+  "걸어다닐때": {
+   "glossIndex": 7362,
+   "matchedLemma": "다니다"
+  },
+  "걸으면": null,
+  "걸을때마다": {
+   "glossIndex": 6223,
+   "matchedLemma": "때"
+  },
+  "결핵을": null,
+  "경막외신경차단술을": {
+   "glossIndex": 6564,
+   "matchedLemma": "술"
+  },
+  "계단내려갈때": {
+   "glossIndex": 6929,
+   "matchedLemma": "계단"
+  },
+  "계속": {
+   "glossIndex": 6934,
+   "matchedLemma": "계속"
+  },
+  "고개를돌리면": null,
+  "고혈압약을": {
+   "glossIndex": 10239,
+   "matchedLemma": "혈압"
+  },
+  "고혈압이": {
+   "glossIndex": 10239,
+   "matchedLemma": "혈압"
+  },
+  "골다공증이": null,
+  "괜찮아요": {
+   "glossIndex": 9466,
+   "matchedLemma": "괜찮다"
+  },
+  "교통사고": {
+   "glossIndex": 6635,
+   "matchedLemma": "교통사고"
+  },
+  "교통사고이후부터": {
+   "glossIndex": 6635,
+   "matchedLemma": "교통사고"
+  },
+  "구역질이": null,
+  "근육통처럼": null,
+  "근이완제를": null,
+  "금연한": null,
+  "기억안납니다": {
+   "glossIndex": 5511,
+   "matchedLemma": "나다"
+  },
+  "기침하면": {
+   "glossIndex": 11518,
+   "matchedLemma": "기침"
+  },
+  "김민수": null,
+  "까치발이": null,
+  "깹니다": {
+   "glossIndex": 6368,
+   "matchedLemma": "깨다"
+  },
+  "꼬리뼈가": null,
+  "끊었습니다": null,
+  "나아졌습니다": null,
+  "날씨가추우면": null,
+  "날카롭게": null,
+  "너무": null,
+  "네": {
+   "glossIndex": 6450,
+   "matchedLemma": "네"
+  },
+  "누우면": null,
+  "누워": null,
+  "누워있으면": null,
+  "다른": null,
+  "다리가": {
+   "glossIndex": 7364,
+   "matchedLemma": "다리"
+  },
+  "다리가풀립니다": {
+   "glossIndex": 7364,
+   "matchedLemma": "다리"
+  },
+  "다리로내려가는": {
+   "glossIndex": 7364,
+   "matchedLemma": "다리"
+  },
+  "다시심해졌습니다": {
+   "glossIndex": 7422,
+   "matchedLemma": "다시"
+  },
+  "당기는": {
+   "glossIndex": 8752,
+   "matchedLemma": "당기다"
+  },
+  "당뇨가": null,
+  "당뇨약": {
+   "glossIndex": 11990,
+   "matchedLemma": "약"
+  },
+  "당뇨약을": {
+   "glossIndex": 11990,
+   "matchedLemma": "약"
+  },
+  "대변조절이": {
+   "glossIndex": 11053,
+   "matchedLemma": "대변"
+  },
+  "대상포진": null,
+  "대상포진앓고나서": {
+   "glossIndex": 9862,
+   "matchedLemma": "앓다"
+  },
+  "대상포진자리가": null,
+  "도수치료를": null,
+  "두드러기가": null,
+  "두세번": {
+   "glossIndex": 12573,
+   "matchedLemma": "번"
+  },
+  "둔합니다": null,
+  "둘다": {
+   "glossIndex": 4145,
+   "matchedLemma": "다"
+  },
+  "둘다안합니다": {
+   "glossIndex": 4145,
+   "matchedLemma": "다"
+  },
+  "뒤척입니다": null,
+  "디스크라고": null,
+  "디스크있던부위가": {
+   "glossIndex": 12408,
+   "matchedLemma": "있다"
+  },
+  "따갑고": null,
+  "따뜻한물은": {
+   "glossIndex": 10981,
+   "matchedLemma": "물"
+  },
+  "딱딱한걸씹으면": {
+   "glossIndex": 8608,
+   "matchedLemma": "딱딱"
+  },
+  "류마티스관절염이": null,
+  "마비가": {
+   "glossIndex": 6275,
+   "matchedLemma": "마비"
+  },
+  "많이": null,
+  "매일": {
+   "glossIndex": 12723,
+   "matchedLemma": "매일"
+  },
+  "먹지않습니다": {
+   "glossIndex": 10419,
+   "matchedLemma": "먹다"
+  },
+  "몇시간씩": {
+   "glossIndex": 8889,
+   "matchedLemma": "시간"
+  },
+  "모르겠습니다": {
+   "glossIndex": 11931,
+   "matchedLemma": "모르다"
+  },
+  "목뒤가": {
+   "glossIndex": 5468,
+   "matchedLemma": "목"
+  },
+  "목디스크": {
+   "glossIndex": 5468,
+   "matchedLemma": "목"
+  },
+  "목이": {
+   "glossIndex": 5468,
+   "matchedLemma": "목"
+  },
+  "무거운물건들고나서": {
+   "glossIndex": 23852,
+   "matchedLemma": "들다"
+  },
+  "무거운물건을": {
+   "glossIndex": 6288,
+   "matchedLemma": "물건"
+  },
+  "무릎관절": null,
+  "무릎관절도": null,
+  "무릎수술": {
+   "glossIndex": 6556,
+   "matchedLemma": "수술"
+  },
+  "무릎이": null,
+  "무릎주변이": null,
+  "묵직하게": null,
+  "문제없습니다": {
+   "glossIndex": 7320,
+   "matchedLemma": "문제"
+  },
+  "물리치료를": null,
+  "물집이": null,
+  "뭉친느낌입니다": {
+   "glossIndex": 6737,
+   "matchedLemma": "느낌"
+  },
+  "박준호": null,
+  "발가락감각이": null,
+  "발목": null,
+  "발목바깥쪽이": null,
+  "발목이": null,
+  "발바닥앞쪽이": null,
+  "발바닥이": null,
+  "발이": null,
+  "발진이": null,
+  "발쪽": null,
+  "밤마다": {
+   "glossIndex": 11241,
+   "matchedLemma": "밤"
+  },
+  "밤새": null,
+  "밤에": {
+   "glossIndex": 11241,
+   "matchedLemma": "밤"
+  },
+  "번갈아": null,
+  "변화없었습니다": {
+   "glossIndex": 5504,
+   "matchedLemma": "변화"
+  },
+  "붓습니다": null,
+  "붓지않아요": null,
+  "빠집니다": {
+   "glossIndex": 363,
+   "matchedLemma": "빠지다"
+  },
+  "뻐근하고": null,
+  "사고가나고나서부터": {
+   "glossIndex": 5511,
+   "matchedLemma": "나다"
+  },
+  "새벽에": {
+   "glossIndex": 5577,
+   "matchedLemma": "새벽"
+  },
+  "서서일하기": {
+   "glossIndex": 12573,
+   "matchedLemma": "일"
+  },
+  "서서일하는": {
+   "glossIndex": 12573,
+   "matchedLemma": "일"
+  },
+  "서있으면": {
+   "glossIndex": 3478,
+   "matchedLemma": "서다"
+  },
+  "설명을듣고": {
+   "glossIndex": 10720,
+   "matchedLemma": "설명"
+  },
+  "소변보기가": {
+   "glossIndex": 651,
+   "matchedLemma": "소변"
+  },
+  "소변조절이": {
+   "glossIndex": 651,
+   "matchedLemma": "소변"
+  },
+  "소주반병": {
+   "glossIndex": 9862,
+   "matchedLemma": "병"
+  },
+  "속이쓰립니다": {
+   "glossIndex": 10737,
+   "matchedLemma": "속"
+  },
+  "손가락마디가": null,
+  "손가락이": null,
+  "손목": null,
+  "손목안쪽이": null,
+  "손을많이씁니다": {
+   "glossIndex": 12255,
+   "matchedLemma": "손"
+  },
+  "수술은": {
+   "glossIndex": 6556,
+   "matchedLemma": "수술"
+  },
+  "수술한자리": {
+   "glossIndex": 6556,
+   "matchedLemma": "수술"
+  },
+  "쉬는시간이": {
+   "glossIndex": 6573,
+   "matchedLemma": "쉬다"
+  },
+  "쉬면": {
+   "glossIndex": 6573,
+   "matchedLemma": "쉬다"
+  },
+  "스치기만해도": null,
+  "스테로이드는": null,
+  "시간과": {
+   "glossIndex": 8889,
+   "matchedLemma": "시간"
+  },
+  "시리고": null,
+  "시술은": null,
+  "시큰시큰합니다": null,
+  "식은땀이": null,
+  "신경차단술을": {
+   "glossIndex": 6564,
+   "matchedLemma": "술"
+  },
+  "신경통약을": {
+   "glossIndex": 11990,
+   "matchedLemma": "약"
+  },
+  "신장질환이": {
+   "glossIndex": 9862,
+   "matchedLemma": "질환"
+  },
+  "심장질환으로": {
+   "glossIndex": 7951,
+   "matchedLemma": "심장"
+  },
+  "심해요": {
+   "glossIndex": 11467,
+   "matchedLemma": "심하다"
+  },
+  "심해졌습니다": {
+   "glossIndex": 11467,
+   "matchedLemma": "심하다"
+  },
+  "아니요": null,
+  "아스피린을": null,
+  "아침에는": {
+   "glossIndex": 2231,
+   "matchedLemma": "아침"
+  },
+  "아침에일어날때": {
+   "glossIndex": 2231,
+   "matchedLemma": "아침"
+  },
+  "아파서": {
+   "glossIndex": 5621,
+   "matchedLemma": "아프다"
+  },
+  "아팠다안아팠다": {
+   "glossIndex": 5621,
+   "matchedLemma": "아프다"
+  },
+  "안녕하세요": {
+   "glossIndex": 10949,
+   "matchedLemma": "안녕"
+  },
+  "안먹습니다": {
+   "glossIndex": 10419,
+   "matchedLemma": "먹다"
+  },
+  "안먹어요": {
+   "glossIndex": 10419,
+   "matchedLemma": "먹다"
+  },
+  "안피워요": {
+   "glossIndex": 8673,
+   "matchedLemma": "안"
+  },
+  "안했습니다": {
+   "glossIndex": 8673,
+   "matchedLemma": "안"
+  },
+  "앉아있으면": {
+   "glossIndex": 1183,
+   "matchedLemma": "앉다"
+  },
+  "앉았다일어설때": {
+   "glossIndex": 1183,
+   "matchedLemma": "앉다"
+  },
+  "암치료받은": null,
+  "약": {
+   "glossIndex": 11990,
+   "matchedLemma": "약"
+  },
+  "약만": {
+   "glossIndex": 11990,
+   "matchedLemma": "약"
+  },
+  "약물치료만": null,
+  "약부터": {
+   "glossIndex": 11990,
+   "matchedLemma": "약"
+  },
+  "약으로": {
+   "glossIndex": 11990,
+   "matchedLemma": "약"
+  },
+  "양말신기가": {
+   "glossIndex": 8185,
+   "matchedLemma": "양말"
+  },
+  "양쪽": null,
+  "어깨가": null,
+  "어깨수술을": {
+   "glossIndex": 6556,
+   "matchedLemma": "수술"
+  },
+  "어깨회전근개": null,
+  "어제부터": {
+   "glossIndex": 8218,
+   "matchedLemma": "어제"
+  },
+  "어지러워요": null,
+  "얼굴이": {
+   "glossIndex": 8407,
+   "matchedLemma": "얼굴"
+  },
+  "없습니다": {
+   "glossIndex": 2622,
+   "matchedLemma": "없다"
+  },
+  "없어요": {
+   "glossIndex": 2622,
+   "matchedLemma": "없다"
+  },
+  "엉치가": null,
+  "엉치쪽이": null,
+  "엑스레이를": null,
+  "엑스레이만": null,
+  "열감이": {
+   "glossIndex": 10919,
+   "matchedLemma": "열"
+  },
+  "열이": {
+   "glossIndex": 10919,
+   "matchedLemma": "열"
+  },
+  "영양제는": null,
+  "옆으로누우면": null,
+  "예약": null,
+  "예전에": null,
+  "오래갑니다": {
+   "glossIndex": 4561,
+   "matchedLemma": "가다"
+  },
+  "오래걸으면": {
+   "glossIndex": 6726,
+   "matchedLemma": "오래"
+  },
+  "오래서있으면": {
+   "glossIndex": 6726,
+   "matchedLemma": "오래"
+  },
+  "오래앉아": {
+   "glossIndex": 1183,
+   "matchedLemma": "앉다"
+  },
+  "오래앉아있기가": {
+   "glossIndex": 1183,
+   "matchedLemma": "앉다"
+  },
+  "오래앉아있으면": {
+   "glossIndex": 1183,
+   "matchedLemma": "앉다"
+  },
+  "오래전에": {
+   "glossIndex": 6726,
+   "matchedLemma": "오래"
+  },
+  "오른쪽다리로": {
+   "glossIndex": 7364,
+   "matchedLemma": "다리"
+  },
+  "오른쪽도": {
+   "glossIndex": 6036,
+   "matchedLemma": "오른쪽"
+  },
+  "오른쪽발등이": {
+   "glossIndex": 6036,
+   "matchedLemma": "오른쪽"
+  },
+  "오른쪽어깨가": {
+   "glossIndex": 6036,
+   "matchedLemma": "오른쪽"
+  },
+  "오른쪽으로씹을때": {
+   "glossIndex": 6036,
+   "matchedLemma": "오른쪽"
+  },
+  "오른쪽이": {
+   "glossIndex": 6036,
+   "matchedLemma": "오른쪽"
+  },
+  "오를때마다": {
+   "glossIndex": 4463,
+   "matchedLemma": "오르다"
+  },
+  "오후부터": {
+   "glossIndex": 5025,
+   "matchedLemma": "오후"
+  },
+  "오히려심해져요": {
+   "glossIndex": 11467,
+   "matchedLemma": "심하다"
+  },
+  "옷이닿으면": {
+   "glossIndex": 7160,
+   "matchedLemma": "옷"
+  },
+  "와파린을": null,
+  "왔다갔다": {
+   "glossIndex": 4561,
+   "matchedLemma": "가다"
+  },
+  "왼쪽무릎이": {
+   "glossIndex": 12035,
+   "matchedLemma": "왼쪽"
+  },
+  "왼쪽이": {
+   "glossIndex": 12035,
+   "matchedLemma": "왼쪽"
+  },
+  "왼쪽이더": {
+   "glossIndex": 12035,
+   "matchedLemma": "왼쪽"
+  },
+  "왼쪽팔까지": {
+   "glossIndex": 537,
+   "matchedLemma": "팔"
+  },
+  "욱신욱신": null,
+  "운동량이줄었습니다": {
+   "glossIndex": 6001,
+   "matchedLemma": "줄다"
+  },
+  "운동을많이": {
+   "glossIndex": 8925,
+   "matchedLemma": "운동"
+  },
+  "운동하고나서": {
+   "glossIndex": 8925,
+   "matchedLemma": "운동"
+  },
+  "운전을": {
+   "glossIndex": 7857,
+   "matchedLemma": "운전"
+  },
+  "운전하고나면": {
+   "glossIndex": 7857,
+   "matchedLemma": "운전"
+  },
+  "운전하면": {
+   "glossIndex": 7857,
+   "matchedLemma": "운전"
+  },
+  "울렁거려요": {
+   "glossIndex": 12776,
+   "matchedLemma": "울렁거리다"
+  },
+  "울렁거립니다": {
+   "glossIndex": 12776,
+   "matchedLemma": "울렁거리다"
+  },
+  "움직이기힘들어요": {
+   "glossIndex": 930,
+   "matchedLemma": "움직이다"
+  },
+  "움직이는동안만": {
+   "glossIndex": 930,
+   "matchedLemma": "움직이다"
+  },
+  "움직이면": {
+   "glossIndex": 930,
+   "matchedLemma": "움직이다"
+  },
+  "움직일때만": {
+   "glossIndex": 930,
+   "matchedLemma": "움직이다"
+  },
+  "음식씹을때": {
+   "glossIndex": 6223,
+   "matchedLemma": "때"
+  },
+  "이영희": null,
+  "일상생활이어렵습니다": null,
+  "일을쉬었습니다": {
+   "glossIndex": 12573,
+   "matchedLemma": "일"
+  },
+  "일정하게": null,
+  "일주일에두세번": {
+   "glossIndex": 12573,
+   "matchedLemma": "번"
+  },
+  "일주일에한번": {
+   "glossIndex": 12573,
+   "matchedLemma": "번"
+  },
+  "일주일은": {
+   "glossIndex": 8303,
+   "matchedLemma": "일주일"
+  },
+  "일주일전부터": {
+   "glossIndex": 5989,
+   "matchedLemma": "전"
+  },
+  "입원해서": null,
+  "입을크게벌리면": {
+   "glossIndex": 8308,
+   "matchedLemma": "입"
+  },
+  "있어요": {
+   "glossIndex": 12408,
+   "matchedLemma": "있다"
+  },
+  "자다가": {
+   "glossIndex": 4145,
+   "matchedLemma": "자다"
+  },
+  "자주": {
+   "glossIndex": 11513,
+   "matchedLemma": "자주"
+  },
+  "작년에": {
+   "glossIndex": 7956,
+   "matchedLemma": "작년"
+  },
+  "잘모르겠습니다": {
+   "glossIndex": 9543,
+   "matchedLemma": "잘"
+  },
+  "잘잡니다": {
+   "glossIndex": 4145,
+   "matchedLemma": "자다"
+  },
+  "잠깐": null,
+  "잠들기힘들어요": {
+   "glossIndex": 4145,
+   "matchedLemma": "잠들다"
+  },
+  "잠을못잘정도로": {
+   "glossIndex": 12264,
+   "matchedLemma": "잠"
+  },
+  "잠을못잡니다": {
+   "glossIndex": 12264,
+   "matchedLemma": "잠"
+  },
+  "잠이": {
+   "glossIndex": 12264,
+   "matchedLemma": "잠"
+  },
+  "저녁에": {
+   "glossIndex": 11849,
+   "matchedLemma": "저녁"
+  },
+  "저려요": null,
+  "저린느낌이": {
+   "glossIndex": 6737,
+   "matchedLemma": "느낌"
+  },
+  "전기오는것처럼": {
+   "glossIndex": 7732,
+   "matchedLemma": "전기"
+  },
+  "점점심해져요": {
+   "glossIndex": 11467,
+   "matchedLemma": "심하다"
+  },
+  "정신과약": {
+   "glossIndex": 11990,
+   "matchedLemma": "약"
+  },
+  "정신과약을": {
+   "glossIndex": 11990,
+   "matchedLemma": "약"
+  },
+  "조금": {
+   "glossIndex": 7957,
+   "matchedLemma": "조금"
+  },
+  "조금줄어요": {
+   "glossIndex": 6001,
+   "matchedLemma": "줄다"
+  },
+  "종아리바깥쪽이": null,
+  "주변근육이": null,
+  "주사": {
+   "glossIndex": 9525,
+   "matchedLemma": "주사"
+  },
+  "주사가": {
+   "glossIndex": 9525,
+   "matchedLemma": "주사"
+  },
+  "주사를": {
+   "glossIndex": 9525,
+   "matchedLemma": "주사"
+  },
+  "주사치료를": {
+   "glossIndex": 9525,
+   "matchedLemma": "주사"
+  },
+  "줄어들다가": null,
+  "줄었는데": {
+   "glossIndex": 6001,
+   "matchedLemma": "줄다"
+  },
+  "줄었습니다": {
+   "glossIndex": 6001,
+   "matchedLemma": "줄다"
+  },
+  "쥐어짜는": null,
+  "진료": {
+   "glossIndex": 4182,
+   "matchedLemma": "진료"
+  },
+  "진통제": null,
+  "진통제를": null,
+  "집안일을": null,
+  "쪼그려앉으면": {
+   "glossIndex": 1183,
+   "matchedLemma": "앉다"
+  },
+  "찌릿찌릿": null,
+  "찜질하면": null,
+  "찬물마시면": {
+   "glossIndex": 6277,
+   "matchedLemma": "마시다"
+  },
+  "찬바람맞으면": {
+   "glossIndex": 1768,
+   "matchedLemma": "맞다"
+  },
+  "참을만해요": {
+   "glossIndex": 10493,
+   "matchedLemma": "참다"
+  },
+  "처방전은": null,
+  "처음": {
+   "glossIndex": 10420,
+   "matchedLemma": "처음"
+  },
+  "체외충격파를": null,
+  "체중이줄었습니다": {
+   "glossIndex": 6001,
+   "matchedLemma": "줄다"
+  },
+  "초음파검사를": {
+   "glossIndex": 12468,
+   "matchedLemma": "검사"
+  },
+  "최근에": {
+   "glossIndex": 3261,
+   "matchedLemma": "최근"
+  },
+  "최근에심해졌어요": {
+   "glossIndex": 11467,
+   "matchedLemma": "심하다"
+  },
+  "최수진": null,
+  "치료": null,
+  "치료해": null,
+  "침을": null,
+  "콕콕": null,
+  "쿡쿡": null,
+  "큰이상은없다고": {
+   "glossIndex": 2470,
+   "matchedLemma": "이상"
+  },
+  "턱관절쪽이": null,
+  "통증": null,
+  "통증이남아": null,
+  "팔까지": {
+   "glossIndex": 537,
+   "matchedLemma": "팔"
+  },
+  "팔꿈치가": {
+   "glossIndex": 4302,
+   "matchedLemma": "팔꿈치"
+  },
+  "팔꿈치바깥쪽이": {
+   "glossIndex": 4302,
+   "matchedLemma": "팔꿈치"
+  },
+  "팔을올리면": {
+   "glossIndex": 537,
+   "matchedLemma": "팔"
+  },
+  "편한": {
+   "glossIndex": 12628,
+   "matchedLemma": "편하다"
+  },
+  "피부가": null,
+  "필요할때만": {
+   "glossIndex": 1420,
+   "matchedLemma": "필요"
+  },
+  "하루에한두번": {
+   "glossIndex": 12573,
+   "matchedLemma": "번"
+  },
+  "하루종일": {
+   "glossIndex": 9297,
+   "matchedLemma": "하루"
+  },
+  "한": null,
+  "한갑": null,
+  "한달에한번": {
+   "glossIndex": 12573,
+   "matchedLemma": "번"
+  },
+  "한달전부터": {
+   "glossIndex": 11959,
+   "matchedLemma": "달"
+  },
+  "한달전에": {
+   "glossIndex": 11959,
+   "matchedLemma": "달"
+  },
+  "한쪽만": null,
+  "항상": {
+   "glossIndex": 12723,
+   "matchedLemma": "항상"
+  },
+  "항응고제를": null,
+  "허리": {
+   "glossIndex": 944,
+   "matchedLemma": "허리"
+  },
+  "허리가": {
+   "glossIndex": 944,
+   "matchedLemma": "허리"
+  },
+  "허리디스크수술을": {
+   "glossIndex": 944,
+   "matchedLemma": "허리"
+  },
+  "허리를숙이면": {
+   "glossIndex": 944,
+   "matchedLemma": "허리"
+  },
+  "허리를펴면": {
+   "glossIndex": 944,
+   "matchedLemma": "허리"
+  },
+  "허벅지뒤쪽이": null,
+  "혈압약": {
+   "glossIndex": 10239,
+   "matchedLemma": "혈압"
+  },
+  "혈압약을": {
+   "glossIndex": 10239,
+   "matchedLemma": "혈압"
+  },
+  "협착증이라고": null,
+  "홍길동": null,
+  "화끈거리고": null,
+  "화끈거리는": null,
+  "활동하고나면": {
+   "glossIndex": 4998,
+   "matchedLemma": "활동"
+  },
+  "활동하면": {
+   "glossIndex": 4998,
+   "matchedLemma": "활동"
+  },
+  "회음부감각이": null,
+  "힘이빠져": {
+   "glossIndex": 11238,
+   "matchedLemma": "힘"
+  },
+  "힘이빠져요": {
+   "glossIndex": 11238,
+   "matchedLemma": "힘"
+  },
+  "힘이잘안들어가요": {
+   "glossIndex": 11238,
+   "matchedLemma": "힘"
+  }
+ },
+ "glossPrior": {
+  "944": 85,
+  "2622": 84,
+  "11990": 79,
+  "1183": 75,
+  "12573": 71,
+  "930": 71,
+  "12415": 52,
+  "9525": 50,
+  "9351": 41,
+  "6934": 40,
+  "10239": 40,
+  "2231": 39,
+  "10419": 39,
+  "6726": 38,
+  "4145": 38,
+  "11241": 37,
+  "10919": 36,
+  "6929": 34,
+  "6737": 33,
+  "7732": 31,
+  "9862": 31,
+  "12776": 30,
+  "537": 29,
+  "6001": 27,
+  "4561": 26,
+  "7957": 25,
+  "9297": 25,
+  "7857": 24,
+  "6036": 23,
+  "12408": 23,
+  "12723": 23,
+  "11467": 22,
+  "10923": 21,
+  "11518": 21,
+  "12264": 20,
+  "12035": 19,
+  "5621": 19,
+  "11238": 19,
+  "7364": 18,
+  "5468": 18,
+  "6223": 18,
+  "8218": 18,
+  "8673": 18,
+  "24029": 17,
+  "6277": 17,
+  "4302": 15,
+  "11959": 15,
+  "4998": 15,
+  "6635": 14,
+  "5989": 14,
+  "11004": 13,
+  "8752": 13,
+  "363": 13,
+  "11849": 13,
+  "9466": 13,
+  "1420": 13,
+  "651": 12,
+  "11053": 12,
+  "7951": 12,
+  "10493": 11,
+  "6573": 11,
+  "8925": 11,
+  "12397": 10,
+  "23852": 10,
+  "10720": 10,
+  "8889": 9,
+  "10737": 9,
+  "7422": 9,
+  "6556": 8,
+  "12841": 8,
+  "12468": 8,
+  "4178": 8,
+  "11055": 7,
+  "12707": 7,
+  "12528": 7,
+  "11419": 7,
+  "6564": 6,
+  "9543": 6,
+  "5025": 6,
+  "11896": 6,
+  "5511": 5,
+  "8185": 5,
+  "7817": 5,
+  "6275": 5,
+  "6288": 5,
+  "12255": 5,
+  "3261": 4,
+  "12628": 4,
+  "2470": 4,
+  "8608": 3,
+  "8308": 3,
+  "10981": 3,
+  "1768": 3,
+  "8239": 3,
+  "4463": 3,
+  "11513": 3,
+  "5275": 3,
+  "8303": 3,
+  "5504": 3,
+  "6450": 2,
+  "11931": 2,
+  "7362": 2,
+  "3478": 2,
+  "7160": 2,
+  "10949": 1,
+  "10420": 1,
+  "4182": 1,
+  "6368": 1,
+  "7320": 1,
+  "5577": 1,
+  "8407": 1,
+  "4408": 1,
+  "7956": 1
+ },
+ "glossPriorBySubCategory": {
+  "adverse_reaction": {
+   "2622": 15,
+   "12776": 12,
+   "12408": 9,
+   "10737": 9,
+   "12264": 9,
+   "6001": 9,
+   "7422": 9,
+   "9466": 3,
+   "11990": 3
+  },
+  "associated": {
+   "12776": 15,
+   "10919": 12,
+   "2622": 12,
+   "363": 10,
+   "11238": 9,
+   "537": 7,
+   "651": 7,
+   "11053": 7,
+   "11990": 3,
+   "12408": 3,
+   "5621": 2,
+   "9466": 1
+  },
+  "chief_complaint": {
+   "7364": 6,
+   "944": 4,
+   "5468": 4,
+   "6635": 4,
+   "4302": 4,
+   "6929": 4,
+   "1183": 4,
+   "6934": 2
+  },
+  "dental_trigger": {
+   "6223": 4,
+   "6277": 3,
+   "8608": 3,
+   "8308": 3,
+   "9351": 3,
+   "10981": 3,
+   "1768": 3,
+   "6036": 3
+  },
+  "disc_or_muscle": {
+   "12408": 2,
+   "7364": 2,
+   "6556": 2,
+   "9543": 2,
+   "6737": 2
+  },
+  "duration": {
+   "10919": 3,
+   "8239": 3,
+   "8889": 3,
+   "9297": 3,
+   "6573": 3,
+   "930": 3
+  },
+  "exam_history": {
+   "12468": 8,
+   "8673": 4,
+   "2470": 4
+  },
+  "frequency": {
+   "12573": 9,
+   "12723": 3,
+   "11241": 3,
+   "4463": 3,
+   "12415": 3,
+   "11513": 3
+  },
+  "function": {
+   "12573": 10,
+   "4178": 5,
+   "6929": 5,
+   "8185": 5,
+   "7857": 5,
+   "1183": 5,
+   "7817": 5,
+   "6001": 5
+  },
+  "general": {
+   "6450": 2,
+   "11931": 2,
+   "12415": 2,
+   "11467": 2
+  },
+  "greeting": {
+   "10949": 1,
+   "10420": 1,
+   "4182": 1
+  },
+  "history": {
+   "10239": 26,
+   "2622": 20,
+   "11990": 12,
+   "7951": 12,
+   "9862": 12,
+   "12408": 2,
+   "9466": 2,
+   "12573": 1
+  },
+  "lifestyle": {
+   "12573": 25,
+   "12415": 17,
+   "8673": 14,
+   "6277": 14,
+   "12723": 14,
+   "4145": 14,
+   "9862": 13,
+   "2622": 3,
+   "944": 1,
+   "6556": 1,
+   "3261": 1,
+   "9466": 1
+  },
+  "location": {
+   "944": 17,
+   "5468": 13,
+   "6036": 13,
+   "12035": 13,
+   "11004": 13,
+   "4302": 11,
+   "7364": 4
+  },
+  "medication_name": {
+   "11990": 4,
+   "12408": 1,
+   "4408": 1,
+   "10239": 1,
+   "9543": 1
+  },
+  "medication_use": {
+   "10419": 39,
+   "11990": 14,
+   "10239": 13,
+   "1420": 13,
+   "12408": 6,
+   "2622": 5,
+   "12415": 3,
+   "9466": 1,
+   "12776": 1
+  },
+  "neuro_weakness": {
+   "11238": 9,
+   "363": 3,
+   "4178": 3,
+   "7364": 3,
+   "2622": 3
+  },
+  "occupation": {
+   "1183": 5,
+   "7857": 5,
+   "6288": 5,
+   "12573": 5,
+   "12255": 5,
+   "6001": 5,
+   "8925": 5,
+   "6573": 5
+  },
+  "onset": {
+   "8218": 18,
+   "12573": 14,
+   "10923": 14,
+   "11959": 14,
+   "5989": 14,
+   "24029": 10,
+   "6635": 10,
+   "23852": 10,
+   "7957": 8,
+   "8925": 6,
+   "9862": 6,
+   "11467": 6,
+   "11896": 6,
+   "6223": 4,
+   "10919": 4,
+   "5511": 4
+  },
+  "pain_score": {
+   "12397": 10,
+   "10919": 10,
+   "24029": 7,
+   "11055": 7,
+   "12707": 7,
+   "12528": 7,
+   "11419": 7,
+   "10923": 7,
+   "12573": 7,
+   "12841": 7
+  },
+  "pattern": {
+   "4561": 24,
+   "6934": 18,
+   "9297": 14,
+   "5621": 14,
+   "12415": 14,
+   "11241": 14,
+   "930": 12,
+   "11467": 10,
+   "12723": 4,
+   "1183": 1,
+   "6726": 1,
+   "4998": 1,
+   "9351": 1
+  },
+  "prior_treatment": {
+   "6564": 6,
+   "9525": 3,
+   "2622": 3
+  },
+  "quality": {
+   "6737": 31,
+   "7732": 31,
+   "8752": 13,
+   "944": 9
+  },
+  "red_flag": {
+   "2622": 10,
+   "10919": 5,
+   "6001": 5,
+   "651": 5,
+   "11053": 5,
+   "6275": 5
+  },
+  "sensory_trigger": {
+   "930": 6,
+   "9351": 6,
+   "1183": 4,
+   "6726": 4,
+   "4998": 2,
+   "7362": 2,
+   "3478": 2,
+   "2622": 2,
+   "12415": 2
+  },
+  "severity": {
+   "930": 13,
+   "7957": 12,
+   "10493": 11,
+   "6934": 11,
+   "12264": 10,
+   "6223": 10,
+   "12415": 9,
+   "2231": 3,
+   "1183": 2,
+   "11241": 2,
+   "11467": 1,
+   "6726": 1,
+   "4998": 1,
+   "9351": 1,
+   "4145": 1,
+   "11849": 1,
+   "8889": 1
+  },
+  "side": {
+   "6036": 6,
+   "12035": 6,
+   "5275": 3,
+   "7364": 3,
+   "537": 3
+  },
+  "skin_lesion": {
+   "2622": 2,
+   "7160": 2
+  },
+  "sleep": {
+   "12776": 2,
+   "4145": 2,
+   "5621": 1,
+   "11990": 1,
+   "10919": 1,
+   "11238": 1,
+   "12264": 1,
+   "6368": 1,
+   "7320": 1,
+   "5577": 1
+  },
+  "surgery_history": {
+   "2622": 7,
+   "6556": 5,
+   "944": 3,
+   "3261": 3,
+   "6726": 2,
+   "9466": 1
+  },
+  "surgery_site": {
+   "944": 1,
+   "5468": 1,
+   "2622": 1
+  },
+  "surgery_time": {
+   "10919": 1,
+   "7956": 1,
+   "12841": 1,
+   "11959": 1,
+   "5511": 1,
+   "2622": 1
+  },
+  "swelling": {
+   "8407": 1,
+   "6036": 1,
+   "11849": 1,
+   "2231": 1
+  },
+  "time_variation": {
+   "2231": 9,
+   "11241": 8,
+   "4145": 7,
+   "11849": 7,
+   "1183": 6,
+   "5025": 6,
+   "9297": 6,
+   "4998": 6,
+   "930": 6,
+   "6934": 1,
+   "7957": 1,
+   "8889": 1
+  },
+  "treatment_choice": {
+   "9525": 47,
+   "11990": 42,
+   "4145": 10,
+   "10720": 10,
+   "12628": 4,
+   "9466": 4
+  },
+  "treatment_effect": {
+   "6001": 3,
+   "8303": 3,
+   "5504": 3,
+   "11467": 3,
+   "6573": 3,
+   "9543": 3
+  },
+  "trigger_posture": {
+   "944": 50,
+   "1183": 48,
+   "930": 31,
+   "6726": 30,
+   "9351": 30,
+   "2231": 26,
+   "6929": 25,
+   "11518": 21,
+   "537": 19,
+   "7857": 14,
+   "11241": 10,
+   "6934": 8,
+   "4998": 5,
+   "4145": 4,
+   "11849": 4,
+   "7957": 4,
+   "8889": 4,
+   "9297": 2,
+   "12723": 2,
+   "5621": 2,
+   "12415": 2,
+   "4561": 2
+  }
+ }
+}
